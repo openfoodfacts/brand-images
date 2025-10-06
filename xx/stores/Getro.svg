@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="370"
+   height="121.91425"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="Novi dokument 1">
+  <defs
+     id="defs4">
+    <clipPath
+       id="clipPath2834"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path2836"
+         d="M 0,727.09 0,0 l 2206.66,0 0,727.09 -2206.66,0 z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.4972973"
+     inkscape:cx="185"
+     inkscape:cy="60.957126"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1024"
+     inkscape:window-height="749"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-117.85714,-382.83363)">
+    <g
+       transform="matrix(1.6767422,0,0,-1.6767422,117.85714,504.74788)"
+       inkscape:label="ink_ext_XXXXXX"
+       id="g2826">
+      <g
+         transform="scale(0.1,0.1)"
+         id="g2828">
+        <g
+           id="g2830">
+          <g
+             clip-path="url(#clipPath2834)"
+             id="g2832">
+            <path
+               id="path2838"
+               style="fill:#104e8b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="M 2206.66,727.09 2206.66,0 0,0 l 0,727.09 2206.66,0 0,0" />
+            <path
+               id="path2840"
+               style="fill:#fcd313;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 1789.77,518.176 c -84.18,0 -153.03,-68.844 -153.03,-153.367 0,-84.184 68.85,-153.012 153.03,-153.012 84.18,0 153.02,68.828 153.02,153.012 0,84.523 -68.84,153.367 -153.02,153.367 l 0,0 z m 190.43,-13.235 6.89,-9.597 c 24.88,-37.492 39.53,-82.477 39.53,-130.535 0,-130.18 -106.33,-236.86 -236.52,-236.86 -130.86,0 -237.21,106.68 -237.21,236.86 0,130.535 106.35,237.203 237.21,237.203 71.52,0 136.09,-32.614 179.41,-83.5 l 0,84.715 98.28,-98.286 -87.59,0 0,0 z M 1403.63,374.008 c 37.48,2.051 65.76,33.398 64.75,71.914 -2.05,39.531 -35.45,72.254 -75.31,72.254 -68.85,0 -140.08,-0.34 -210.63,-0.34 l 0,-392.621 -80.77,0 0,392.621 -95.43,0 -64.076,59.98 0,-59.64 -186.422,0 0,-107.02 180.629,0 0,-81.117 -180.629,0 0,-123.711 256.968,0 0,-80.762 -338.081,0 0,204.473 -60.32,0 C 598.293,213.828 498.434,123.867 377.789,123.867 c -131.555,0 -238.91,107.344 -238.91,238.903 0,131.886 107.355,239.242 238.91,239.242 79.746,0 150.633,-39.532 193.914,-99.856 l -67.816,-49.418 c -27.949,39.539 -74.297,65.098 -126.098,65.098 -85.547,0 -154.73,-69.531 -154.73,-155.066 0,-85.211 69.183,-155.075 154.73,-155.075 73.953,0 136.66,52.481 151.316,122.344 l -146.21,0 0,81.117 291.734,0 0,187.789 608.691,0 67.13,-63.73 0,63.73 38.18,0 c 87.25,-1.019 161.88,-70.547 165.98,-154.39 3.4,-67.133 -38.87,-124.731 -100.22,-145.512 l 116.92,-173.477 -101.92,0 -168,248.442 102.24,0 0,0" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

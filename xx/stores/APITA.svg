@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="200"
+   height="50"
+   viewBox="0 0 200 50.003869"
+   enable-background="new 0 0 248.00 42.67"
+   xml:space="preserve"
+   id="svg46"><title
+     id="title54">APiTA</title><metadata
+     id="metadata52"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title>APiTA</dc:title></cc:Work></rdf:RDF></metadata><defs
+     id="defs50" /><path
+     d="M 153.56449,1.5278856 H 114.3688 V 13.721114 h 24.66611 l -10.7293,11.055142 v 25.227613 h 11.67118 V 13.721114 h 13.5877 z"
+     id="path32"
+     style="fill:#000000;fill-opacity:1;stroke-width:1.21221328;stroke-linejoin:round" /><path
+     d="M 99.299773,1.5278856 V 13.721114 H 110.39758 L 99.299773,25.063429 v 24.94044 H 111.05702 V 1.5278856 Z"
+     id="path34"
+     style="fill:#000000;fill-opacity:1;stroke-width:1.21221328;stroke-linejoin:round" /><path
+     d="m 76.219232,28.92736 h -5.91682 V 14.039926 h 5.91682 c 4.082734,0 7.394499,3.414077 7.394499,7.497418 0,4.083219 -3.311765,7.390016 -7.394499,7.390016 z M 76.739274,1.5594517 H 58.625172 V 50.000596 h 11.67724 V 30.603729 l 6.436862,10.887736 c 11.025076,0 19.960301,-8.938497 19.960301,-19.954121 0,-11.015745 -8.935225,-19.9778923 -19.960301,-19.9778923 z"
+     id="path36"
+     style="fill:#000000;fill-opacity:1;stroke-width:1.21221328;stroke-linejoin:round" /><path
+     d="m 24.351044,34.663311 4.77976,-8.767939 4.896134,8.767939 M 56.540158,50.003869 29.010792,0 2.061231,50.003869 h 13.937307 l 2.187684,-4.023457 H 28.43015 l 5.994389,-10.617897 8.172742,14.641354 z"
+     id="path38"
+     style="fill:#000000;fill-opacity:1;stroke-width:1.21221328;stroke-linejoin:round" /><path
+     d="m 165.75451,34.663311 4.77612,-8.767939 4.90219,8.767939 M 197.93877,50.003869 170.42274,0 143.46676,50.003869 h 13.9356 l 2.18684,-4.023457 h 10.24319 l 5.99561,-10.617897 8.17274,14.641354 z"
+     id="path40"
+     style="fill:#000000;fill-opacity:1;stroke-width:1.21221328;stroke-linejoin:round" /></svg>

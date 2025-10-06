@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="300pt"
+   height="90.329712pt"
+   viewBox="0 0 300 90.329714"
+   version="1.2"
+   id="svg9250"
+   sodipodi:docname="Amper Einkaufs Zentrum Logo 05.2021.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata9254">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     id="namedview9252"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="2.0067559"
+     inkscape:cx="252.60668"
+     inkscape:cy="69.37842"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9250" />
+  <defs
+     id="defs1601" />
+  <path
+     style="clip-rule:nonzero;fill:#d12128;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.62689"
+     d="m 58.678723,90.322715 67.936667,0.007 C 122.25219,81.089163 90.766254,14.458068 88.878901,11.312384 l -0.21737,-0.37969 C 86.550078,7.3853694 82.167113,0.00381 66.696123,0.00563001 51.236963,-0.00137 46.724506,7.6295197 45.027273,10.497913 l -0.185755,0.301841 C 43.308108,13.373047 10.165511,72.102872 0,90.325435 l 36.746739,1.5e-4 c 2.604378,-4.807796 25.266848,-46.605789 26.91005,-49.399983 0.797101,-1.343992 2.003753,-2.088843 3.407294,-2.082883 1.675133,-6e-4 3.342815,1.100382 4.068866,2.668024 0.21564,0.45224 1.049561,2.183573 2.185042,4.537596 2.562394,5.329046 6.455709,13.398527 8.460351,17.770712 l 0.480101,1.047902 -23.57507,-0.002 z M 159.96405,23.40466 l 88.10074,-4e-4 c 1.7696,-0.006 2.39328,0.743811 2.59194,1.359672 0.37547,1.113631 -0.45532,2.472783 -1.46634,3.229564 -1.95107,1.462991 -35.2022,29.753508 -37.14182,31.83225 -0.21607,0.23437 -0.44398,0.477141 -0.69213,0.716501 -2.15902,2.208523 -5.11145,5.241437 -5.114,14.396488 0.007,12.641966 11.52202,15.39069 14.36282,15.38748 L 299.998,90.325265 300,63.14011 l -42.15845,0.01 c -1.10156,-0.007 -1.98689,-0.49893 -2.3221,-1.293721 -0.15487,-0.379641 -0.39216,-1.386912 0.76921,-2.545083 0.86259,-0.864862 12.72904,-12.029826 23.20123,-21.888298 6.09021,-5.743508 11.42421,-10.760414 13.01935,-12.272546 4.5508,-4.315635 6.11921,-6.227628 5.95083,-14.547749 C 298.30149,2.7836135 291.63986,0.00428001 285.98015,0.00400001 L 144.38298,0 c -11.65342,0.00600001 -18.61357,7.5285996 -18.6099,20.128406 l -0.006,51.207225 c 0.009,16.980801 19.65921,18.989164 19.85658,18.990974 l 52.79971,0.002 -0.007,-25.636523 -37.87024,-8.8e-4 c -1.64309,-0.004 -2.62249,-1.115071 -2.62467,-2.967333 l 0.002,-3.869865 c 0.005,-1.830333 1.14729,-2.877174 3.14464,-2.875884 l 28.94462,-0.005 0.002,-22.024758 -31.00439,0.004 c -2.05974,-10e-4 -2.79571,-1.882752 -2.80336,-3.142894 l 0.007,-2.839134 c -0.002,-2.164352 1.46996,-3.561884 3.74903,-3.565464"
+     id="path6633" />
+</svg>

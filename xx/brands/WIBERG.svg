@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="141.733px" height="131.878px" viewBox="0 0 141.733 131.878" enable-background="new 0 0 141.733 131.878"
+	 xml:space="preserve">
+<g opacity="0.6">
+	<defs>
+		<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="35.866" y="62.613" width="105.867" height="69.265">
+			<feFlood  style="flood-color:white;flood-opacity:1" result="back"/>
+			<feBlend  in="SourceGraphic" in2="back" mode="normal"/>
+		</filter>
+	</defs>
+	<mask maskUnits="userSpaceOnUse" x="35.866" y="62.613" width="105.867" height="69.265" id="SVGID_1_">
+		<g filter="url(#Adobe_OpacityMaskFilter)">
+			
+				<image overflow="visible" width="111" height="74" xlink:href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAgEASABIAAD/7AARRHVja3kAAQAEAAAAHgAA/+4AIUFkb2JlAGTAAAAAAQMA
+EAMCAwYAAAH1AAAC2wAAA+7/2wCEABALCwsMCxAMDBAXDw0PFxsUEBAUGx8XFxcXFx8eFxoaGhoX
+Hh4jJSclIx4vLzMzLy9AQEBAQEBAQEBAQEBAQEABEQ8PERMRFRISFRQRFBEUGhQWFhQaJhoaHBoa
+JjAjHh4eHiMwKy4nJycuKzU1MDA1NUBAP0BAQEBAQEBAQEBAQP/CABEIAEoAbwMBIgACEQEDEQH/
+xACMAAEAAgMBAQAAAAAAAAAAAAAABQYCAwcEAQEBAAAAAAAAAAAAAAAAAAAAABAAAgIDAAICAwEA
+AAAAAAAAAwQBAgAFBhAgERIwUBNAEQABAwICCAUEAwAAAAAAAAABABECMQMhQSAwUWGRsRIiEHHB
+UhNAoeEyYiMzEgEAAAAAAAAAAAAAAAAAAABQ/9oADAMBAAIRAxEAAADn4AABuNKWkSsbrjsKl5p6
+vmDfMlfzvc6c2mOi+op01OfSIjpvl5N1yHxMsQt3QaT0M+5ffh9a/MezGChCf5ZK141AAu/QuY2g
+ssZS6yXOuQg26gAAA9urzgAAAAAD/9oACAECAAEFAP0f/9oACAEDAAEFAP0f/9oACAEBAAEFAPxR
+Ezg1GSZGpY+Lg+pfcKbR8BzmwLgOUrGB0awMuuIcbN0YKyS0k8jEUsraDYsSpxRb4lxyosX0ARxf
+XDHDJBCx3bADD2/uSb3uS2LJsMynyTJ8T4peuK82AUB1QR5RUVcilY8bEn0H0W3cq6QhCW88gtUo
+k0R1rUVK58RHpctaxtW6/wA97b7bH04ePkAo+KeLFpXDbEQ8Z6AI8c7BWmO9Z/aWD2YL6cRaKgCW
+v0K2OkObwQo2XZBHLnUvHkrbJp9+UYgQCbygabTsIxvZuN2/EnsLKDZeZZn/AFf/2gAIAQICBj8A
+D//aAAgBAwIGPwAP/9oACAEBAQY/ANUwxK7bcmOZDJ5sFG0+JIHHUf1WpSG1sOJXcBAcUDdJkeAT
+xgBvZUCIjjI0C+Q/s76DW4SnlgCV/n0DbL8IG9InaBgED8YcZkOeKDQHBURoESZAIxsU9xRlMvI5
+nwazF9+SBuyZ8oj1KecOo/yx5oAQAbcv1CwCwHgTuUrNuXTBnfOpXVckZS2nQBIrI80CywGjiVIO
+pncPXRj5nmh44lVCPeFIfKCRUAufsiIRlIbaKV2VZaMfM80HKqj3BGEJdchlHFEW+wbTiUTduyk9
+Q+HDUVpI81jJmRhYPXLdTiiblwge2JYasxiHJLhH5Jnp9op9X//Z" transform="matrix(1 0 0 1 33.3657 60.4385)">
+			</image>
+		</g>
+	</mask>
+	<g mask="url(#SVGID_1_)">
+		
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="35.8662" y1="84.1221" x2="141.7329" y2="84.1221" gradientTransform="matrix(1 -0.0522 0 1 0 17.7588)">
+			<stop  offset="0" style="stop-color:#9C9D9F"/>
+			<stop  offset="1" style="stop-color:#000000"/>
+		</linearGradient>
+		<path fill="url(#SVGID_2_)" d="M35.866,91.274v40.604c10.141-7.08,23.265-13.829,38.075-19.15
+			c12.054-4.333,23.718-7.174,34.123-8.56V87.445c20.182-5.789,33.669-15.061,33.669-24.832L35.866,91.274z"/>
+	</g>
+</g>
+<path fill="#FFDD00" d="M72.873,110.247c12.245-3.694,24.092-5.916,34.661-6.75V0c-9.79,6.053-22.018,11.662-35.702,16.028
+	c-13.386,4.27-26.324,6.759-37.633,7.554v103.796C44.5,120.836,57.83,114.782,72.873,110.247z"/>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="49.6538" y1="26.9863" x2="92.0781" y2="100.4674">
+	<stop  offset="0.0056" style="stop-color:#D20019"/>
+	<stop  offset="0.3202" style="stop-color:#C00418"/>
+	<stop  offset="0.6625" style="stop-color:#BF0418"/>
+	<stop  offset="0.791" style="stop-color:#BA0618"/>
+	<stop  offset="0.8836" style="stop-color:#B20817"/>
+	<stop  offset="0.9583" style="stop-color:#A60B16"/>
+	<stop  offset="1" style="stop-color:#9D0D16"/>
+</linearGradient>
+<ellipse fill="url(#SVGID_3_)" cx="70.866" cy="63.727" rx="70.867" ry="26.929"/>
+<g>
+	<path fill="#FFFFFF" d="M40.977,55.754l-4.488,16h-6.145l-2.063-9.882h-0.048l-2.088,9.882h-5.856l-4.248-16h4.776l2.664,11.228
+		h0.048l2.208-11.228h5.424l2.256,11.228h0.048l2.856-11.228H40.977z"/>
+	<path fill="#FFFFFF" d="M43.595,55.754h5.03v16h-5.03V55.754z"/>
+	<path fill="#FFFFFF" d="M57.876,65.221h2.24c1.261,0,2.603,0,2.603,1.644c0,1.714-1.391,1.738-2.829,1.738h-2.014V65.221z
+		 M53.063,71.753h8.36c3.498,0,6.107-0.771,6.107-4.271c0-2.214-1.436-3.681-3.424-3.896v-0.049C66.139,63.032,67,61.566,67,59.674
+		c0-2.883-2.537-3.916-3.926-3.916H53.063V71.753z M57.876,58.908h1.702c1.092,0,2.609,0,2.609,1.294
+		c0,1.988-1.662,1.868-3.011,1.868h-1.301V58.908z"/>
+	<path fill="#FFFFFF" d="M83.16,61.976v3.433h-6.697v2.911h7.967v3.434H71.432V55.757H84.43v3.434h-7.967v2.785H83.16z"/>
+	<path fill="#FFFFFF" d="M88.913,55.758h8.53c4.217,0,5.845,1.708,5.845,4.878c0,1.893-1.294,3.258-3.496,4.049
+		c1.173,2.396,2.322,4.914,3.496,7.069h-5.412c-1.104-3.019-2.208-6.062-3.551-8.963c0.456,0.073,0.864,0.12,1.247,0.12
+		c1.392,0,2.903-0.527,2.903-2.083c0-1.7-1.559-1.7-2.279-1.7h-2.471v12.626h-4.812V55.758z"/>
+	<path fill="#FFFFFF" d="M122.572,62.383v9.024c-2.107,0.266-4.621,0.625-7.654,0.625c-5.026,0-8.908-2.983-8.908-8.301
+		c0-5.286,3.882-8.258,9.583-8.258c2.167,0,4.107,0.24,6.021,0.624l0.336,3.759c-1.629-0.549-3.353-0.883-5.082-0.883
+		c-3.517,0-5.826,1.884-5.826,5.237c0,2.974,1.83,4.454,4.478,4.454c0.747,0,1.565-0.12,2.24-0.43v-2.482h-2.096v-3.37H122.572z"/>
+</g>
+<path fill="#FFFFFF" d="M128.718,57.039h0.467c0.372,0,0.721,0.169,0.721,0.661c0,0.312-0.191,0.755-0.779,0.755h-0.408V57.039z
+	 M127.577,60.987h1.142V59.15h0.526l0.974,1.908l1.199-0.167l-1.176-1.979c0.455-0.24,0.827-0.648,0.827-1.346
+	c0-0.779-0.625-1.222-1.644-1.222h-1.849V60.987z M129.222,63.172c2.339,0,4.247-1.956,4.247-4.357c0-2.375-1.908-4.331-4.247-4.331
+	c-2.354,0-4.261,1.956-4.261,4.331C124.961,61.216,126.869,63.172,129.222,63.172z M129.222,62.463c-1.92,0-3.492-1.667-3.492-3.648
+	c0-1.955,1.572-3.623,3.492-3.623s3.479,1.668,3.479,3.623C132.701,60.796,131.142,62.463,129.222,62.463z"/>
+</svg>
