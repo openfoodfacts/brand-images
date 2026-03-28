@@ -84,12 +84,14 @@ def main():
             row['top_100_by_price'] = 'yes' if row.get('price_count', '').isdigit() and int(row['price_count']) >= top_100_cutoff else ''
             writer.writerow(row)
 
-def write_stats_md(input_count, image_count, exact_count, approx_count, top100_exact_pct):
+def write_stats_md(input_count, image_count, ext_counts, exact_count, approx_count, top100_exact_pct):
     stats_path = 'docs/open_prices_brand_match_stats.md'
     today = datetime.date.today().strftime('%Y-%m-%d')
     section = f"\n\n## {today}\n\n"
     section += f"- Input brands: {input_count}\n"
-    section += f"- Images in xx/stores: {image_count}\n"
+    # Format per-extension stats
+    ext_stats = ', '.join(f"{ext}: {count}" for ext, count in sorted(ext_counts.items()))
+    section += f"- Images in xx/stores: {image_count} ({ext_stats})\n"
     section += f"- Exact matches: {exact_count}\n"
     section += f"- Approx matches: {approx_count}\n"
     section += f"- % Exact matches in Top 100: {top100_exact_pct:.1f}%\n"
@@ -112,7 +114,13 @@ if __name__ == '__main__':
     with open(INPUT_CSV, newline='', encoding='utf-8') as f:
         reader = [row for row in csv.DictReader(f) if row['brand_name'] != 'None']
     input_count = len(reader)
-    image_count = len(os.listdir(IMAGE_DIR))
+    # Count images and per-extension stats
+    image_files = os.listdir(IMAGE_DIR)
+    image_count = len(image_files)
+    ext_counts = {}
+    for fname in image_files:
+        ext = os.path.splitext(fname)[1].lower().lstrip('.')
+        ext_counts[ext] = ext_counts.get(ext, 0) + 1
     # Run main to generate CSV and collect match stats
     main()
     # Read output for stats
@@ -123,4 +131,4 @@ if __name__ == '__main__':
     top100 = [r for r in out_rows if r['top_100_by_price'] == 'yes']
     top100_exact = sum(1 for r in top100 if r['match_status'] == 'exact')
     top100_exact_pct = (top100_exact / len(top100) * 100) if top100 else 0
-    write_stats_md(input_count, image_count, exact_count, approx_count, top100_exact_pct)
+    write_stats_md(input_count, image_count, ext_counts, exact_count, approx_count, top100_exact_pct)
