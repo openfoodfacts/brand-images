@@ -5,7 +5,7 @@ Every time we run the brand match script, we update this file with the latest st
 ## 2026-03-28
 
 - Input brands: 583
-- Images in xx/stores: 1226
+- Images in xx/stores: 1218
 - Exact matches: 163
 - Approx matches: 46
 - % Exact matches in Top 100: 49.0%
