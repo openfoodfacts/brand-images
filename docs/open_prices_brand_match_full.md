@@ -5,9 +5,9 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 ## Recap
 
 - Total brands: 583
-    - Matched: 152
-    - Approx match: 65
-    - No match: 366
+    - Matched: 154
+    - Approx match: 67
+    - No match: 362
 
 - Top 100 by price count:
     - Matched: 43
@@ -28,7 +28,7 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | AD Delhaize | ad-delhaize | approx match | ahold-delhaize.svg | svg | 3 |  |
 | AEON BiG | aeon-big | no match |  |  | 10 |  |
 | Agrola | agrola | no match |  |  | 1 |  |
-| Ahorramás | ahorramás | matched | ahorramás.png | png | 17 |  |
+| Ahorramás | ahorramas | matched | ahorramas.png | png | 17 |  |
 | Albert | albert | matched | albert.png | png | 16 |  |
 | Albert Heijn | albert-heijn | matched | albert-heijn.svg | svg | 65 |  |
 | Albert Heijn XL | albert-heijn-xl | approx match | albert-heijn-2.svg | svg | 19 |  |
@@ -37,8 +37,8 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Aldi | aldi | matched | aldi.svg | svg | 407 | yes |
 | ALDI Nord | aldi-nord | no match |  |  | 629 | yes |
 | Aldi Nord | aldi-nord | no match |  |  | 9 |  |
-| ALDI Süd | aldi-süd | approx match | aldi-sued.svg | svg | 135 |  |
-| Aldi Süd | aldi-süd | approx match | aldi-sued.svg | svg | 103 |  |
+| ALDI Süd | aldi-sud | approx match | aldi-sued.svg | svg | 135 |  |
+| Aldi Süd | aldi-sud | approx match | aldi-sued.svg | svg | 103 |  |
 | Alepa | alepa | no match |  |  | 5 |  |
 | Alfamart | alfamart | approx match | walmart.svg | svg | 10 |  |
 | Alimerka | alimerka | matched | alimerka.svg | svg | 2 |  |
@@ -48,7 +48,7 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Amazon | amazon | approx match | amazon-go.svg | svg | 4 |  |
 | Amazon Fresh | amazon-fresh | no match |  |  | 1 |  |
 | Amazon Locker | amazon-locker | no match |  |  | 1 |  |
-| Amazonロッカー | amazonロッカー | no match |  |  | 9 |  |
+| Amazonロッカー | amazonrotsuka | no match |  |  | 9 |  |
 | Amul | amul | no match |  |  | 1 |  |
 | Animalis | animalis | no match |  |  | 1 |  |
 | Apollo Pharmacy | apollo-pharmacy | no match |  |  | 1 |  |
@@ -57,10 +57,10 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Ara | ara | no match |  |  | 1 |  |
 | Asda | asda | matched | asda.svg | svg | 32 |  |
 | Asda Express | asda-express | no match |  |  | 4 |  |
-| Assaí Atacadista | assaí-atacadista | approx match | assaí-atacadista-2024.svg | svg | 4 |  |
+| Assaí Atacadista | assai-atacadista | approx match | assai-atacadista-2024.svg | svg | 4 |  |
 | Au vieux campeur | au-vieux-campeur | no match |  |  | 4 |  |
 | Auchan | auchan | matched | auchan.svg | svg | 16894 | yes |
-| Auchan Supermarché | auchan-supermarché | approx match | auchan_supermarché-svg.png | png | 1206 | yes |
+| Auchan Supermarché | auchan-supermarche | approx match | auchan_supermarche-svg.png | png | 1206 | yes |
 | Autogrill | autogrill | no match |  |  | 43 |  |
 | avec | avec | approx match | ave.svg | svg | 1 |  |
 | Aveve | aveve | no match |  |  | 1 |  |
@@ -72,7 +72,7 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | bi1 | bi1 | matched | bi1.png | png | 56 |  |
 | Biedronka | biedronka | no match |  |  | 219 | yes |
 | Big C | big-c | approx match | big-a.jpg | jpg | 8 |  |
-| Big Market | big-market | approx match | čia-market.png | png | 2 |  |
+| Big Market | big-market | approx match | cia-market.png | png | 2 |  |
 | Big Y | big-y | approx match | big-a.jpg | jpg | 2 |  |
 | Bilka | bilka | matched | bilka.svg | svg | 5 |  |
 | Billa | billa | matched | billa.svg | svg | 174 | yes |
@@ -82,22 +82,22 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Bio-Planet | bio-planet | no match |  |  | 21 |  |
 | Biocoop | biocoop | matched | biocoop.svg | svg | 2314 | yes |
 | Bipa | bipa | matched | bipa.svg | svg | 1 |  |
-| BİM | bi-m | approx match | bim.svg | svg | 5 |  |
+| BİM | bim | matched | bim.svg | svg | 5 |  |
 | BJ's Wholesale Club | bj-s-wholesale-club | approx match | bjs-wholesale-club.svg | svg | 3 |  |
 | BM | bm | approx match | bim.svg | svg | 8 |  |
 | Bodega Aurrera | bodega-aurrera | no match |  |  | 1 |  |
 | Bonpreu | bonpreu | no match |  |  | 156 | yes |
-| BonÀrea | bonàrea | no match |  |  | 9 |  |
+| BonÀrea | bonarea | no match |  |  | 9 |  |
 | Boots | boots | no match |  |  | 7 |  |
 | Botanic | botanic | no match |  |  | 426 | yes |
 | Boulanger | boulanger | matched | boulanger.svg | svg | 1 |  |
 | BP | bp | no match |  |  | 1 |  |
-| Bricomarché | bricomarché | approx match | bricomarché-2022.svg | svg | 1 |  |
+| Bricomarché | bricomarche | approx match | bricomarche-2022.svg | svg | 1 |  |
 | Bricorama | bricorama | approx match | bricoman.svg | svg | 5 |  |
 | Budni | budni | no match |  |  | 1 |  |
 | Budnikowsky | budnikowsky | no match |  |  | 3 |  |
 | Bunnpris | bunnpris | no match |  |  | 1281 | yes |
-| Bureau Vallée | bureau-vallée | no match |  |  | 15 |  |
+| Bureau Vallée | bureau-vallee | no match |  |  | 15 |  |
 | But | but | no match |  |  | 11 |  |
 | Cactus | cactus | matched | cactus.svg | svg | 1 |  |
 | CAP | cap | no match |  |  | 162 | yes |
@@ -110,7 +110,7 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Carulla | carulla | matched | carulla.png | png | 1 |  |
 | Casino | casino | no match |  |  | 734 | yes |
 | Casino Shop | casino-shop | matched | casino-shop.svg | svg | 202 | yes |
-| Casino Supermarché | casino-supermarché | approx match | casino-supermarchés.svg | svg | 4 |  |
+| Casino Supermarché | casino-supermarche | approx match | casino-supermarches.svg | svg | 4 |  |
 | Castorama | castorama | matched | castorama.svg | svg | 19 |  |
 | Centre Commercial E. Leclerc | centre-commercial-e-leclerc | no match |  |  | 2696 | yes |
 | Centre commercial E. Leclerc | centre-commercial-e-leclerc | no match |  |  | 36 |  |
@@ -122,7 +122,7 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Chronodrive | chronodrive | no match |  |  | 1 |  |
 | Circle K | circle-k | no match |  |  | 405 | yes |
 | City Gross | city-gross | approx match | citygross.svg | svg | 168 | yes |
-| City Market | city-market | no match |  |  | 2 |  |
+| City Market | city-market | approx match | cia-market.png | png | 2 |  |
 | Co-op | co-op | approx match | coop.svg | svg | 1 |  |
 | Co-op Food | co-op-food | no match |  |  | 23 |  |
 | CocciMarket | coccimarket | no match |  |  | 127 |  |
@@ -150,17 +150,17 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Costa | costa | no match |  |  | 1 |  |
 | Costco | costco | matched | costco.svg | svg | 850 | yes |
 | Coto | coto | approx match | costco.svg | svg | 2 |  |
-| Covirán | covirán | no match |  |  | 10 |  |
+| Covirán | coviran | no match |  |  | 10 |  |
 | Crai | crai | matched | crai.svg | svg | 1 |  |
 | Cumberland Farms | cumberland-farms | no match |  |  | 1 |  |
 | CVS Pharmacy | cvs-pharmacy | no match |  |  | 3 |  |
-| Côté Nature | côté-nature | no match |  |  | 5 |  |
-| Cœur de frais | cœur-de-frais | no match |  |  | 22 |  |
+| Côté Nature | cote-nature | no match |  |  | 5 |  |
+| Cœur de frais | coeur-de-frais | no match |  |  | 22 |  |
 | Damart | damart | approx match | dekamarkt.svg | svg | 5 |  |
 | Darty | darty | matched | darty.svg | svg | 27 |  |
 | Dealz | dealz | no match |  |  | 8 |  |
 | Decathlon | decathlon | matched | decathlon.svg | svg | 73 |  |
-| Decò | decò | no match |  |  | 165 | yes |
+| Decò | deco | no match |  |  | 165 | yes |
 | DekaMarkt | dekamarkt | matched | dekamarkt.svg | svg | 2 |  |
 | Delhaize | delhaize | no match |  |  | 1122 | yes |
 | Delhaize Proxy | delhaize-proxy | no match |  |  | 2 |  |
@@ -170,7 +170,7 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Depot | depot | no match |  |  | 2 |  |
 | Di | di | approx match | dia.svg | svg | 4 |  |
 | Dia | dia | matched | dia.svg | svg | 28 |  |
-| Dia Market | dia-market | approx match | čia-market.png | png | 1 |  |
+| Dia Market | dia-market | approx match | cia-market.png | png | 1 |  |
 | Diagonal | diagonal | no match |  |  | 44 |  |
 | Dillons | dillons | no match |  |  | 2 |  |
 | Dino | dino | no match |  |  | 10 |  |
@@ -185,7 +185,7 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Dollarama | dollarama | no match |  |  | 11 |  |
 | Dollarstore | dollarstore | no match |  |  | 12 |  |
 | Donkey Republic | donkey-republic | no match |  |  | 1 |  |
-| Dpiù | dpiù | no match |  |  | 1 |  |
+| Dpiù | dpiu | no match |  |  | 1 |  |
 | Dr. Max | dr-max | no match |  |  | 2 |  |
 | Dunnes Stores | dunnes-stores | matched | dunnes-stores.svg | svg | 3 |  |
 | E-Center | e-center | no match |  |  | 8 |  |
@@ -201,7 +201,7 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Ekoplaza | ekoplaza | matched | ekoplaza.svg | svg | 5 |  |
 | Ekosport | ekosport | no match |  |  | 7 |  |
 | Elgiganten | elgiganten | matched | elgiganten.svg | svg | 1 |  |
-| Elkjøp | elkjøp | no match |  |  | 3 |  |
+| Elkjøp | elkjop | no match |  |  | 3 |  |
 | Elvi | elvi | no match |  |  | 1 |  |
 | Eroski | eroski | matched | eroski.svg | svg | 9 |  |
 | Esselunga | esselunga | no match |  |  | 73 |  |
@@ -244,7 +244,7 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Go Asia | go-asia | no match |  |  | 10 |  |
 | Grand Frais | grand-frais | matched | grand-frais.png | png | 30 |  |
 | Grocery Outlet | grocery-outlet | matched | grocery-outlet.svg | svg | 407 | yes |
-| Géant Casino | géant-casino | approx match | géant-casino-2015.svg | svg | 6 |  |
+| Géant Casino | geant-casino | approx match | geant-casino-2015.svg | svg | 6 |  |
 | H Mart | h-mart | matched | h-mart.svg | svg | 9 |  |
 | H-E-B | h-e-b | no match |  |  | 16 |  |
 | Halyk Bank | halyk-bank | no match |  |  | 1 |  |
@@ -253,7 +253,7 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Hebe | hebe | no match |  |  | 4 |  |
 | HELLWEG | hellweg | no match |  |  | 2 |  |
 | HEMA | hema | matched | hema.svg | svg | 24 |  |
-| Hemköp | hemköp | approx match | hemkop.svg | svg | 8 |  |
+| Hemköp | hemkop | matched | hemkop.svg | svg | 8 |  |
 | HiperDino | hiperdino | matched | hiperdino.png | png | 1 |  |
 | HiperDino Express | hiperdino-express | no match |  |  | 1 |  |
 | Hipermaxi | hipermaxi | no match |  |  | 1 |  |
@@ -265,7 +265,7 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Hudson's Bay | hudson-s-bay | no match |  |  | 1 |  |
 | Hyper U | hyper-u | no match |  |  | 218 | yes |
 | ICA Kvantum | ica-kvantum | no match |  |  | 4 |  |
-| ICA Nära | ica-nära | no match |  |  | 1 |  |
+| ICA Nära | ica-nara | no match |  |  | 1 |  |
 | ICA Supermarket | ica-supermarket | approx match | tia-supermarket.svg | svg | 3 |  |
 | Iceland | iceland | no match |  |  | 44 |  |
 | IDEA Super | idea-super | approx match | ujie-super.svg | svg | 5 |  |
@@ -274,18 +274,18 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | IKI | iki | no match |  |  | 7 |  |
 | In's Mercato | in-s-mercato | no match |  |  | 37 |  |
 | Indomaret | indomaret | no match |  |  | 2 |  |
-| Intermarché | intermarché | matched | intermarché.svg | svg | 10967 | yes |
-| Intermarché Contact | intermarché-contact | no match |  |  | 859 | yes |
-| Intermarché Drive | intermarché-drive | no match |  |  | 1 |  |
-| Intermarché Express | intermarché-express | no match |  |  | 224 | yes |
-| Intermarché Hyper | intermarché-hyper | approx match | intermarché-super.png | png | 3334 | yes |
-| Intermarché Super | intermarché-super | matched | intermarché-super.png | png | 1832 | yes |
+| Intermarché | intermarche | matched | intermarche.svg | svg | 10967 | yes |
+| Intermarché Contact | intermarche-contact | no match |  |  | 859 | yes |
+| Intermarché Drive | intermarche-drive | no match |  |  | 1 |  |
+| Intermarché Express | intermarche-express | no match |  |  | 224 | yes |
+| Intermarché Hyper | intermarche-hyper | approx match | intermarche-super.png | png | 3334 | yes |
+| Intermarché Super | intermarche-super | matched | intermarche-super.png | png | 1832 | yes |
 | Interspar | interspar | no match |  |  | 74 |  |
 | Intersport | intersport | approx match | intersport-2022.svg | svg | 7 |  |
 | Iperal | iperal | no match |  |  | 3 |  |
 | itsu | itsu | no match |  |  | 1 |  |
-| Jour de Fête | jour-de-fête | no match |  |  | 16 |  |
-| JouéClub | jouéclub | no match |  |  | 8 |  |
+| Jour de Fête | jour-de-fete | no match |  |  | 16 |  |
+| JouéClub | joueclub | no match |  |  | 8 |  |
 | Jumbo | jumbo | matched | jumbo.svg | svg | 67 |  |
 | JYSK | jysk | no match |  |  | 2 |  |
 | K-Citymarket | k-citymarket | approx match | k-citymarket-2016.svg | svg | 32 |  |
@@ -304,15 +304,15 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Kmart | kmart | approx match | emart.svg | svg | 1 |  |
 | Konsum Dresden | konsum-dresden | no match |  |  | 2 |  |
 | Konzum | konzum | matched | konzum.svg | svg | 43 |  |
-| Krambúð | krambúð | no match |  |  | 4 |  |
+| Krambúð | krambud | no match |  |  | 4 |  |
 | Kroger | kroger | no match |  |  | 1 |  |
 | Kruidvat | kruidvat | matched | kruidvat.png | png | 10 |  |
-| Krónan | krónan | no match |  |  | 1 |  |
+| Krónan | kronan | no match |  |  | 1 |  |
 | Kult | kult | no match |  |  | 1 |  |
 | L'Eau Vive | l-eau-vive | no match |  |  | 532 | yes |
 | L'Occitane | l-occitane | no match |  |  | 1 |  |
 | La Foir'Fouille | la-foir-fouille | no match |  |  | 11 |  |
-| La Grande Récré | la-grande-récré | no match |  |  | 37 |  |
+| La Grande Récré | la-grande-recre | no match |  |  | 37 |  |
 | La Poste | la-poste | no match |  |  | 10 |  |
 | La Vie Claire | la-vie-claire | matched | la-vie-claire.jpg | jpg | 882 | yes |
 | Lafayette | lafayette | no match |  |  | 83 |  |
@@ -337,14 +337,14 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Makro | makro | no match |  |  | 3 |  |
 | Mangeons Frais | mangeons-frais | no match |  |  | 9 |  |
 | Manor | manor | no match |  |  | 5 |  |
-| Marché Adonis | marché-adonis | no match |  |  | 8 |  |
+| Marché Adonis | marche-adonis | no match |  |  | 8 |  |
 | Mariano's Fresh Market | mariano-s-fresh-market | no match |  |  | 1 |  |
-| Marie Blachère | marie-blachère | no match |  |  | 1 |  |
+| Marie Blachère | marie-blachere | no match |  |  | 1 |  |
 | Marjane | marjane | no match |  |  | 15 |  |
 | Markant | markant | matched | markant.svg | svg | 19 |  |
 | Market Basket | market-basket | matched | market-basket.svg | svg | 10 |  |
 | Marks & Spencer | marks-spencer | matched | marks-spencer.svg | svg | 8 |  |
-| Markt-Bäckerei | markt-bäckerei | no match |  |  | 1 |  |
+| Markt-Bäckerei | markt-backerei | no match |  |  | 1 |  |
 | Marktkauf | marktkauf | matched | marktkauf.svg | svg | 7 |  |
 | Marshalls | marshalls | no match |  |  | 5 |  |
 | Masymas | masymas | matched | masymas.svg | svg | 1 |  |
@@ -368,7 +368,7 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Migrolino | migrolino | approx match | migrol.svg | svg | 1 |  |
 | Migros | migros | matched | migros.svg | svg | 368 | yes |
 | Migros Daily | migros-daily | no match |  |  | 1 |  |
-| Minipreço | minipreço | matched | minipreço.svg | svg | 5 |  |
+| Minipreço | minipreco | matched | minipreco.svg | svg | 5 |  |
 | Ministop | ministop | no match |  |  | 1 |  |
 | Mix Markt | mix-markt | matched | mix-markt.svg | svg | 9 |  |
 | Momie | momie | no match |  |  | 2 |  |
@@ -384,18 +384,18 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Mr.Bricolage | mr-bricolage | no match |  |  | 23 |  |
 | My Auchan | my-auchan | approx match | auchan.svg | svg | 37 |  |
 | MyAuchan | myauchan | approx match | auchan.svg | svg | 4 |  |
-| Mäc-Geiz | mäc-geiz | approx match | mäcgeiz.svg | svg | 1 |  |
-| Müller | müller | approx match | segmüller.svg | svg | 18 |  |
+| Mäc-Geiz | mac-geiz | approx match | macgeiz.svg | svg | 1 |  |
+| Müller | muller | approx match | segmuller.svg | svg | 18 |  |
 | Nahkauf | nahkauf | matched | nahkauf.svg | svg | 93 |  |
 | Narvesen | narvesen | no match |  |  | 1 |  |
 | National Grid | national-grid | no match |  |  | 2 |  |
 | Naturalia | naturalia | matched | naturalia.png | png | 1356 | yes |
 | Naturalia Vegan | naturalia-vegan | no match |  |  | 1 |  |
-| NaturaSì | naturasì | no match |  |  | 2 |  |
-| Nature & Découvertes | nature-découvertes | no match |  |  | 2 |  |
-| Nature et Découvertes | nature-et-découvertes | no match |  |  | 3 |  |
+| NaturaSì | naturasi | approx match | naturalia.png | png | 2 |  |
+| Nature & Découvertes | nature-decouvertes | no match |  |  | 2 |  |
+| Nature et Découvertes | nature-et-decouvertes | no match |  |  | 3 |  |
 | Naturenville | naturenville | no match |  |  | 135 |  |
-| naturéO | naturéo | matched | naturéo.jpg | jpg | 2 |  |
+| naturéO | natureo | matched | natureo.jpg | jpg | 2 |  |
 | Nespresso | nespresso | no match |  |  | 33 |  |
 | Netto | netto | matched | netto.svg | svg | 1432 | yes |
 | Netto City | netto-city | no match |  |  | 607 | yes |
@@ -419,11 +419,11 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Pak'nSave | pak-nsave | no match |  |  | 1 |  |
 | Pam | pam | no match |  |  | 124 |  |
 | Paris Store | paris-store | no match |  |  | 58 |  |
-| Pathé Gaumont | pathé-gaumont | no match |  |  | 1 |  |
-| Pehlivanoğlu | pehlivanoğlu | no match |  |  | 5 |  |
+| Pathé Gaumont | pathe-gaumont | no match |  |  | 1 |  |
+| Pehlivanoğlu | pehlivanoglu | no match |  |  | 5 |  |
 | Penny | penny | matched | penny.svg | svg | 117 |  |
 | PENNY | penny | matched | penny.svg | svg | 14 |  |
-| Penny Soester Süden | penny-soester-süden | no match |  |  | 1 |  |
+| Penny Soester Süden | penny-soester-suden | no match |  |  | 1 |  |
 | PENNY. | penny | matched | penny.svg | svg | 2 |  |
 | Petco | petco | approx match | pepco.svg | svg | 20 |  |
 | Pete's Market | pete-s-market | no match |  |  | 1 |  |
@@ -447,7 +447,7 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Profi | profi | matched | profi.jpg | jpg | 4 |  |
 | Provigo | provigo | no match |  |  | 1 |  |
 | Proxi | proxi | approx match | profi.jpg | jpg | 261 | yes |
-| Proximarché | proximarché | no match |  |  | 54 |  |
+| Proximarché | proximarche | no match |  |  | 54 |  |
 | Proxy Delhaize | proxy-delhaize | no match |  |  | 37 |  |
 | Publix | publix | matched | publix.svg | svg | 28 |  |
 | QFC | qfc | no match |  |  | 8 |  |
@@ -463,7 +463,7 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Rewe | rewe | matched | rewe.svg | svg | 391 | yes |
 | REWE City | rewe-city | no match |  |  | 23 |  |
 | Rewe City | rewe-city | no match |  |  | 1 |  |
-| REWE Getränkemarkt | rewe-getränkemarkt | no match |  |  | 1 |  |
+| REWE Getränkemarkt | rewe-getrankemarkt | no match |  |  | 1 |  |
 | REWE To Go | rewe-to-go | no match |  |  | 16 |  |
 | Rimi | rimi | no match |  |  | 260 | yes |
 | rmhildebrandt | rmhildebrandt | no match |  |  | 46 |  |
@@ -509,8 +509,8 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Super U;Station U | super-u-station-u | no match |  |  | 3 |  |
 | Super-Pharm | super-pharm | no match |  |  | 58 |  |
 | SuperValu | supervalu | matched | supervalu.svg | svg | 4 |  |
-| Système U | système-u | no match |  |  | 11 |  |
-| Søstrene Grene | søstrene-grene | no match |  |  | 1 |  |
+| Système U | systeme-u | no match |  |  | 11 |  |
+| Søstrene Grene | sostrene-grene | no match |  |  | 1 |  |
 | T&T Supermarket | t-t-supermarket | matched | t-t-supermarket.svg | svg | 6 |  |
 | Target | target | no match |  |  | 180 | yes |
 | Taste | taste | no match |  |  | 1 |  |
@@ -527,7 +527,7 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | The Range | the-range | no match |  |  | 1 |  |
 | The Vitamin Shoppe | the-vitamin-shoppe | no match |  |  | 1 |  |
 | Tiger | tiger | no match |  |  | 1 |  |
-| Tigotà | tigotà | no match |  |  | 1 |  |
+| Tigotà | tigota | no match |  |  | 1 |  |
 | Tigros | tigros | approx match | migros.svg | svg | 1 |  |
 | TK Maxx | tk-maxx | matched | tk-maxx.svg | svg | 2 |  |
 | Todis | todis | no match |  |  | 6 |  |
@@ -551,9 +551,9 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Vival | vival | no match |  |  | 277 | yes |
 | VOI | voi | no match |  |  | 2 |  |
 | Vons | vons | matched | vons.svg | svg | 7 |  |
-| Votre Marché | votre-marché | no match |  |  | 7 |  |
-| Vélib' Métropole | vélib-métropole | no match |  |  | 5 |  |
-| VélôToulouse | vélôtoulouse | no match |  |  | 2 |  |
+| Votre Marché | votre-marche | no match |  |  | 7 |  |
+| Vélib' Métropole | velib-metropole | no match |  |  | 5 |  |
+| VélôToulouse | velotoulouse | no match |  |  | 2 |  |
 | Waitrose | waitrose | matched | waitrose.svg | svg | 8 |  |
 | Waitrose & Partners | waitrose-partners | no match |  |  | 1 |  |
 | Walgreens | walgreens | no match |  |  | 1 |  |
@@ -574,30 +574,30 @@ Compare Open Prices Location brand names (`osm_brand` field), with the logos we 
 | Yorma’s | yorma-s | no match |  |  | 19 |  |
 | Zeeman | zeeman | no match |  |  | 3 |  |
 | Zehrs | zehrs | matched | zehrs.png | png | 2 |  |
-| Żabka | żabka | no match |  |  | 216 | yes |
-| ΑΒ Βασιλόπουλος | αβ-βασιλόπουλος | no match |  |  | 7 |  |
-| Σκλαβενίτης | σκλαβενίτης | no match |  |  | 1 |  |
-| Аврора | аврора | no match |  |  | 4 |  |
-| АТБ-Маркет | атб-маркет | no match |  |  | 1 |  |
-| Вопак | вопак | no match |  |  | 3 |  |
-| Лента | лента | no match |  |  | 2 |  |
-| Магнит | магнит | no match |  |  | 13 |  |
-| Магнолия | магнолия | no match |  |  | 5 |  |
-| Монетка | монетка | no match |  |  | 5 |  |
-| Пятёрочка | пятёрочка | no match |  |  | 1 |  |
-| Раз Два | раз-два | no match |  |  | 1 |  |
-| Сільпо | сільпо | no match |  |  | 6 |  |
-| Фантастико | фантастико | no match |  |  | 2 |  |
-| Чижик | чижик | no match |  |  | 3 |  |
-| רמי לוי שיווק השקמה | רמי-לוי-שיווק-השקמה | no match |  |  | 2 |  |
-| კარფური | კარფური | no match |  |  | 1 |  |
-| イオンモール | イオンモール | no match |  |  | 1 |  |
-| オリンピック | オリンピック | no match |  |  | 2 |  |
-| ハナマサ | ハナマサ | no match |  |  | 1 |  |
-| ローソン | ローソン | no match |  |  | 1 |  |
-| 優品360 Best Mart 360 | 優品360-best-mart-360 | no match |  |  | 1 |  |
-| 全家便利商店 | 全家便利商店 | no match |  |  | 6 |  |
-| 全聯福利中心 | 全聯福利中心 | no match |  |  | 95 |  |
-| 家樂福 | 家樂福 | no match |  |  | 62 |  |
-| 百佳超級市場 PARKnSHOP | 百佳超級市場-parknshop | no match |  |  | 4 |  |
-| 聖安娜餅屋 Saint Honore Cake Shop | 聖安娜餅屋-saint-honore-cake-shop | no match |  |  | 1 |  |
+| Żabka | zabka | no match |  |  | 216 | yes |
+| ΑΒ Βασιλόπουλος | ab-basilopoulos | no match |  |  | 7 |  |
+| Σκλαβενίτης | sklabenites | approx match | sklavenitis.svg | svg | 1 |  |
+| Аврора | avrora | no match |  |  | 4 |  |
+| АТБ-Маркет | atb-market | approx match | cia-market.png | png | 1 |  |
+| Вопак | vopak | no match |  |  | 3 |  |
+| Лента | lenta | no match |  |  | 2 |  |
+| Магнит | magnit | no match |  |  | 13 |  |
+| Магнолия | magnoliia | no match |  |  | 5 |  |
+| Монетка | monetka | no match |  |  | 5 |  |
+| Пятёрочка | piatiorochka | no match |  |  | 1 |  |
+| Раз Два | raz-dva | no match |  |  | 1 |  |
+| Сільпо | sil-po | no match |  |  | 6 |  |
+| Фантастико | fantastiko | no match |  |  | 2 |  |
+| Чижик | chizhik | no match |  |  | 3 |  |
+| רמי לוי שיווק השקמה | rmy-lvy-shyvvk-hshkmh | no match |  |  | 2 |  |
+| კარფური | karp-uri | no match |  |  | 1 |  |
+| イオンモール | ionmo-ru | no match |  |  | 1 |  |
+| オリンピック | orinpitsuku | no match |  |  | 2 |  |
+| ハナマサ | hanamasa | no match |  |  | 1 |  |
+| ローソン | ro-son | no match |  |  | 1 |  |
+| 優品360 Best Mart 360 | you-pin-360-best-mart-360 | no match |  |  | 1 |  |
+| 全家便利商店 | quan-jia-bian-li-shang-dian | no match |  |  | 6 |  |
+| 全聯福利中心 | quan-lian-fu-li-zhong-xin | no match |  |  | 95 |  |
+| 家樂福 | jia-le-fu | no match |  |  | 62 |  |
+| 百佳超級市場 PARKnSHOP | bai-jia-chao-ji-shi-chang-parknshop | no match |  |  | 4 |  |
+| 聖安娜餅屋 Saint Honore Cake Shop | sheng-an-nuo-bing-wu-saint-honore-cake-shop | no match |  |  | 1 |  |
