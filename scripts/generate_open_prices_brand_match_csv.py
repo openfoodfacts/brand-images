@@ -20,6 +20,7 @@ IMAGE_DIR = 'xx/stores'
 def slugify(value):
     value = str(value)
     value = unidecode(value).lower()
+    value = re.sub(r"'", '', value)  # Remove apostrophes like Django
     value = re.sub(r'[^a-z0-9]+', '-', value)
     value = re.sub(r'-+', '-', value)
     return value.strip('-')
