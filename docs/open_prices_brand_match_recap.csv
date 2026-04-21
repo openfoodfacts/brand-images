@@ -5,7 +5,7 @@ brand_name,match_status,matched_image,price_count,top_100_by_price
 99 Ranch Market,no,,338,yes
 A101,no,,2,
 A2Pas,no,,52,
-Action,exact,action.jpeg,206,yes
+Action,exact,action.png,206,yes
 AD Delhaize,no,,3,
 AEON BiG,no,,10,
 Agrola,no,,1,
@@ -18,8 +18,8 @@ ALDI,exact,aldi.svg,316,yes
 Aldi,exact,aldi.svg,407,yes
 ALDI Nord,exact,aldi-nord.svg,629,yes
 Aldi Nord,exact,aldi-nord.svg,9,
-ALDI Süd,exact,aldi-sud.jpg,135,
-Aldi Süd,exact,aldi-sud.jpg,103,
+ALDI Süd,exact,aldi-sud.svg,135,
+Aldi Süd,exact,aldi-sud.svg,103,
 Alepa,no,,5,
 Alfamart,no,,10,
 Alimerka,exact,alimerka.svg,2,
@@ -35,7 +35,7 @@ Animalis,no,,1,
 Apollo Pharmacy,no,,1,
 Apotek 1,no,,5,
 Apoteket,no,,25,
-Ara,approx,arcs.png,1,
+Ara,approx,ars.png,1,
 Asda,exact,asda.svg,32,
 Asda Express,no,,4,
 Assaí Atacadista,no,,4,
@@ -43,7 +43,7 @@ Au vieux campeur,no,,4,
 Auchan,exact,auchan.svg,16894,yes
 Auchan Supermarché,exact,auchan-supermarche.png,1206,yes
 Autogrill,no,,43,
-avec,approx,aleco.svg,1,
+avec,approx,ave.svg,1,
 Aveve,no,,1,
 B&M,approx,b-q.svg,7,
 B&M Bargains,no,,12,
@@ -51,7 +51,7 @@ Bahadourian,no,,240,yes
 Beets & Roots,no,,5,
 Best-one,no,,2,
 bi1,exact,bi1.png,56,
-Biedronka,exact,biedronka.webp,219,yes
+Biedronka,exact,biedronka.png,219,yes
 Big C,approx,big-a.png,8,
 Big Market,no,,2,
 Big Y,approx,big-a.png,2,
@@ -65,14 +65,14 @@ Biocoop,exact,biocoop.svg,2314,yes
 Bipa,exact,bipa.svg,1,
 BİM,exact,bim.svg,5,
 BJ's Wholesale Club,exact,bjs-wholesale-club.svg,3,
-BM,approx,bi1.png,8,
+BM,approx,b-q.svg,8,
 Bodega Aurrera,no,,1,
 Bonpreu,exact,bonpreu.svg,156,yes
 BonÀrea,no,,9,
 Boots,no,,7,
 Botanic,exact,botanic.png,426,yes
 Boulanger,exact,boulanger.svg,1,
-BP,approx,bi1.png,1,
+BP,approx,b-q.svg,1,
 Bricomarché,no,,1,
 Bricorama,no,,5,
 Budni,no,,1,
@@ -84,14 +84,14 @@ Cactus,exact,cactus.svg,1,
 CAP,no,,162,yes
 Caprabo,exact,caprabo.svg,1,
 Carrefour,exact,carrefour.svg,6423,yes
-Carrefour City,no,,7049,yes
-Carrefour Contact,no,,209,yes
-Carrefour Express,no,,574,yes
-Carrefour Market,no,,10114,yes
+Carrefour City,exact,carrefour-city.png,7049,yes
+Carrefour Contact,exact,carrefour-contact.png,209,yes
+Carrefour Express,exact,carrefour-express.png,574,yes
+Carrefour Market,exact,carrefour-market.png,10114,yes
 Carulla,exact,carulla.png,1,
-Casino,no,,734,yes
-Casino Shop,exact,casino-shop.png,202,yes
-Casino Supermarché,approx,casino-supermarches.svg,4,
+Casino,exact,casino.png,734,yes
+Casino Shop,exact,casino-shop.svg,202,yes
+Casino Supermarché,exact,casino-supermarche.svg,4,
 Castorama,exact,castorama.svg,19,
 Centre Commercial E. Leclerc,no,,2696,yes
 Centre commercial E. Leclerc,no,,36,
@@ -101,8 +101,8 @@ Chemist Warehouse,no,,1,
 Chicken Republic,no,,1,
 China Express,no,,12,
 Chronodrive,no,,1,
-Circle K,no,,405,yes
-City Gross,no,,168,yes
+Circle K,exact,circle-k.png,405,yes
+City Gross,exact,city-gross.png,168,yes
 City Market,no,,2,
 Co-op,no,,1,
 Co-op Food,no,,23,
@@ -111,7 +111,7 @@ Coles,exact,coles.svg,9,
 Coles Local,exact,coles-local.png,10,
 Colruyt,exact,colruyt.svg,123,
 Combi,exact,combi.png,1,
-Conad,approx,cora.svg,157,yes
+Conad,exact,conad.png,157,yes
 Conad City,no,,2,
 Conad Superstore,no,,1,
 Condis,no,,3,
@@ -141,15 +141,15 @@ Damart,no,,5,
 Darty,exact,darty.svg,27,
 Dealz,approx,real.svg,8,
 Decathlon,exact,decathlon.svg,73,
-Decò,no,,165,yes
+Decò,exact,deco.png,165,yes
 DekaMarkt,exact,dekamarkt.svg,2,
-Delhaize,no,,1122,yes
+Delhaize,exact,delhaize.png,1122,yes
 Delhaize Proxy,no,,2,
 denn's Biomarkt,exact,denns-biomarkt.svg,14,
 Denner,no,,27,
 Denns BioMarkt,exact,denns-biomarkt.svg,12,
-Depot,no,,2,
-Di,approx,bi1.png,4,
+Depot,approx,deco.png,2,
+Di,approx,kik.svg,4,
 Dia,exact,dia.svg,28,
 Dia Market,approx,cia-market.png,1,
 Diagonal,no,,44,
@@ -159,7 +159,7 @@ Dirk,exact,dirk.svg,1,
 Disco,no,,3,
 Ditt Apotek,no,,1,
 dm,exact,dm.svg,228,yes
-DMart,approx,emart.svg,30,
+DMart,approx,emart.png,30,
 Dogman,no,,3,
 Dollar General,exact,dollar-general.svg,1,
 Dollar Tree,no,,5,
@@ -171,10 +171,10 @@ Dr. Max,no,,2,
 Dunnes Stores,exact,dunnes-stores.svg,3,
 E-Center,no,,8,
 E. Leclerc,exact,e-leclerc.svg,5074,yes
-E. Leclerc Drive,no,,598,yes
+E. Leclerc Drive,exact,e-leclerc-drive.png,598,yes
 E. Leclerc Express,no,,1,
 E.Leclerc,exact,e-leclerc.svg,7453,yes
-E.Leclerc Drive,no,,814,yes
+E.Leclerc Drive,exact,e-leclerc-drive.png,814,yes
 E.Leclerc Express,no,,155,yes
 Eataly,approx,natal.png,10,
 EDEKA,exact,edeka.svg,1580,yes
@@ -186,7 +186,7 @@ Elkjøp,no,,3,
 Elvi,no,,1,
 Eroski,exact,eroski.svg,9,
 Esselunga,no,,73,
-Europris,no,,193,yes
+Europris,exact,europris.png,193,yes
 Eurospar,exact,eurospar.svg,34,
 EuroSpin,no,,15,
 Express Market,no,,3,
@@ -208,7 +208,7 @@ Fred Meyer,exact,fred-meyer.svg,40,
 Fresh,approx,fresco.svg,85,
 Fresh Thyme,no,,3,
 FreshChoice,no,,1,
-FreshCo,exact,freshco.svg,1,
+FreshCo,exact,freshco.png,1,
 Fressnapf,no,,1,
 Froiz,no,,2,
 Fry's Food and Drug,no,,2,
@@ -282,12 +282,12 @@ Kinsarvik Naturkost,no,,6,
 kitea,no,,1,
 Kitea,no,,1,
 Kiwi,exact,kiwi.png,3211,yes
-Kmart,approx,emart.svg,1,
+Kmart,approx,emart.png,1,
 Konsum Dresden,no,,2,
 Konzum,exact,konzum.svg,43,
 Krambúð,no,,4,
 Kroger,no,,1,
-Kruidvat,exact,kruidvat.png,10,
+Kruidvat,exact,kruidvat.svg,10,
 Krónan,no,,1,
 Kult,no,,1,
 L'Eau Vive,no,,532,yes
@@ -337,7 +337,7 @@ Maxima,exact,maxima.svg,5,
 Maxima X,no,,167,yes
 Maxima XX,no,,22,
 Maxima XXX,no,,75,
-MD,approx,s.svg,2,
+MD,approx,m-s.svg,2,
 MediaMarkt,no,,1,
 Mega Image,no,,9,
 Meijer,exact,meijer.svg,2,
@@ -393,9 +393,9 @@ NOZ,no,,55,
 NTT docomo,no,,1,
 NTUC Fairprice,no,,1,
 OBI,exact,obi.svg,1,
-Obs,approx,obi.svg,265,yes
+Obs,approx,gb.png,265,yes
 Okay,no,,3,
-OMV,approx,ok.svg,1,
+OMV,approx,dm.svg,1,
 Otto's,no,,1,
 Pak'nSave,no,,1,
 Pam,no,,124,
