@@ -8,7 +8,10 @@ Default directory: xx/stores
 """
 import os
 import sys
-from PIL import Image
+from PIL import Image, PngImagePlugin
+
+# Allow large text chunks in PNG metadata
+PngImagePlugin.MAX_TEXT_CHUNK = 100 * (1024 ** 2)
 
 MAX_SIZE = (400, 400)
 
