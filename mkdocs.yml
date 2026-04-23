@@ -23,4 +23,5 @@ theme:
 nav:
   - Home: index.md
   - Open Prices:
+    - Brand Match Viewer: open-prices/brand-match-viewer.md
     - Brand Match Stats: open-prices/brand-match-stats.md
