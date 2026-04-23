@@ -29,6 +29,12 @@ def slugify(value):
 def get_image_files(image_dir):
     return set(os.listdir(image_dir))
 
+def pick_formats(files):
+    """Return (svg_filename, png_filename) from a list of filenames for a given slug."""
+    svg = next((f for f in files if f.lower().endswith('.svg')), '')
+    png = next((f for f in files if f.lower().endswith('.png')), '')
+    return svg, png
+
 def main():
     image_files = get_image_files(IMAGE_DIR)
     image_slugs = {}
@@ -49,15 +55,13 @@ def main():
     orig_fields = list(reader[0].keys())
     fieldnames = orig_fields[:]
     # Insert match_status before matched_image, then matched_image, then top_100_by_price at end
-    if 'matched_image' in fieldnames:
-        fieldnames.remove('matched_image')
-    if 'match_status' in fieldnames:
-        fieldnames.remove('match_status')
-    if 'top_100_by_price' in fieldnames:
-        fieldnames.remove('top_100_by_price')
+    for col in ('matched_image', 'matched_image_svg', 'matched_image_png', 'match_status', 'top_100_by_price'):
+        if col in fieldnames:
+            fieldnames.remove(col)
     insert_at = orig_fields.index('brand_name') + 1
     fieldnames.insert(insert_at, 'match_status')
-    fieldnames.insert(insert_at + 1, 'matched_image')
+    fieldnames.insert(insert_at + 1, 'matched_image_svg')
+    fieldnames.insert(insert_at + 2, 'matched_image_png')
     fieldnames.append('top_100_by_price')
 
     with open(OUTPUT_CSV, 'w', newline='', encoding='utf-8') as f:
@@ -66,48 +70,60 @@ def main():
         for row in reader:
             brand = row['brand_name']
             slug = slugify(brand)
-            matched_image = ''
+            matched_image_svg = ''
+            matched_image_png = ''
             match_status = 'no'
             # Exact match
             if slug in image_slugs:
-                matched_image = image_slugs[slug][0]
+                matched_image_svg, matched_image_png = pick_formats(image_slugs[slug])
                 match_status = 'exact'
             else:
                 # Approximate: allow one character difference (Levenshtein distance 1)
                 for img_slug in image_slugs:
                     if abs(len(img_slug) - len(slug)) <= 1 and sum(a != b for a, b in zip(img_slug, slug)) <= 1:
-                        matched_image = image_slugs[img_slug][0]
+                        matched_image_svg, matched_image_png = pick_formats(image_slugs[img_slug])
                         match_status = 'approx'
                         break
             row['match_status'] = match_status
-            row['matched_image'] = matched_image
+            row['matched_image_svg'] = matched_image_svg
+            row['matched_image_png'] = matched_image_png
             row['top_100_by_price'] = 'yes' if row.get('price_count', '').isdigit() and int(row['price_count']) >= top_100_cutoff else ''
             writer.writerow(row)
+
+STATS_HEADER = '| Date | Input brands | Images (svg/png) | Exact matches | Approx matches | % Top 100 exact |\n|------|-------------|-----------------|---------------|----------------|----------------|\n'
 
 def write_stats_md(input_count, image_count, ext_counts, exact_count, approx_count, top100_exact_pct):
     stats_path = 'docs/open_prices_brand_match_stats.md'
     today = datetime.date.today().strftime('%Y-%m-%d')
-    section = f"\n\n## {today}\n\n"
-    section += f"- Input brands: {input_count}\n"
-    # Format per-extension stats
-    ext_stats = ', '.join(f"{ext}: {count}" for ext, count in sorted(ext_counts.items()))
-    section += f"- Images in xx/stores: {image_count} ({ext_stats})\n"
-    section += f"- Exact matches: {exact_count}\n"
-    section += f"- Approx matches: {approx_count}\n"
-    section += f"- % Exact matches in Top 100: {top100_exact_pct:.1f}%\n"
-    # Read existing content
+    svg_count = ext_counts.get('svg', 0)
+    png_count = ext_counts.get('png', 0)
+    new_row = f'| {today} | {input_count} | {image_count} ({svg_count} svg / {png_count} png) | {exact_count} | {approx_count} | {top100_exact_pct:.1f}% |\n'
+
+    intro = (
+        '# Open Prices Brand Match Stats\n\n'
+        'Every time we run the brand match script, we update this file with the latest stats on how many brands from '
+        '`open_prices_brand_names.csv` have exact or approximate matches in the `xx/stores` images.\n\n'
+    )
+
     if os.path.exists(stats_path):
         with open(stats_path, 'r', encoding='utf-8') as f:
             content = f.read()
+        # Extract existing table rows (skip header and separator lines)
+        rows = [
+            line + '\n'
+            for line in content.splitlines()
+            if line.startswith('|') and not line.startswith('| Date') and not line.startswith('|---')
+        ]
+        # Remove today's row if it already exists (re-run same day)
+        rows = [r for r in rows if not r.startswith(f'| {today} ')]
     else:
-        content = '# Open Prices Brand Match Stats\n\n'
-    # Remove existing section for today
-    import re
-    content = re.sub(r'\n## ' + re.escape(today) + r'\n.*?(?=\n## |\Z)', '', content, flags=re.DOTALL)
-    # Append new section
-    content = content.rstrip() + section
+        rows = []
+
+    # Most recent first: prepend new row
+    rows.insert(0, new_row)
+
     with open(stats_path, 'w', encoding='utf-8') as f:
-        f.write(content)
+        f.write(intro + STATS_HEADER + ''.join(rows))
 
 if __name__ == '__main__':
     # Count input brands
