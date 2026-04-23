@@ -7,7 +7,6 @@ Interactive table of all brands from Open Prices, with matched logo images.
   <select id="status-filter" style="padding:.4rem .7rem;font-size:.95rem;border:1px solid var(--md-default-fg-color--lightest);border-radius:4px">
     <option value="">All statuses</option>
     <option value="exact">Exact</option>
-    <option value="approx">Approx</option>
     <option value="no">No match</option>
   </select>
   <label style="display:flex;align-items:center;gap:.4rem;font-size:.9rem">
@@ -21,11 +20,11 @@ Interactive table of all brands from Open Prices, with matched logo images.
     <thead>
       <tr>
         <th style="text-align:left;padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)">Brand</th>
-        <th style="padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)">Status</th>
-        <th style="padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)">SVG</th>
-        <th style="padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)">PNG</th>
+        <th style="text-align:center;padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)">Status</th>
+        <th style="text-align:center;padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)">SVG</th>
+        <th style="text-align:center;padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)">PNG</th>
         <th style="text-align:right;padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)">Prices</th>
-        <th style="padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)">Top 100</th>
+        <th style="text-align:left;padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)">Top 100</th>
       </tr>
     </thead>
     <tbody id="table-body">
@@ -38,8 +37,8 @@ Interactive table of all brands from Open Prices, with matched logo images.
 (function () {
   const BASE = 'https://raw.githubusercontent.com/openfoodfacts/brand-images/main/xx/stores/';
   const CSV_URL = new URL('../brand-match.csv', window.location.href).toString();
-  const STATUS_COLOR = { exact: '#2e7d32', approx: '#e65100', no: '#b71c1c' };
-  const STATUS_BG   = { exact: '#e8f5e9', approx: '#fff3e0', no: '#ffebee' };
+  const STATUS_COLOR = { exact: '#2e7d32', no: '#b71c1c' };
+  const STATUS_BG   = { exact: '#e8f5e9', no: '#ffebee' };
 
   let allRows = [];
 
@@ -90,7 +89,7 @@ Interactive table of all brands from Open Prices, with matched logo images.
         ${imgCell(safe(r.matched_image_svg))}
         ${imgCell(safe(r.matched_image_png))}
         <td style="text-align:right;padding:.4rem .7rem">${safe(r.price_count)}</td>
-        <td style="text-align:center;padding:.4rem .7rem">${safe(r.top_100_by_price) === 'yes' ? '★' : ''}</td>
+        <td style="text-align:left;padding:.4rem .7rem">${safe(r.top_100_by_price) === 'yes' ? '★' : ''}</td>
       </tr>`;
     }).join('');
   }
