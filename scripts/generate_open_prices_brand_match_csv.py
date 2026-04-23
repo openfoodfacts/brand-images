@@ -12,8 +12,8 @@ import re
 import datetime
 from unidecode import unidecode
 
-INPUT_CSV = 'docs/open_prices_brand_names.csv'
-OUTPUT_CSV = 'docs/open_prices_brand_match_recap.csv'
+INPUT_CSV = 'docs/open-prices/open_prices_brand_names.csv'
+OUTPUT_CSV = 'docs/open-prices/open_prices_brand_match_recap.csv'
 IMAGE_DIR = 'xx/stores'
 
 # Django-style slugify
@@ -93,7 +93,7 @@ def main():
 STATS_HEADER = '| Date | Input brands | Images (svg/png) | Exact matches | Approx matches | % Top 100 exact |\n|------|-------------|-----------------|---------------|----------------|----------------|\n'
 
 def write_stats_md(input_count, image_count, ext_counts, exact_count, approx_count, top100_exact_pct):
-    stats_path = 'docs/open_prices_brand_match_stats.md'
+    stats_path = 'docs/open-prices/open_prices_brand_match_stats.md'
     today = datetime.date.today().strftime('%Y-%m-%d')
     svg_count = ext_counts.get('svg', 0)
     png_count = ext_counts.get('png', 0)

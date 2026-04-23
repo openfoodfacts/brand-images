@@ -1,0 +1,26 @@
+docs_dir: docs
+
+repo_url: https://github.com/openfoodfacts/brand-images
+edit_uri: blob/main/docs/
+
+site_name: Brand Images
+site_dir: site
+
+theme:
+  name: material
+  logo: https://static.openfoodfacts.org/images/logos/off-logo-horizontal-light.svg
+  favicon: https://static.openfoodfacts.org/images/logos/off-logo-favicon-light.png
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Open Prices:
+    - Brand Match Stats: open-prices/open_prices_brand_match_stats.md
