@@ -1,5 +1,4 @@
-# .github/workflows/auto-author-assign.yml
-name: 'Auto Author Assign'
+name: "Auto Author Assign"
 
 on:
   pull_request_target:
