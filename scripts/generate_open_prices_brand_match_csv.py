@@ -1,8 +1,8 @@
 """
-Generate a CSV recap matching brand names from open_prices_brand_names.csv to images in xx/stores.
-Adds columns: match_status (exact/approx/no), matched_image, and top_100_by_price (yes for top 100 by price count).
+Generate a CSV recap matching brand names from 20260328-brand-names.csv to images in xx/stores.
+Adds columns: match_status (exact/no), matched_image, and top_100_by_price (yes for top 100 by price count).
 
-Also appends stats to docs/open_prices_brand_match_stats.md
+Also appends stats to docs/open-prices/brand-match-stats.md
 
 Usage: python scripts/generate_open_prices_brand_match_csv.py
 """
@@ -12,8 +12,8 @@ import re
 import datetime
 from unidecode import unidecode
 
-INPUT_CSV = 'docs/open-prices/open_prices_brand_names.csv'
-OUTPUT_CSV = 'docs/open-prices/open_prices_brand_match_recap.csv'
+INPUT_CSV = 'docs/open-prices/20260328-brand-names.csv'
+OUTPUT_CSV = 'docs/open-prices/brand-match.csv'
 IMAGE_DIR = 'xx/stores'
 
 # Django-style slugify
@@ -77,43 +77,41 @@ def main():
             if slug in image_slugs:
                 matched_image_svg, matched_image_png = pick_formats(image_slugs[slug])
                 match_status = 'exact'
-            else:
-                # Approximate: allow one character difference (Levenshtein distance 1)
-                for img_slug in image_slugs:
-                    if abs(len(img_slug) - len(slug)) <= 1 and sum(a != b for a, b in zip(img_slug, slug)) <= 1:
-                        matched_image_svg, matched_image_png = pick_formats(image_slugs[img_slug])
-                        match_status = 'approx'
-                        break
             row['match_status'] = match_status
             row['matched_image_svg'] = matched_image_svg
             row['matched_image_png'] = matched_image_png
             row['top_100_by_price'] = 'yes' if row.get('price_count', '').isdigit() and int(row['price_count']) >= top_100_cutoff else ''
             writer.writerow(row)
 
-STATS_HEADER = '| Date | Input brands | Images (svg/png) | Exact matches | Approx matches | % Top 100 exact |\n|------|-------------|-----------------|---------------|----------------|----------------|\n'
+STATS_HEADER = '| Date | Input brands | Images (svg/png) | Exact matches | % Top 100 exact |\n|------|-------------|-----------------|---------------|----------------|\n'
 
-def write_stats_md(input_count, image_count, ext_counts, exact_count, approx_count, top100_exact_pct):
-    stats_path = 'docs/open-prices/open_prices_brand_match_stats.md'
+def write_stats_md(input_count, image_count, ext_counts, exact_count, top100_exact_pct):
+    stats_path = 'docs/open-prices/brand-match-stats.md'
     today = datetime.date.today().strftime('%Y-%m-%d')
     svg_count = ext_counts.get('svg', 0)
     png_count = ext_counts.get('png', 0)
-    new_row = f'| {today} | {input_count} | {image_count} ({svg_count} svg / {png_count} png) | {exact_count} | {approx_count} | {top100_exact_pct:.1f}% |\n'
+    new_row = f'| {today} | {input_count} | {image_count} ({svg_count} svg / {png_count} png) | {exact_count} | {top100_exact_pct:.1f}% |\n'
 
     intro = (
         '# Open Prices Brand Match Stats\n\n'
         'Every time we run the brand match script, we update this file with the latest stats on how many brands from '
-        '`open_prices_brand_names.csv` have exact or approximate matches in the `xx/stores` images.\n\n'
+        '`20260328-brand-names.csv` have exact matches in the `xx/stores` images.\n\n'
     )
 
     if os.path.exists(stats_path):
         with open(stats_path, 'r', encoding='utf-8') as f:
             content = f.read()
-        # Extract existing table rows (skip header and separator lines)
-        rows = [
-            line + '\n'
-            for line in content.splitlines()
-            if line.startswith('|') and not line.startswith('| Date') and not line.startswith('|---')
-        ]
+        # Extract existing table rows (skip header and separator lines), and normalize old 6-column rows.
+        rows = []
+        for line in content.splitlines():
+            if not line.startswith('|') or line.startswith('| Date') or line.startswith('|---'):
+                continue
+            cells = [c.strip() for c in line.strip().split('|')[1:-1]]
+            # Legacy shape: Date, Input, Images, Exact, Approx, Top100%
+            if len(cells) == 6:
+                cells = [cells[0], cells[1], cells[2], cells[3], cells[5]]
+            if len(cells) == 5:
+                rows.append('| ' + ' | '.join(cells) + ' |\n')
         # Remove today's row if it already exists (re-run same day)
         rows = [r for r in rows if not r.startswith(f'| {today} ')]
     else:
@@ -143,8 +141,7 @@ if __name__ == '__main__':
     with open(OUTPUT_CSV, newline='', encoding='utf-8') as f:
         out_rows = list(csv.DictReader(f))
     exact_count = sum(1 for r in out_rows if r['match_status'] == 'exact')
-    approx_count = sum(1 for r in out_rows if r['match_status'] == 'approx')
     top100 = [r for r in out_rows if r['top_100_by_price'] == 'yes']
     top100_exact = sum(1 for r in top100 if r['match_status'] == 'exact')
     top100_exact_pct = (top100_exact / len(top100) * 100) if top100 else 0
-    write_stats_md(input_count, image_count, ext_counts, exact_count, approx_count, top100_exact_pct)
+    write_stats_md(input_count, image_count, ext_counts, exact_count, top100_exact_pct)
