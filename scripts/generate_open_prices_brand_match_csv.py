@@ -29,6 +29,12 @@ def slugify(value):
 def get_image_files(image_dir):
     return set(os.listdir(image_dir))
 
+def pick_formats(files):
+    """Return (svg_filename, png_filename) from a list of filenames for a given slug."""
+    svg = next((f for f in files if f.lower().endswith('.svg')), '')
+    png = next((f for f in files if f.lower().endswith('.png')), '')
+    return svg, png
+
 def main():
     image_files = get_image_files(IMAGE_DIR)
     image_slugs = {}
@@ -49,15 +55,13 @@ def main():
     orig_fields = list(reader[0].keys())
     fieldnames = orig_fields[:]
     # Insert match_status before matched_image, then matched_image, then top_100_by_price at end
-    if 'matched_image' in fieldnames:
-        fieldnames.remove('matched_image')
-    if 'match_status' in fieldnames:
-        fieldnames.remove('match_status')
-    if 'top_100_by_price' in fieldnames:
-        fieldnames.remove('top_100_by_price')
+    for col in ('matched_image', 'matched_image_svg', 'matched_image_png', 'match_status', 'top_100_by_price'):
+        if col in fieldnames:
+            fieldnames.remove(col)
     insert_at = orig_fields.index('brand_name') + 1
     fieldnames.insert(insert_at, 'match_status')
-    fieldnames.insert(insert_at + 1, 'matched_image')
+    fieldnames.insert(insert_at + 1, 'matched_image_svg')
+    fieldnames.insert(insert_at + 2, 'matched_image_png')
     fieldnames.append('top_100_by_price')
 
     with open(OUTPUT_CSV, 'w', newline='', encoding='utf-8') as f:
@@ -66,21 +70,23 @@ def main():
         for row in reader:
             brand = row['brand_name']
             slug = slugify(brand)
-            matched_image = ''
+            matched_image_svg = ''
+            matched_image_png = ''
             match_status = 'no'
             # Exact match
             if slug in image_slugs:
-                matched_image = image_slugs[slug][0]
+                matched_image_svg, matched_image_png = pick_formats(image_slugs[slug])
                 match_status = 'exact'
             else:
                 # Approximate: allow one character difference (Levenshtein distance 1)
                 for img_slug in image_slugs:
                     if abs(len(img_slug) - len(slug)) <= 1 and sum(a != b for a, b in zip(img_slug, slug)) <= 1:
-                        matched_image = image_slugs[img_slug][0]
+                        matched_image_svg, matched_image_png = pick_formats(image_slugs[img_slug])
                         match_status = 'approx'
                         break
             row['match_status'] = match_status
-            row['matched_image'] = matched_image
+            row['matched_image_svg'] = matched_image_svg
+            row['matched_image_png'] = matched_image_png
             row['top_100_by_price'] = 'yes' if row.get('price_count', '').isdigit() and int(row['price_count']) >= top_100_cutoff else ''
             writer.writerow(row)
 
