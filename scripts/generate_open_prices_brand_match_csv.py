@@ -90,30 +90,40 @@ def main():
             row['top_100_by_price'] = 'yes' if row.get('price_count', '').isdigit() and int(row['price_count']) >= top_100_cutoff else ''
             writer.writerow(row)
 
+STATS_HEADER = '| Date | Input brands | Images (svg/png) | Exact matches | Approx matches | % Top 100 exact |\n|------|-------------|-----------------|---------------|----------------|----------------|\n'
+
 def write_stats_md(input_count, image_count, ext_counts, exact_count, approx_count, top100_exact_pct):
     stats_path = 'docs/open_prices_brand_match_stats.md'
     today = datetime.date.today().strftime('%Y-%m-%d')
-    section = f"\n\n## {today}\n\n"
-    section += f"- Input brands: {input_count}\n"
-    # Format per-extension stats
-    ext_stats = ', '.join(f"{ext}: {count}" for ext, count in sorted(ext_counts.items()))
-    section += f"- Images in xx/stores: {image_count} ({ext_stats})\n"
-    section += f"- Exact matches: {exact_count}\n"
-    section += f"- Approx matches: {approx_count}\n"
-    section += f"- % Exact matches in Top 100: {top100_exact_pct:.1f}%\n"
-    # Read existing content
+    svg_count = ext_counts.get('svg', 0)
+    png_count = ext_counts.get('png', 0)
+    new_row = f'| {today} | {input_count} | {image_count} ({svg_count} svg / {png_count} png) | {exact_count} | {approx_count} | {top100_exact_pct:.1f}% |\n'
+
+    intro = (
+        '# Open Prices Brand Match Stats\n\n'
+        'Every time we run the brand match script, we update this file with the latest stats on how many brands from '
+        '`open_prices_brand_names.csv` have exact or approximate matches in the `xx/stores` images.\n\n'
+    )
+
     if os.path.exists(stats_path):
         with open(stats_path, 'r', encoding='utf-8') as f:
             content = f.read()
+        # Extract existing table rows (skip header and separator lines)
+        rows = [
+            line + '\n'
+            for line in content.splitlines()
+            if line.startswith('|') and not line.startswith('| Date') and not line.startswith('|---')
+        ]
+        # Remove today's row if it already exists (re-run same day)
+        rows = [r for r in rows if not r.startswith(f'| {today} ')]
     else:
-        content = '# Open Prices Brand Match Stats\n\n'
-    # Remove existing section for today
-    import re
-    content = re.sub(r'\n## ' + re.escape(today) + r'\n.*?(?=\n## |\Z)', '', content, flags=re.DOTALL)
-    # Append new section
-    content = content.rstrip() + section
+        rows = []
+
+    # Most recent first: prepend new row
+    rows.insert(0, new_row)
+
     with open(stats_path, 'w', encoding='utf-8') as f:
-        f.write(content)
+        f.write(intro + STATS_HEADER + ''.join(rows))
 
 if __name__ == '__main__':
     # Count input brands

@@ -2,34 +2,9 @@
 
 Every time we run the brand match script, we update this file with the latest stats on how many brands from `open_prices_brand_names.csv` have exact or approximate matches in the `xx/stores` images.
 
-## 2026-03-28
-
-- Input brands: 583
-- Images in xx/stores: 1218 (png: 337, svg: 881)
-- Exact matches: 163
-- Approx matches: 46
-- % Exact matches in Top 100: 49.0%
-
-## 2026-04-21
-
-- Input brands: 583
-- Images in xx/stores: 1225 (jpeg: 2, jpg: 1, png: 338, svg: 883, webp: 1)
-- Exact matches: 172
-- Approx matches: 44
-- % Exact matches in Top 100: 55.0%
-
-## 2026-04-22
-
-- Input brands: 583
-- Images in xx/stores: 1238 (png: 355, svg: 883)
-- Exact matches: 186
-- Approx matches: 43
-- % Exact matches in Top 100: 68.0%
-
-## 2026-04-23
-
-- Input brands: 583
-- Images in xx/stores: 1238 (png: 355, svg: 883)
-- Exact matches: 186
-- Approx matches: 43
-- % Exact matches in Top 100: 68.0%
+| Date | Input brands | Images (svg/png) | Exact matches | Approx matches | % Top 100 exact |
+|------|-------------|-----------------|---------------|----------------|----------------|
+| 2026-04-23 | 583 | 1238 (883 svg / 355 png) | 186 | 43 | 68.0% |
+| 2026-04-22 | 583 | 1238 (883 svg / 355 png) | 186 | 43 | 68.0% |
+| 2026-04-21 | 583 | 1225 (883 svg / 338 png) | 172 | 44 | 55.0% |
+| 2026-03-28 | 583 | 1218 (881 svg / 337 png) | 163 | 46 | 49.0% |
