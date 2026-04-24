@@ -35,5 +35,6 @@ def convert_images_to_png(image_dir):
 
 
 if __name__ == '__main__':
+    print("Starting image conversion...")
     image_dir = sys.argv[1] if len(sys.argv) > 1 else 'xx/stores'
     convert_images_to_png(image_dir)

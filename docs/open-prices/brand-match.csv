@@ -2,7 +2,7 @@ brand_name,match_status,matched_image_svg,matched_image_png,price_count,top_100_
 365discount,no,,,2,
 7-Eleven,exact,7-eleven.svg,,105,
 7-ELEVEN,exact,7-eleven.svg,,1,
-99 Ranch Market,no,,,338,yes
+99 Ranch Market,exact,,99-ranch-market.png,338,yes
 A101,no,,,2,
 A2Pas,no,,,52,
 Action,exact,action.svg,action.png,206,yes
@@ -47,7 +47,7 @@ avec,no,,,1,
 Aveve,no,,,1,
 B&M,no,,,7,
 B&M Bargains,no,,,12,
-Bahadourian,no,,,240,yes
+Bahadourian,exact,bahadourian.svg,,240,yes
 Beets & Roots,no,,,5,
 Best-one,no,,,2,
 bi1,exact,,bi1.png,56,
@@ -81,7 +81,7 @@ Bunnpris,exact,bunnpris.svg,,1281,yes
 Bureau Vallée,no,,,15,
 But,no,,,11,
 Cactus,exact,cactus.svg,,1,
-CAP,no,,,162,yes
+CAP,exact,,cap.png,162,yes
 Caprabo,exact,caprabo.svg,,1,
 Carrefour,exact,carrefour.svg,,6423,yes
 Carrefour City,exact,,carrefour-city.png,7049,yes
@@ -93,10 +93,10 @@ Casino,exact,,casino.png,734,yes
 Casino Shop,exact,casino-shop.svg,casino-shop.png,202,yes
 Casino Supermarché,exact,casino-supermarche.svg,,4,
 Castorama,exact,castorama.svg,,19,
-Centre Commercial E. Leclerc,no,,,2696,yes
-Centre commercial E. Leclerc,no,,,36,
-Centre Commercial E.Leclerc,no,,,31967,yes
-Centre commercial E.Leclerc,no,,,1,
+Centre Commercial E. Leclerc,exact,centre-commercial-e-leclerc.svg,,2696,yes
+Centre commercial E. Leclerc,exact,centre-commercial-e-leclerc.svg,,36,
+Centre Commercial E.Leclerc,exact,centre-commercial-e-leclerc.svg,,31967,yes
+Centre commercial E.Leclerc,exact,centre-commercial-e-leclerc.svg,,1,
 Chemist Warehouse,no,,,1,
 Chicken Republic,no,,,1,
 China Express,no,,,12,
@@ -172,10 +172,10 @@ Dunnes Stores,exact,dunnes-stores.svg,,3,
 E-Center,no,,,8,
 E. Leclerc,exact,e-leclerc.svg,,5074,yes
 E. Leclerc Drive,exact,,e-leclerc-drive.png,598,yes
-E. Leclerc Express,no,,,1,
+E. Leclerc Express,exact,e-leclerc-express.svg,,1,
 E.Leclerc,exact,e-leclerc.svg,,7453,yes
 E.Leclerc Drive,exact,,e-leclerc-drive.png,814,yes
-E.Leclerc Express,no,,,155,yes
+E.Leclerc Express,exact,e-leclerc-express.svg,,155,yes
 Eataly,no,,,10,
 EDEKA,exact,edeka.svg,,1580,yes
 Edeka,exact,edeka.svg,,300,yes
@@ -244,7 +244,7 @@ Holland & Barrett,no,,,3,
 Home Bargains,no,,,3,
 Homeplus,no,,,3,
 Hudson's Bay,no,,,1,
-Hyper U,no,,,218,yes
+Hyper U,exact,hyper-u.svg,,218,yes
 ICA Kvantum,no,,,4,
 ICA Nära,no,,,1,
 ICA Supermarket,no,,,3,
@@ -256,10 +256,10 @@ IKI,no,,,7,
 In's Mercato,no,,,37,
 Indomaret,no,,,2,
 Intermarché,exact,intermarche.svg,,10967,yes
-Intermarché Contact,no,,,859,yes
+Intermarché Contact,exact,,intermarche-contact.png,859,yes
 Intermarché Drive,no,,,1,
-Intermarché Express,no,,,224,yes
-Intermarché Hyper,no,,,3334,yes
+Intermarché Express,exact,,intermarche-express.png,224,yes
+Intermarché Hyper,exact,,intermarche-hyper.png,3334,yes
 Intermarché Super,exact,,intermarche-super.png,1832,yes
 Interspar,no,,,74,
 Intersport,no,,,7,
@@ -290,7 +290,7 @@ Kroger,no,,,1,
 Kruidvat,exact,kruidvat.svg,kruidvat.png,10,
 Krónan,no,,,1,
 Kult,no,,,1,
-L'Eau Vive,no,,,532,yes
+L'Eau Vive,exact,,leau-vive.png,532,yes
 L'Occitane,no,,,1,
 La Foir'Fouille,no,,,11,
 La Grande Récré,no,,,37,
@@ -310,7 +310,7 @@ London Drugs,no,,,89,
 Lotus's,no,,,12,
 Lowe's,no,,,3,
 LPG BioMarkt,no,,,2,
-Lucky,no,,,252,yes
+Lucky,exact,lucky.svg,,252,yes
 Lulu Hypermarket,no,,,1,
 Lupa,no,,,23,
 M&S Simply Food,no,,,8,
@@ -329,12 +329,12 @@ Markt-Bäckerei,no,,,1,
 Marktkauf,exact,marktkauf.svg,,7,
 Marshalls,no,,,5,
 Masymas,exact,masymas.svg,,1,
-Match,no,,,275,yes
+Match,exact,,match.png,275,yes
 Matkroken,no,,,36,
 Maxi ICA Stormarknad,no,,,4,
 Maxi Zoo,no,,,2,
 Maxima,exact,maxima.svg,,5,
-Maxima X,no,,,167,yes
+Maxima X,exact,maxima-x.svg,,167,yes
 Maxima XX,no,,,22,
 Maxima XXX,no,,,75,
 MD,no,,,2,
@@ -355,8 +355,8 @@ Mix Markt,exact,mix-markt.svg,,9,
 Momie,no,,,2,
 Mondadori,no,,,2,
 Mondial Relay,no,,,1,
-Monop',no,,,285,yes
-monop',no,,,13,
+Monop',exact,monop.svg,monop.png,285,yes
+monop',exact,monop.svg,monop.png,13,
 Monoprix,exact,monoprix.svg,,4509,yes
 More,no,,,2,
 Morrisons,no,,,130,
@@ -379,8 +379,8 @@ Naturenville,no,,,135,
 naturéO,exact,natureo.svg,natureo.png,2,
 Nespresso,no,,,33,
 Netto,exact,netto.svg,,1432,yes
-Netto City,no,,,607,yes
-Netto Marken-Discount,no,,,949,yes
+Netto City,exact,,netto-city.png,607,yes
+Netto Marken-Discount,exact,,netto-marken-discount.png,949,yes
 New Balance,no,,,2,
 No Frills,no,,,9,
 Norfa XL,no,,,11,
@@ -393,7 +393,7 @@ NOZ,no,,,55,
 NTT docomo,no,,,1,
 NTUC Fairprice,no,,,1,
 OBI,exact,obi.svg,,1,
-Obs,no,,,265,yes
+Obs,exact,,obs.png,265,yes
 Okay,no,,,3,
 OMV,no,,,1,
 Otto's,no,,,1,
@@ -427,7 +427,7 @@ Prisma,exact,,prisma.png,5,
 Prix,no,,,1,
 Profi,exact,,profi.png,4,
 Provigo,no,,,1,
-Proxi,no,,,261,yes
+Proxi,exact,,proxi.png,261,yes
 Proximarché,no,,,54,
 Proxy Delhaize,no,,,37,
 Publix,exact,publix.svg,,28,
@@ -446,16 +446,16 @@ REWE City,no,,,23,
 Rewe City,no,,,1,
 REWE Getränkemarkt,no,,,1,
 REWE To Go,no,,,16,
-Rimi,no,,,260,yes
+Rimi,exact,,rimi.png,260,yes
 rmhildebrandt,no,,,46,
 Rossmann,exact,rossmann.svg,,267,yes
 Rusta,no,,,17,
-Safeway,exact,safeway.svg,,11067,yes
+Safeway,exact,safeway.svg,safeway.png,11067,yes
 Sainsbury's,no,,,144,
 Sainsbury's Local,no,,,51,
-Sale,no,,,862,yes
+Sale,exact,sale.svg,,862,yes
 Sam's Club,no,,,3,
-Satoriz,no,,,195,yes
+Satoriz,exact,,satoriz.png,195,yes
 Saturn,exact,saturn.svg,,1,
 Save-On-Foods,exact,save-on-foods.svg,,60,
 Savers,no,,,3,
@@ -467,9 +467,9 @@ Shell,no,,,1,
 Sherpa,no,,,118,
 Shop&Go,no,,,1,
 Shoppers Drug Mart,no,,,3,
-ShopRite,no,,,310,yes
-Shoprite,no,,,2,
-Sitis,no,,,290,yes
+ShopRite,exact,,shoprite.png,310,yes
+Shoprite,exact,,shoprite.png,2,
+Sitis,exact,,sitis.png,290,yes
 Smart & Final,exact,smart-final.svg,,370,yes
 Sobeys,no,,,4,
 Sonnentor,no,,,2,
@@ -477,13 +477,13 @@ Soriana,no,,,45,
 Spar,exact,spar.svg,,932,yes
 SPAR,exact,spar.svg,,4,
 SPAR Gourmet,exact,,spar-gourmet.png,14,
-Sprouts Farmers Market,no,,,388,yes
+Sprouts Farmers Market,exact,,sprouts-farmers-market.png,388,yes
 Starbucks,no,,,3,
 Station U,no,,,11,
 Stokrotka,no,,,1,
 Stop & Shop,exact,stop-shop.svg,,7,
 Studenac,no,,,7,
-Supeco,no,,,165,yes
+Supeco,exact,,supeco.png,165,yes
 Super 99,no,,,1,
 Super U,exact,,super-u.png,8263,yes
 SUPER U,exact,,super-u.png,1,
@@ -493,12 +493,12 @@ SuperValu,exact,supervalu.svg,,4,
 Système U,no,,,11,
 Søstrene Grene,no,,,1,
 T&T Supermarket,exact,t-t-supermarket.svg,,6,
-Target,no,,,180,yes
+Target,exact,,target.png,180,yes
 Taste,no,,,1,
 TEDi,exact,tedi.svg,,2,
 tegut,exact,tegut.svg,,51,
 Tesco,exact,,tesco.png,20,
-Tesco Express,no,,,282,yes
+Tesco Express,exact,,tesco-express.png,282,yes
 Tesco Extra,no,,,80,
 Tesco Mobile,no,,,1,
 Thalia,no,,,1,
@@ -518,18 +518,18 @@ Tops,exact,tops.svg,,9,
 Total,no,,,25,
 Trader Joe's,exact,trader-joes.svg,,599,yes
 Truffaut,no,,,1,
-U Express,no,,,1413,yes
+U Express,exact,u-express.svg,,1413,yes
 UGC,no,,,4,
 Unimarkt,no,,,1,
 Univerexport,exact,univerexport.svg,,3,
-Utile,no,,,576,yes
+Utile,exact,,utile.png,576,yes
 V'Lille,no,,,1,
 V-MARKT,no,,,35,
 Valcarce,no,,,2,
 Vishal Mega Mart,no,,,1,
 Vita,no,,,1,
 Vitusapotek,no,,,2,
-Vival,no,,,277,yes
+Vival,exact,,vival.png,277,yes
 VOI,no,,,2,
 Vons,exact,vons.svg,,7,
 Votre Marché,no,,,7,
@@ -555,7 +555,7 @@ XXL,no,,,1,
 Yorma’s,no,,,19,
 Zeeman,no,,,3,
 Zehrs,exact,,zehrs.png,2,
-Żabka,no,,,216,yes
+Żabka,exact,,zabka.png,216,yes
 ΑΒ Βασιλόπουλος,no,,,7,
 Σκλαβενίτης,no,,,1,
 Аврора,no,,,4,
