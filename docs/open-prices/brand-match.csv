@@ -47,7 +47,7 @@ avec,no,,,1,
 Aveve,no,,,1,
 B&M,no,,,7,
 B&M Bargains,no,,,12,
-Bahadourian,no,,,240,yes
+Bahadourian,exact,bahadourian.svg,,240,yes
 Beets & Roots,no,,,5,
 Best-one,no,,,2,
 bi1,exact,,bi1.png,56,
@@ -244,7 +244,7 @@ Holland & Barrett,no,,,3,
 Home Bargains,no,,,3,
 Homeplus,no,,,3,
 Hudson's Bay,no,,,1,
-Hyper U,no,,,218,yes
+Hyper U,exact,hyper-u.svg,,218,yes
 ICA Kvantum,no,,,4,
 ICA Nära,no,,,1,
 ICA Supermarket,no,,,3,
@@ -355,8 +355,8 @@ Mix Markt,exact,mix-markt.svg,,9,
 Momie,no,,,2,
 Mondadori,no,,,2,
 Mondial Relay,no,,,1,
-Monop',exact,monop.svg,,285,yes
-monop',exact,monop.svg,,13,
+Monop',exact,monop.svg,monop.png,285,yes
+monop',exact,monop.svg,monop.png,13,
 Monoprix,exact,monoprix.svg,,4509,yes
 More,no,,,2,
 Morrisons,no,,,130,
@@ -450,7 +450,7 @@ Rimi,exact,,rimi.png,260,yes
 rmhildebrandt,no,,,46,
 Rossmann,exact,rossmann.svg,,267,yes
 Rusta,no,,,17,
-Safeway,exact,safeway.svg,,11067,yes
+Safeway,exact,safeway.svg,safeway.png,11067,yes
 Sainsbury's,no,,,144,
 Sainsbury's Local,no,,,51,
 Sale,exact,sale.svg,,862,yes
@@ -469,7 +469,7 @@ Shop&Go,no,,,1,
 Shoppers Drug Mart,no,,,3,
 ShopRite,exact,,shoprite.png,310,yes
 Shoprite,exact,,shoprite.png,2,
-Sitis,no,,,290,yes
+Sitis,exact,,sitis.png,290,yes
 Smart & Final,exact,smart-final.svg,,370,yes
 Sobeys,no,,,4,
 Sonnentor,no,,,2,
@@ -518,11 +518,11 @@ Tops,exact,tops.svg,,9,
 Total,no,,,25,
 Trader Joe's,exact,trader-joes.svg,,599,yes
 Truffaut,no,,,1,
-U Express,no,,,1413,yes
+U Express,exact,u-express.svg,,1413,yes
 UGC,no,,,4,
 Unimarkt,no,,,1,
 Univerexport,exact,univerexport.svg,,3,
-Utile,no,,,576,yes
+Utile,exact,,utile.png,576,yes
 V'Lille,no,,,1,
 V-MARKT,no,,,35,
 Valcarce,no,,,2,
