@@ -54,5 +54,6 @@ def compress_png_images(image_dir):
 
 
 if __name__ == '__main__':
+    print("Starting PNG compression...")
     image_dir = sys.argv[1] if len(sys.argv) > 1 else 'xx/stores'
     compress_png_images(image_dir)

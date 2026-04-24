@@ -124,6 +124,7 @@ def write_stats_md(input_count, image_count, ext_counts, exact_count, top100_exa
         f.write(intro + STATS_HEADER + ''.join(rows))
 
 if __name__ == '__main__':
+    print("Generating brand match CSV and updating stats...")
     # Count input brands
     with open(INPUT_CSV, newline='', encoding='utf-8') as f:
         reader = [row for row in csv.DictReader(f) if row['brand_name'] != 'None']
@@ -145,3 +146,4 @@ if __name__ == '__main__':
     top100_exact = sum(1 for r in top100 if r['match_status'] == 'exact')
     top100_exact_pct = (top100_exact / len(top100) * 100) if top100 else 0
     write_stats_md(input_count, image_count, ext_counts, exact_count, top100_exact_pct)
+    print("Done.")

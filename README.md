@@ -4,8 +4,18 @@ Logo assets, with tooling.
 
 ## Open Prices
 
+### Matching status
+
 - [Brand Match Viewer](open-prices/brand-match-viewer.md) — interactive table to explore the matched brands and logos
 - [Brand Match Stats](open-prices/brand-match-stats.md) — coverage stats updated every time the match script runs
+
+### Updating the matches
+
+```bash
+python3 scripts/convert_images_to_png.py
+python3 scripts/compress_png_images.py
+python3 scripts/generate_open_prices_brand_match_csv.py
+```
 
 ## Development
 
