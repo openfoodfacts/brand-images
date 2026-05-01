@@ -171,8 +171,8 @@ def write_stats_md(input_count, image_count, ext_counts, exact_count):
         'Every time we run the NSI brand match script, we update this file with the latest stats on how many NSI brands '
         'from supermarket and convenience source files have exact slug matches in `xx/stores`.\n\n'
         'Sources:\n'
-        '- https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/supermarket.json\n'
-        '- https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/convenience.json\n\n'
+        '* https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/supermarket.json\n'
+        '* https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/convenience.json\n\n'
     )
 
     if os.path.exists(STATS_MD):
