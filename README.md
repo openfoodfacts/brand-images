@@ -31,8 +31,9 @@ python3 scripts/generate_nsi_brand_match_csv.py
 
 ### Generated files
 
-- [NSI Brand Match CSV](nsi/nsi-brand-match.csv)
-- [NSI Brand Match Stats](nsi/nsi-brand-match-stats.md)
+- [NSI Brand Match Viewer](nsi/brand-match-viewer.md)
+- [NSI Brand Match CSV](nsi/brand-match.csv)
+- [NSI Brand Match Stats](nsi/brand-match-stats.md)
 
 ### NSI sources
 

@@ -26,6 +26,9 @@ nav:
   - Open Prices:
     - Brand Match Viewer: open-prices/brand-match-viewer.md
     - Brand Match Stats: open-prices/brand-match-stats.md
+  - NSI:
+    - Brand Match Viewer: nsi/brand-match-viewer.md
+    - Brand Match Stats: nsi/brand-match-stats.md
 
 extra:
   brand_match_logo_base: !ENV [BRAND_MATCH_LOGO_BASE, ../../xx/stores/]

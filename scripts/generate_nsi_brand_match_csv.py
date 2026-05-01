@@ -10,8 +10,8 @@ Matching rule:
 - Keep one output row per NSI item (no deduplication across entries).
 
 Outputs:
-- docs/nsi/nsi-brand-match.csv
-- docs/nsi/nsi-brand-match-stats.md
+- docs/nsi/brand-match.csv
+- docs/nsi/brand-match-stats.md
 
 Usage: python scripts/generate_nsi_brand_match_csv.py
 """
@@ -26,8 +26,8 @@ import urllib.error
 import urllib.request
 
 IMAGE_DIR = 'xx/stores'
-OUTPUT_CSV = 'docs/nsi/nsi-brand-match.csv'
-STATS_MD = 'docs/nsi/nsi-brand-match-stats.md'
+OUTPUT_CSV = 'docs/nsi/brand-match.csv'
+STATS_MD = 'docs/nsi/brand-match-stats.md'
 
 NSI_SOURCES = [
     {
