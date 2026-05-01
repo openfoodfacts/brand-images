@@ -21,6 +21,26 @@ python3 scripts/compress_png_images.py
 python3 scripts/generate_open_prices_brand_match_csv.py
 ```
 
+## Name Suggestion Index (NSI)
+
+### Generate NSI brand-image matches
+
+```bash
+python3 scripts/generate_nsi_brand_match_csv.py
+```
+
+### Generated files
+
+- [NSI Brand Match CSV](nsi/nsi-brand-match.csv)
+- [NSI Brand Match Stats](nsi/nsi-brand-match-stats.md)
+
+### NSI sources
+
+- https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/supermarket.json
+- https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/convenience.json
+
+The NSI dataset is provided by the name-suggestion-index project under the BSD-3-Clause license.
+
 ## Development
 
 ### Preview the docs locally
