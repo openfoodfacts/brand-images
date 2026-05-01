@@ -22,4 +22,6 @@ jobs:
         run: pip install mkdocs mkdocs-material
       - run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
       - name: Publish docs
-        run: mkdocs gh-deploy --force
+        env:
+          BRAND_MATCH_LOGO_BASE: https://raw.githubusercontent.com/openfoodfacts/brand-images/main/xx/stores/
+        run: mkdocs gh-deploy -f mkdocs.yml --force

@@ -8,6 +8,7 @@ site_dir: site
 
 theme:
   name: material
+  custom_dir: docs/overrides
   logo: https://static.openfoodfacts.org/images/logos/off-logo-horizontal-light.svg
   favicon: https://static.openfoodfacts.org/images/logos/off-logo-favicon-light.png
   palette:
@@ -25,3 +26,6 @@ nav:
   - Open Prices:
     - Brand Match Viewer: open-prices/brand-match-viewer.md
     - Brand Match Stats: open-prices/brand-match-stats.md
+
+extra:
+  brand_match_logo_base: !ENV [BRAND_MATCH_LOGO_BASE, ../../xx/stores/]

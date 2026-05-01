@@ -23,7 +23,7 @@ Interactive table of all brands from Open Prices, with matched logo images.
         <th style="text-align:center;padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)">Status</th>
         <th style="text-align:center;padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)">SVG</th>
         <th style="text-align:center;padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)">PNG</th>
-        <th style="text-align:right;padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)">Prices</th>
+        <th id="prices-sort" style="cursor:pointer;text-align:right;padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)" title="Sort by price_count (desc, asc, original)">Prices ↓</th>
         <th style="text-align:left;padding:.5rem .7rem;border-bottom:2px solid var(--md-default-fg-color--lightest)">Top 100</th>
       </tr>
     </thead>
@@ -35,20 +35,24 @@ Interactive table of all brands from Open Prices, with matched logo images.
 
 <script>
 (function () {
-  const BASE = 'https://raw.githubusercontent.com/openfoodfacts/brand-images/main/xx/stores/';
+  const configuredBase = (window.BRAND_MATCH_LOGO_BASE || '../../xx/stores/').trim();
+  const LOGO_BASE = new URL(configuredBase, window.location.href).toString();
   const CSV_URL = new URL('../brand-match.csv', window.location.href).toString();
   const STATUS_COLOR = { exact: '#2e7d32', no: '#b71c1c' };
   const STATUS_BG   = { exact: '#e8f5e9', no: '#ffebee' };
 
   let allRows = [];
+  let pricesSortMode = 'original';
 
   function parseCSV(text) {
     const lines = text.trim().split(/\r?\n/);
     const headers = lines[0].split(',').map(h => h.trim().replace(/^\uFEFF/, ''));
-    return lines.slice(1).map(line => {
+    return lines.slice(1).map((line, idx) => {
       // simple split (no quoted commas in this CSV)
       const vals = line.split(',').map(v => v.trim());
-      return Object.fromEntries(headers.map((h, i) => [h, vals[i] || '']));
+      const row = Object.fromEntries(headers.map((h, i) => [h, vals[i] || '']));
+      row._original_index = idx;
+      return row;
     });
   }
 
@@ -58,11 +62,12 @@ Interactive table of all brands from Open Prices, with matched logo images.
 
   function imgCell(filename) {
     if (!filename) return '<td style="text-align:center;padding:.3rem .7rem">—</td>';
-    const url = BASE + encodeURIComponent(filename);
+    const encoded = encodeURIComponent(filename);
+    const logoUrl = LOGO_BASE + encoded;
     return `<td style="text-align:center;padding:.3rem .7rem">
-      <a href="${url}" target="_blank" title="${filename}">
+      <a href="${logoUrl}" target="_blank" title="${filename}">
         <span style="width:50px;height:50px;display:inline-flex;align-items:center;justify-content:center;border:1px solid var(--md-default-fg-color--lightest);border-radius:4px;background:var(--md-default-bg-color)">
-          <img src="${url}" alt="${filename}" style="width:50px;height:50px;object-fit:contain" loading="lazy">
+          <img src="${logoUrl}" alt="${filename}" style="width:50px;height:50px;object-fit:contain" loading="lazy">
         </span>
       </a>
     </td>`;
@@ -94,15 +99,36 @@ Interactive table of all brands from Open Prices, with matched logo images.
     }).join('');
   }
 
+  function toNumber(value) {
+    const n = Number.parseInt(value, 10);
+    return Number.isNaN(n) ? 0 : n;
+  }
+
+  function updatePricesSortHeader() {
+    let label = 'Prices ↓';
+    if (pricesSortMode === 'asc') label = 'Prices ↑';
+    if (pricesSortMode === 'original') label = 'Prices';
+    document.getElementById('prices-sort').textContent = label;
+  }
+
   function applyFilters() {
     const q       = document.getElementById('search').value.toLowerCase();
     const status  = document.getElementById('status-filter').value;
     const top100  = document.getElementById('top100-filter').checked;
-    render(allRows.filter(r =>
+    const filtered = allRows.filter(r =>
       (!q      || safe(r.brand_name).toLowerCase().includes(q)) &&
       (!status || safe(r.match_status) === status) &&
       (!top100 || safe(r.top_100_by_price) === 'yes')
-    ));
+    );
+    if (pricesSortMode === 'original') {
+      filtered.sort((a, b) => toNumber(a._original_index) - toNumber(b._original_index));
+    } else {
+      filtered.sort((a, b) => {
+        const diff = toNumber(a.price_count) - toNumber(b.price_count);
+        return pricesSortMode === 'asc' ? diff : -diff;
+      });
+    }
+    render(filtered);
   }
 
   fetch(CSV_URL)
@@ -112,10 +138,22 @@ Interactive table of all brands from Open Prices, with matched logo images.
     })
     .then(text => {
       allRows = parseCSV(text);
-      render(allRows);
+      updatePricesSortHeader();
+      applyFilters();
       document.getElementById('search').addEventListener('input', applyFilters);
       document.getElementById('status-filter').addEventListener('change', applyFilters);
       document.getElementById('top100-filter').addEventListener('change', applyFilters);
+      document.getElementById('prices-sort').addEventListener('click', () => {
+        if (pricesSortMode === 'desc') {
+          pricesSortMode = 'asc';
+        } else if (pricesSortMode === 'asc') {
+          pricesSortMode = 'original';
+        } else {
+          pricesSortMode = 'desc';
+        }
+        updatePricesSortHeader();
+        applyFilters();
+      });
     })
     .catch(() => {
       document.getElementById('table-body').innerHTML =
