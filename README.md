@@ -26,12 +26,6 @@ python3 scripts/generate_open_prices_brand_match_csv.py
 - [Brand Match Viewer](open-prices/brand-match-viewer.md) — interactive table to explore the matched brands and logos
 - [Brand Match Stats](open-prices/brand-match-stats.md) — coverage stats updated every time the match script runs
 
-### Updating the matches
-
-```bash
-python3 scripts/generate_open_prices_brand_match_csv.py
-```
-
 ## Name Suggestion Index (NSI)
 
 ### NSI sources
