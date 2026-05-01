@@ -4,6 +4,10 @@ Logo assets, with tooling.
 
 ## Open Prices
 
+### Get the shop brands
+
+see https://github.com/openfoodfacts/open-prices/wiki/Stats#top-location-brand-names
+
 ### Matching status
 
 - [Brand Match Viewer](open-prices/brand-match-viewer.md) — interactive table to explore the matched brands and logos
