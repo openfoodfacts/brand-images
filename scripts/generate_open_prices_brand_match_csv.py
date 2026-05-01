@@ -83,14 +83,15 @@ def main():
             row['top_100_by_price'] = 'yes' if row.get('price_count', '').isdigit() and int(row['price_count']) >= top_100_cutoff else ''
             writer.writerow(row)
 
-STATS_HEADER = '| Date | Input brands | Images (svg/png) | Exact matches | % Top 100 exact |\n|------|-------------|-----------------|---------------|----------------|\n'
+STATS_HEADER = '| Date | Input brands | Images (svg/png) | Exact matches | Match % | Match (top 100) % |\n|------|-------------|-----------------|---------------|---------|------------------|\n'
 
 def write_stats_md(input_count, image_count, ext_counts, exact_count, top100_exact_pct):
     stats_path = 'docs/open-prices/brand-match-stats.md'
     today = datetime.date.today().strftime('%Y-%m-%d')
     svg_count = ext_counts.get('svg', 0)
     png_count = ext_counts.get('png', 0)
-    new_row = f'| {today} | {input_count} | {image_count} ({svg_count} svg / {png_count} png) | {exact_count} | {top100_exact_pct:.1f}% |\n'
+    match_pct = (exact_count / input_count * 100) if input_count else 0
+    new_row = f'| {today} | {input_count} | {image_count} ({svg_count} svg / {png_count} png) | {exact_count} | {match_pct:.1f}% | {top100_exact_pct:.1f}% |\n'
 
     intro = (
         '# Open Prices Brand Match Stats\n\n'
@@ -101,17 +102,31 @@ def write_stats_md(input_count, image_count, ext_counts, exact_count, top100_exa
     if os.path.exists(stats_path):
         with open(stats_path, 'r', encoding='utf-8') as f:
             content = f.read()
-        # Extract existing table rows (skip header and separator lines), and normalize old 6-column rows.
+        # Extract existing table rows (skip header and separator lines), normalize legacy shapes.
         rows = []
         for line in content.splitlines():
             if not line.startswith('|') or line.startswith('| Date') or line.startswith('|---'):
                 continue
             cells = [c.strip() for c in line.strip().split('|')[1:-1]]
-            # Legacy shape: Date, Input, Images, Exact, Approx, Top100%
+            # Current shape: Date, Input, Images, Exact, Match%, Top100%
             if len(cells) == 6:
-                cells = [cells[0], cells[1], cells[2], cells[3], cells[5]]
-            if len(cells) == 5:
                 rows.append('| ' + ' | '.join(cells) + ' |\n')
+                continue
+            # Older shape: Date, Input, Images, Exact, Top100%
+            if len(cells) == 5:
+                input_val = cells[1]
+                exact_val = cells[3]
+                if input_val.isdigit() and exact_val.isdigit() and int(input_val) > 0:
+                    legacy_match_pct = f"{(int(exact_val) / int(input_val) * 100):.1f}%"
+                else:
+                    legacy_match_pct = ''
+                upgraded = [cells[0], cells[1], cells[2], cells[3], legacy_match_pct, cells[4]]
+                rows.append('| ' + ' | '.join(upgraded) + ' |\n')
+                continue
+            # Legacy shape: Date, Input, Images, Exact, Approx, Top100%
+            if len(cells) == 7:
+                upgraded = [cells[0], cells[1], cells[2], cells[3], cells[5], cells[6]]
+                rows.append('| ' + ' | '.join(upgraded) + ' |\n')
         # Remove today's row if it already exists (re-run same day)
         rows = [r for r in rows if not r.startswith(f'| {today} ')]
     else:
