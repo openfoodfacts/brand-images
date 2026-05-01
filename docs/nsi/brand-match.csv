@@ -16,19 +16,19 @@ supermarket,8ahuit-c16b1c,8 à Huit,8 à Huit,Q2818601,fr,,0,8 à Huit,8-a-huit,
 supermarket,99ranchmarket-dde59d,99 Ranch Market,99 Ranch Market,Q4646307,us,,2,99 Ranch Market,99-ranch-market,exact,,99-ranch-market.png
 supermarket,99speedmart-bfc07b,99 Speedmart,99 Speedmart,Q62075061,my|sg,,0,99 Speedmart,99-speedmart,no,,
 supermarket,aando-0cb133,A&O,A&O,Q3600279,it,,0,A&O,a-o,no,,
-supermarket,a101-5b5772,A101,A101,Q6034496,tr,,0,A101,a101,no,,
-convenience,a101-62eaab,A101,A101,,tr,,0,A101,a101,no,,
+supermarket,a101-5b5772,A101,A101,Q6034496,tr,,0,A101,a101,exact,a101.svg,a101.png
+convenience,a101-62eaab,A101,A101,,tr,,0,A101,a101,exact,a101.svg,a101.png
 convenience,abarroteslupita-9d5235,Abarrotes Lupita,Abarrotes Lupita,,mx,,0,Abarrotes Lupita,abarrotes-lupita,no,,
 convenience,abarrotesmonterrey-9d5235,Abarrotes Monterrey,Abarrotes Monterrey,Q113182569,mx,,0,Abarrotes Monterrey,abarrotes-monterrey,no,,
 convenience,abc-540f13,ABC (Hawaii),ABC,Q4650251,us-hi,,1,ABC,abc,no,,
 convenience,abc-95f41b,abc (Polska),abc,Q11683985,pl,,0,abc,abc,no,,
 supermarket,abclavpris-072052,ABC Lavpris,ABC Lavpris,Q12300077,dk,,0,ABC Lavpris,abc-lavpris,no,,
 supermarket,acme-dde59d,Acme,Acme,Q341975,us,,0,Acme,acme,no,,
-supermarket,addelhaize-f276cb,AD Delhaize,AD Delhaize,Q1184173,be|lu,,0,AD Delhaize,ad-delhaize,no,,
+supermarket,addelhaize-f276cb,AD Delhaize,AD Delhaize,Q1184173,be|lu,,0,AD Delhaize,ad-delhaize,exact,ad-delhaize.svg,ad-delhaize.png
 supermarket,adeg-1eef1d,ADEG,ADEG,Q290211,at,,0,ADEG,adeg,no,,
 convenience,admiral-d554ea,Admiral,Admiral,,us-mi.geojson,,0,Admiral,admiral,no,,
 supermarket,aeon-745f9c,永旺 AEON,AEON,Q271413,hk,,1,AEON,aeon,exact,aeon.svg,
-supermarket,aeonbig-80e9ee,AEON BiG,AEON BiG,Q8077280,my,,0,AEON BiG,aeon-big,no,,
+supermarket,aeonbig-80e9ee,AEON BiG,AEON BiG,Q8077280,my,,0,AEON BiG,aeon-big,exact,,aeon-big.png
 supermarket,aeonsupercenter-fe0970,イオンスーパーセンター,AEON SUPERCENTER,Q11285970,jp,,0,AEON SUPERCENTER,aeon-supercenter,exact,aeon-supercenter.svg,
 supermarket,ahorramas-0513f1,Ahorramás,Ahorramás,Q58221883,es,,0,Ahorramás,ahorramas,exact,,ahorramas.png
 convenience,aibe-401681,Aibe,Aibe,Q126120243,lv,,0,Aibe,aibe,exact,,aibe.png
@@ -37,17 +37,17 @@ convenience,alprimeenergy-e1865d,AL Prime Energy,AL Prime Energy,Q135268157,us-f
 supermarket,albert-8e6809,Albert,Albert,Q9144241,cz,,0,Albert,albert,exact,,albert.png
 supermarket,albertheijn-1cf55d,Albert Heijn,Albert Heijn,Q1653985,be|nl,,0,Albert Heijn,albert-heijn,exact,albert-heijn.svg,
 convenience,albertheijntogo-f85122,Albert Heijn to go,Albert Heijn to go,Q77971185,nl,,0,Albert Heijn to go,albert-heijn-to-go,exact,,albert-heijn-to-go.png
-supermarket,albertheijnxl-1cf55d,Albert Heijn XL,Albert Heijn XL,Q78163765,be|nl,,0,Albert Heijn XL,albert-heijn-xl,no,,
+supermarket,albertheijnxl-1cf55d,Albert Heijn XL,Albert Heijn XL,Q78163765,be|nl,,0,Albert Heijn XL,albert-heijn-xl,exact,,albert-heijn-xl.png
 supermarket,albertsons-dde59d,Albertsons,Albertsons,Q2831861,us,,1,Albertsons,albertsons,no,,
 supermarket,albertsonsmarket-ba1fb8,Albertsons Market,Albertsons Market,Q115350320,us-nm.geojson,,0,Albertsons Market,albertsons-market,no,,
-supermarket,alcampo-0513f1,Alcampo,Alcampo,Q2832081,es,,0,Alcampo,alcampo,no,,
+supermarket,alcampo-0513f1,Alcampo,Alcampo,Q2832081,es,,0,Alcampo,alcampo,exact,,alcampo.png
 supermarket,aldi-3a2eb7,Aldi (Aldi Nord group),Aldi,Q41171373,be|dk|es|fx|lu|nl|pl|pt,,2,Aldi,aldi,exact,aldi.svg,
 supermarket,aldi-68f0e3,Aldi (Aldi Süd group),Aldi,Q41171672,au|ch|cn|gb|hu|ie|it|us,,5,Aldi,aldi,exact,aldi.svg,
 supermarket,aldi-813759,Aldi Nord (Deutschland),Aldi Nord,Q41171373,de,aldi-sued.geojson,0,Aldi Nord,aldi-nord,exact,aldi-nord.svg,
 supermarket,aldisud-e4a24f,Aldi Süd (Deutschland),Aldi Süd,Q41171672,aldi-sued.geojson,,1,Aldi Süd,aldi-sud,exact,aldi-sud.svg,aldi-sud.png
-convenience,alepa-5dea79,Alepa,Alepa,Q4716167,fi,,0,Alepa,alepa,no,,
+convenience,alepa-5dea79,Alepa,Alepa,Q4716167,fi,,0,Alepa,alepa,exact,,alepa.png
 convenience,alfaexpress-bb8a09,Alfa Express,Alfa Express,Q12471463,id,,0,Alfa Express,alfa-express,no,,
-convenience,alfamart-28d321,Alfamart,Alfamart,Q23745600,id|ph,,0,Alfamart,alfamart,no,,
+convenience,alfamart-28d321,Alfamart,Alfamart,Q23745600,id|ph,,0,Alfamart,alfamart,exact,alfamart.svg,alfamart.png
 convenience,alfamidi-bb8a09,Alfamidi,Alfamidi,Q12471462,id,,0,Alfamidi,alfamidi,no,,
 supermarket,alimerka-0513f1,Alimerka,Alimerka,Q16482738,es,,0,Alimerka,alimerka,exact,alimerka.svg,
 convenience,alldayconveniencestore-fb2210,All Day Convenience Store,All Day,Q120142311,ph,,0,All Day,all-day,no,,
@@ -60,8 +60,8 @@ convenience,alohaislandmart-f1e40b,Aloha Island Mart,Aloha Petroleum,Q4734197,us
 convenience,altaconvenience-f1e40b,Alta Convenience,Alta Convenience,Q110311797,us,,0,Alta Convenience,alta-convenience,no,,
 supermarket,alvo-f276cb,Alvo,Alvo,Q16068936,be|lu,,0,Alvo,alvo,exact,,alvo.png
 supermarket,ampm-6b65f1,AM:PM,AM:PM,Q6891113,il,,0,AM:PM,am-pm,no,,
-supermarket,amazonfresh-21d28e,Amazon Fresh,Amazon Fresh,Q4740834,001,cn,0,Amazon Fresh,amazon-fresh,no,,
-convenience,amazongo-f1e40b,Amazon Go,Amazon Fresh,Q27676067,us,,0,Amazon Fresh,amazon-fresh,no,,
+supermarket,amazonfresh-21d28e,Amazon Fresh,Amazon Fresh,Q4740834,001,cn,0,Amazon Fresh,amazon-fresh,exact,amazon-fresh.svg,amazon-fresh.png
+convenience,amazongo-f1e40b,Amazon Go,Amazon Fresh,Q27676067,us,,0,Amazon Fresh,amazon-fresh,exact,amazon-fresh.svg,amazon-fresh.png
 convenience,ameristop-f1e40b,AmeriStop,AmeriStop,Q66048258,us,,0,AmeriStop,ameristop,no,,
 supermarket,ametllerorigen-774072,Ametller Origen,Ametller Origen,Q20106290,ad|es,,0,Ametller Origen,ametller-origen,no,,
 supermarket,amigo-dde59d,Amigo,Amigo,Q4746234,us,,3,Amigo,amigo,no,,
@@ -82,16 +82,16 @@ supermarket,arddiscount-0cb133,Ard Discount,Ard Discount,Q105102666,it,,0,Ard Di
 supermarket,arhelan-9e6a6c,Arhelan,Arhelan,Q121945016,pl,,0,Arhelan,arhelan,no,,
 convenience,asda-232829,Asda,Asda,Q297410,gb,,0,Asda,asda,exact,asda.svg,
 supermarket,asda-a8278b,Asda,Asda,Q297410,gb,,2,Asda,asda,exact,asda.svg,
-convenience,asdaexpress-232829,Asda Express,Asda Express,Q114826023,gb,,0,Asda Express,asda-express,no,,
+convenience,asdaexpress-232829,Asda Express,Asda Express,Q114826023,gb,,0,Asda Express,asda-express,exact,,asda-express.png
 convenience,asdaonthemove-232829,Asda On The Move,Asda On The Move,Q105221621,gb,,1,Asda On The Move,asda-on-the-move,no,,
-supermarket,assaiatacadista-20f2a8,Assaí Atacadista,Assaí Atacadista,Q28679415,br,,0,Assaí Atacadista,assai-atacadista,no,,
+supermarket,assaiatacadista-20f2a8,Assaí Atacadista,Assaí Atacadista,Q28679415,br,,0,Assaí Atacadista,assai-atacadista,exact,,assai-atacadista.png
 supermarket,aswakassalam-dc016e,Aswak Assalam أسواق السلام,Aswak Assalam أسواق السلام,Q2868678,ma,,0,Aswak Assalam أسواق السلام,aswak-assalam,no,,
 supermarket,atacadao-0e6c71,Atacadão,Atacadão,Q2868739,br|ma,,0,Atacadão,atacadao,no,,
 supermarket,auchan-05ddc8,Auchan,Auchan,Q758603,ci|cn|fr|hu|lu|mr|pl|pt|ro|sn,,0,Auchan,auchan,exact,auchan.svg,
 supermarket,auchandrive-715442,Auchan Drive,Auchan Drive,Q2870659,fr|lu,,0,Auchan Drive,auchan-drive,no,,
 supermarket,auchansupermarche-c16b1c,Auchan Supermarché,Auchan Supermarché,Q105857776,fr,,2,Auchan Supermarché,auchan-supermarche,exact,,auchan-supermarche.png
 supermarket,auchansupermercado-a14fce,Auchan Supermercado,Auchan Supermercado,Q105857776,pt,,0,Auchan Supermercado,auchan-supermercado,no,,
-convenience,avec-c71a8a,avec,avec,Q103863974,ch|de,,0,avec,avec,no,,
+convenience,avec-c71a8a,avec,avec,Q103863974,ch|de,,0,avec,avec,exact,,avec.png
 convenience,avia-da37e8,Avia,Avia,Q300147,at|be|bg|ch|cz|de|es|fx|hu|it|nl|pl|pt|rs|ua,,0,Avia,avia,no,,
 convenience,avondalefoodstores-e144dd,Avondale Food Stores,Avondale Food Stores,Q129409858,ca-on.geojson,,0,Avondale Food Stores,avondale-food-stores,no,,
 convenience,bandmexpress-232829,B&M Express,B&M Express,Q99640578,gb,,1,B&M Express,b-m-express,no,,
@@ -105,7 +105,7 @@ convenience,beckers-e144dd,Becker's,Becker's,Q2893476,ca-on.geojson,,0,Becker's,
 supermarket,belair-097dbf,Bel Air,Bel Air,Q112922067,us-ca.geojson,,0,Bel Air,bel-air,no,,
 convenience,bellstores-147d98,BellStores,BellStores,Q111698204,us-oh.geojson,,0,BellStores,bellstores,no,,
 supermarket,berkotssuperfoods-5dc7ba,Berkot's Super Foods,Berkot's Super Foods,Q118594324,us-il.geojson|us-wi.geojson,,0,Berkot's Super Foods,berkots-super-foods,no,,
-convenience,bestone-232829,Best-one,Best-one,Q4896532,gb,,0,Best-one,best-one,no,,
+convenience,bestone-232829,Best-one,Best-one,Q4896532,gb,,0,Best-one,best-one,exact,,best-one.png
 supermarket,beta-858077,Beta,Beta,,lv,,0,Beta,beta,no,,
 supermarket,bhatbhatenisupermarket-e40c68,Bhat-Bhateni Super Market,Bhat-Bhateni Super Market,Q104847792,np,,0,Bhat-Bhateni Super Market,bhat-bhateni-super-market,no,,
 supermarket,bilo-dde59d,BI-LO,BI-LO,Q4835620,us,,0,BI-LO,bi-lo,no,,
@@ -115,12 +115,12 @@ convenience,bigapple-bdefe5,Big Apple,Big Apple,Q123617635,us-me.geojson|us-nh.g
 supermarket,bigbazaar-9ef8f9,Big Bazaar,Big Bazaar,Q3631008,in,,0,Big Bazaar,big-bazaar,no,,
 convenience,bigbee-eea72f,Big Bee,Big Bee,Q123409887,ca,,0,Big Bee,big-bee,no,,
 supermarket,bigbompreco-20f2a8,BIG Bompreço,BIG Bompreço,Q4940907,br,,0,BIG Bompreço,big-bompreco,no,,
-convenience,bigc-298a73,Big C,Big C,Q858665,hk,,2,Big C,big-c,no,,
-supermarket,bigc-a1bbd8,Big C,Big C,Q858665,th|vn,,0,Big C,big-c,no,,
+convenience,bigc-298a73,Big C,Big C,Q858665,hk,,2,Big C,big-c,exact,,big-c.png
+supermarket,bigc-a1bbd8,Big C,Big C,Q858665,th|vn,,0,Big C,big-c,exact,,big-c.png
 convenience,bigcmini-f572b3,Big C Mini,Big C Mini,Q858665,th,,2,Big C Mini,big-c-mini,no,,
-supermarket,bigmarket-e8341b,Big Market,Big Market,Q28135235,al,,0,Big Market,big-market,no,,
+supermarket,bigmarket-e8341b,Big Market,Big Market,Q28135235,al,,0,Big Market,big-market,exact,,big-market.png
 convenience,bigred-087ec0,Big Red Stores,Big Red Stores,Q3268010,us-ar.geojson,,0,Big Red Stores,big-red-stores,no,,
-supermarket,bigy-14be05,Big Y,Big Y,Q4906701,us-ct.geojson|us-ma.geojson,,0,Big Y,big-y,no,,
+supermarket,bigy-14be05,Big Y,Big Y,Q4906701,us-ct.geojson|us-ma.geojson,,0,Big Y,big-y,exact,,big-y.png
 supermarket,biga-3bcdfb,Big-A,Big-A,Q11330804,jp-kanto.geojson,,0,Big-A,big-a,exact,,big-a.png
 supermarket,bilka-072052,Bilka,Bilka,Q861880,dk,,0,Bilka,bilka,exact,bilka.svg,
 supermarket,billa-3380c4,Billa,Billa,Q537781,at|bg|sk,,0,Billa,billa,exact,billa.svg,
@@ -134,21 +134,21 @@ supermarket,bininn-5dc426,Bin Inn,Bin Inn,Q110524077,nz,,0,Bin Inn,bin-inn,no,,
 supermarket,bingo-f320a3,Bingo,Bingo,Q16842066,ba,,0,Bingo,bingo,no,,
 supermarket,biocbon-c08337,Bio C' Bon,Bio C' Bon,Q54312551,es|fr|jp,,0,Bio C' Bon,bio-c-bon,exact,bio-c-bon.svg,
 supermarket,biocompany-0a839e,Bio Company,Bio Company,Q864179,de,,0,Bio Company,bio-company,exact,bio-company.svg,
-supermarket,bioplanet-f276cb,Bio-Planet,Bio-Planet,Q122415968,be|lu,,0,Bio-Planet,bio-planet,no,,
+supermarket,bioplanet-f276cb,Bio-Planet,Bio-Planet,Q122415968,be|lu,,0,Bio-Planet,bio-planet,exact,,bio-planet.png
 supermarket,biocoop-c16b1c,Biocoop,Biocoop,Q2904039,fr,,0,Biocoop,biocoop,exact,biocoop.svg,
 convenience,biocoop-f6dc0a,Biocoop,Biocoop,Q2904039,fx,,0,Biocoop,biocoop,exact,biocoop.svg,
 supermarket,biomonde-c16b1c,Biomonde,Biomonde,Q120801927,fr,,0,Biomonde,biomonde,exact,,biomonde.png
 convenience,bim-6cb8de,BİM,BİM,Q1022075,eg|ma|tr,,0,BİM,bim,exact,bim.svg,
 supermarket,bim-8af1d3,BİM,BİM,Q1022075,ma|tr,,0,BİM,bim,exact,bim.svg,
-supermarket,bm-0513f1,BM,BM,Q62073462,es,,0,BM,bm,no,,
-supermarket,bodegaaurrera-9b2dfb,Bodega Aurrera,Bodega Aurrera,Q3365858,mx,,0,Bodega Aurrera,bodega-aurrera,no,,
-convenience,bodegaaurreraexpress-9d5235,Bodega Aurrera Express,Bodega Aurrera,Q3365858,mx,,0,Bodega Aurrera,bodega-aurrera,no,,
+supermarket,bm-0513f1,BM,BM,Q62073462,es,,0,BM,bm,exact,,bm.png
+supermarket,bodegaaurrera-9b2dfb,Bodega Aurrera,Bodega Aurrera,Q3365858,mx,,0,Bodega Aurrera,bodega-aurrera,exact,,bodega-aurrera.png
+convenience,bodegaaurreraexpress-9d5235,Bodega Aurrera Express,Bodega Aurrera,Q3365858,mx,,0,Bodega Aurrera,bodega-aurrera,exact,,bodega-aurrera.png
 convenience,bonapp-f6dc0a,Bon App!,Bon App!,Q90153100,fx,,0,Bon App!,bon-app,no,,
 supermarket,boni-5811b5,Boni,Boni,Q4380634,nl,,0,Boni,boni,exact,boni.svg,
 convenience,bonisoir-eea72f,Boni-Soir,Boni-Soir,Q126371804,ca,,0,Boni-Soir,boni-soir,no,,
 convenience,bonjour-bd0db4,Bonjour,Bonjour,Q110278299,001,us,0,Bonjour,bonjour,no,,
 supermarket,bonpreu-0513f1,Bonpreu,Bonpreu,Q11924747,es,,0,Bonpreu,bonpreu,exact,bonpreu.svg,
-supermarket,bonarea-774072,BonÀrea,BonÀrea,Q11924743,ad|es,,0,BonÀrea,bonarea,no,,
+supermarket,bonarea-774072,BonÀrea,BonÀrea,Q11924743,ad|es,,0,BonÀrea,bonarea,exact,,bonarea.png
 supermarket,boonsmarkt-5811b5,Boon's Markt,Boon's Markt,Q97704873,nl,,0,Boon's Markt,boons-markt,no,,
 supermarket,booths-a8278b,Booths,Booths,Q4943949,gb,,0,Booths,booths,no,,
 convenience,box-023e9c,Box,Box,Q122467049,ua,,2,Box,box,no,,
@@ -226,8 +226,8 @@ convenience,chorten-95f41b,Chorten,Chorten,Q48843988,pl,,0,Chorten,chorten,no,,
 convenience,circlek-04f01c,Circle K,Circle K,Q3268010,001,cn,3,Circle K,circle-k,exact,,circle-k.png
 convenience,citgo-f1e40b,Citgo,Citgo,Q2974437,us,,0,Citgo,citgo,no,,
 supermarket,citygross-c57afb,City Gross,City Gross,Q10453555,se,,0,City Gross,city-gross,exact,,city-gross.png
-supermarket,citymarket-9b2dfb,City Market (México),City Market,Q65090778,mx,,0,City Market,city-market,no,,
-supermarket,citymarket-dde59d,City Market (USA),City Market,Q5123299,us,,0,City Market,city-market,no,,
+supermarket,citymarket-9b2dfb,City Market (México),City Market,Q65090778,mx,,0,City Market,city-market,exact,,city-market.png
+supermarket,citymarket-dde59d,City Market (USA),City Market,Q5123299,us,,0,City Market,city-market,exact,,city-market.png
 supermarket,cjsupermarket-fd4d8d,CJ Supermarket,CJ Express,Q125874457,th,,0,CJ Express,cj-express,no,,
 convenience,cjmore-f572b3,CJ More,CJ More,Q125874457,th,,0,CJ More,cj-more,no,,
 convenience,clarkspumpnshop-f1e40b,Clark's Pump-N-Shop,Clark's Pump-N-Shop,Q65118218,us,,0,Clark's Pump-N-Shop,clarks-pump-n-shop,no,,
@@ -235,7 +235,7 @@ convenience,claro-07a460,Claro,Claro,Q3679155,ch,,1,Claro,claro,no,,
 supermarket,claudio-0513f1,Claudio,Claudio,Q123369953,es,,0,Claudio,claudio,no,,
 convenience,clydebankcooperative-232829,Clydebank Co-operative Society,Clydebank Co-operative,Q5137069,gb,,0,Clydebank Co-operative,clydebank-co-operative,no,,
 convenience,coopdaily-232829,Co-op Daily,Co-op Daily,Q107589681,gb,,1,Co-op Daily,co-op-daily,no,,
-supermarket,coopfood-a8278b,Co-op Food,Co-op Food,Q3277439,gb,,1,Co-op Food,co-op-food,no,,
+supermarket,coopfood-a8278b,Co-op Food,Co-op Food,Q3277439,gb,,1,Co-op Food,co-op-food,exact,,co-op-food.png
 convenience,cooperativeenroute-d9d9cb,Co-operative En Route,Co-operative En Route,Q108129104,gg|je,,0,Co-operative En Route,co-operative-en-route,no,,
 supermarket,cooperativegrandmarche-a048a6,Co-operative Grand Marché,Co-operative Grand Marché,Q107594917,gg|je,,0,Co-operative Grand Marché,co-operative-grand-marche,no,,
 convenience,cooperativelocale-d9d9cb,Co-operative Locale,Co-operative Locale,Q107594899,gg|je,,0,Co-operative Locale,co-operative-locale,no,,
@@ -254,11 +254,11 @@ supermarket,comercialmexicana-9b2dfb,Comercial Mexicana,Comercial Mexicana,Q2676
 supermarket,conad-06d4eb,Conad,Conad,Q639075,al|it,,0,Conad,conad,exact,,conad.png
 supermarket,conadcity-0cb133,Conad City,Conad City,Q57543102,it,,0,Conad City,conad-city,no,,
 supermarket,conadsuperstore-0cb133,Conad Superstore,Conad Superstore,Q118129616,it,,0,Conad Superstore,conad-superstore,no,,
-supermarket,condis-0513f1,Condis,Condis,Q57417581,es,,0,Condis,condis,no,,
+supermarket,condis-0513f1,Condis,Condis,Q57417581,es,,0,Condis,condis,exact,,condis.png
 convenience,conoco-f1e40b,Conoco,Conoco,Q109341187,us,,0,Conoco,conoco,no,,
-supermarket,consum-0513f1,Consum,Consum,Q8350308,es,,0,Consum,consum,no,,
+supermarket,consum-0513f1,Consum,Consum,Q8350308,es,,0,Consum,consum,exact,,consum.png
 supermarket,continente-a14fce,Continente,Continente,Q2995683,pt,,0,Continente,continente,exact,continente.svg,
-supermarket,continentebomdia-a14fce,Continente Bom Dia,Continente Bom Dia,Q123570507,pt,,0,Continente Bom Dia,continente-bom-dia,no,,
+supermarket,continentebomdia-a14fce,Continente Bom Dia,Continente Bom Dia,Q123570507,pt,,0,Continente Bom Dia,continente-bom-dia,exact,,continente-bom-dia.png
 supermarket,continentemodelo-a14fce,Continente Modelo,Continente Modelo,Q1892188,pt,,0,Continente Modelo,continente-modelo,exact,,continente-modelo.png
 convenience,convenientfoodmart-f1e40b,Convenient Food Mart,Convenient Food Mart,Q5166143,us,,0,Convenient Food Mart,convenient-food-mart,no,,
 convenience,coop-07a460,Coop (Schweiz),Coop,Q432564,ch,,0,Coop,coop,exact,coop.svg,
@@ -271,8 +271,8 @@ supermarket,coop-c57afb,Coop (Sverige),Coop,Q106684510,se,,6,Coop,coop,exact,coo
 supermarket,coopshop-6b65f1,קואופ שופ,Coop,Q16132437,il,,0,Coop,coop,exact,coop.svg,
 convenience,coopabc-58d40d,Coop ABC,Coop ABC,Q868980,hu,,0,Coop ABC,coop-abc,no,,
 convenience,coopatlantique-c38318,Coop Atlantique,Coop Atlantique,Q2996560,fr-naq.geojson,,0,Coop Atlantique,coop-atlantique,no,,
-supermarket,coop-e21b3b,Coop Eesti,Coop Eesti,Q12361460,ee,,0,Coop Eesti,coop-eesti,no,,
-convenience,coopeesti-fb411b,Coop Eesti,Coop Eesti,Q12361460,ee,,0,Coop Eesti,coop-eesti,no,,
+supermarket,coop-e21b3b,Coop Eesti,Coop Eesti,Q12361460,ee,,0,Coop Eesti,coop-eesti,exact,,coop-eesti.png
+convenience,coopeesti-fb411b,Coop Eesti,Coop Eesti,Q12361460,ee,,0,Coop Eesti,coop-eesti,exact,,coop-eesti.png
 convenience,coopjednota-2496a5,COOP Jednota,COOP Jednota,Q41629254,sk,,2,COOP Jednota,coop-jednota,no,,
 supermarket,coopjednota-4ccde8,COOP Jednota,COOP Jednota,Q41629254,sk,,2,COOP Jednota,coop-jednota,no,,
 convenience,coopkonzum-a7773e,Coop Konzum,Coop Konzum,Q52851660,cz,,1,Coop Konzum,coop-konzum,no,,
@@ -280,7 +280,7 @@ supermarket,coopmarked-ed9dd5,Coop Marked,Coop Marked,Q5167703,no,,0,Coop Marked
 supermarket,coopmega-ed9dd5,Coop Mega,Coop Mega,Q4581010,no,,0,Coop Mega,coop-mega,exact,coop-mega.svg,coop-mega.png
 convenience,coopmini-58d40d,Coop Mini,Coop Mini,Q868980,hu,,0,Coop Mini,coop-mini,no,,
 supermarket,coopprix-ed9dd5,Coop Prix,Coop Prix,Q5167705,no,,0,Coop Prix,coop-prix,exact,,coop-prix.png
-convenience,cooppronto-0438d5,Coop Pronto,Coop Pronto,Q1129777,ch|li,,0,Coop Pronto,coop-pronto,no,,
+convenience,cooppronto-0438d5,Coop Pronto,Coop Pronto,Q1129777,ch|li,,0,Coop Pronto,coop-pronto,exact,,coop-pronto.png
 supermarket,coopsapporo-c0ae3d,コープさっぽろ,COOP SAPPORO,Q11574624,jp-01.geojson,,0,COOP SAPPORO,coop-sapporo,no,,
 supermarket,coopszuper-478515,Coop Szuper,Coop Szuper,Q868980,hu,,0,Coop Szuper,coop-szuper,no,,
 supermarket,coopterno-8e6809,Coop Terno,Coop Terno,Q52851660,cz,,1,Coop Terno,coop-terno,no,,
@@ -296,16 +296,16 @@ supermarket,cora-ea1ce5,Cora,Cora,Q1273376,be|fr|lu|ro,,0,Cora,cora,exact,cora.s
 convenience,costcutter-31620e,Costcutter,Costcutter,Q5175072,gb|ie,,1,Costcutter,costcutter,no,,
 supermarket,costcutter-986a24,Costcutter,Costcutter,Q5175072,001,,1,Costcutter,costcutter,no,,
 convenience,cosway-3e5671,Cosway,Cosway,Q15916839,my,,0,Cosway,cosway,no,,
-supermarket,coto-0d2b84,Coto,Coto,Q5175411,ar,,0,Coto,coto,no,,
+supermarket,coto-0d2b84,Coto,Coto,Q5175411,ar,,0,Coto,coto,exact,,coto.png
 convenience,couchetard-eea72f,Couche-Tard,Couche-Tard,Q2836957,ca,,0,Couche-Tard,couche-tard,no,,
 supermarket,countdown-5dc426,Countdown,Countdown,Q5176845,nz,,1,Countdown,countdown,no,,
-supermarket,coviran-d9bffc,Covirán,Covirán,Q61070539,es|pt,,0,Covirán,coviran,no,,
+supermarket,coviran-d9bffc,Covirán,Covirán,Q61070539,es|pt,,0,Covirán,coviran,exact,,coviran.png
 convenience,cpfreshmart-f572b3,CP Freshmart,CP Freshmart,Q125917787,th,,1,CP Freshmart,cp-freshmart,no,,
 supermarket,crai-d52198,Crai,Crai,Q3696429,ch|it,,0,Crai,crai,exact,crai.svg,
 convenience,cu-3b6392,CU,CU,Q12580836,kr|my,,1,CU,cu,no,,
 supermarket,cubfoods-dde59d,Cub Foods,Cub Foods,Q5191916,us,,0,Cub Foods,cub-foods,no,,
-convenience,cumberlandfarms-f1e40b,Cumberland Farms,Cumberland Farms,Q1143685,us,,0,Cumberland Farms,cumberland-farms,no,,
-supermarket,cotenature-94a8a9,Côté Nature,Côté Nature,Q90016283,fx,,0,Côté Nature,cote-nature,no,,
+convenience,cumberlandfarms-f1e40b,Cumberland Farms,Cumberland Farms,Q1143685,us,,0,Cumberland Farms,cumberland-farms,exact,,cumberland-farms.png
+supermarket,cotenature-94a8a9,Côté Nature,Côté Nature,Q90016283,fx,,0,Côté Nature,cote-nature,exact,,cote-nature.png
 supermarket,dandwfreshmarket-dde59d,D&W Fresh Market,D&W Fresh Market,Q5203035,us,,0,D&W Fresh Market,d-w-fresh-market,no,,
 supermarket,dagostino-dde59d,D'Agostino,D'Agostino,Q20656844,us,,0,D'Agostino,dagostino,no,,
 supermarket,d1-271a34,D1,D1,Q43403418,co,,0,D1,d1,no,,
@@ -331,32 +331,32 @@ supermarket,delikatesycentrum-9e6a6c,Delikatesy Centrum,Delikatesy Centrum,Q1169
 convenience,delikatesypremium-95f41b,Delikatesy Premium,Delikatesy Premium,Q120147483,pl,,0,Delikatesy Premium,delikatesy-premium,no,,
 convenience,delikatesysezam-95f41b,Delikatesy Sezam,Delikatesy Sezam,Q120173828,pl,,0,Delikatesy Sezam,delikatesy-sezam,no,,
 convenience,deltasonic-e0f572,Delta Sonic,Delta Sonic,Q126914775,us-il.geojson|us-ny.geojson|us-pa.geojson,,1,Delta Sonic,delta-sonic,no,,
-supermarket,denner-704edb,Denner,Denner,Q379911,ch|li,,0,Denner,denner,no,,
-convenience,dennerexpress-07a460,Denner Express,Denner,Q379911,ch,,0,Denner,denner,no,,
+supermarket,denner-704edb,Denner,Denner,Q379911,ch|li,,0,Denner,denner,exact,,denner.png
+convenience,dennerexpress-07a460,Denner Express,Denner,Q379911,ch,,0,Denner,denner,exact,,denner.png
 supermarket,dennsbiomarkt-6367d0,Denns BioMarkt,Denns BioMarkt,Q48883773,at|de,,0,Denns BioMarkt,denns-biomarkt,exact,denns-biomarkt.svg,
 supermarket,despar-0cb133,Despar,Despar,Q131344742,it,,0,Despar,despar,no,,
 convenience,despar-271792,Despar,Despar,Q131344742,hu|it,,0,Despar,despar,no,,
 supermarket,despensafamiliar-4ef027,Despensa Familiar,Despensa Familiar,Q61994849,gt|hn|sv,,0,Despensa Familiar,despensa-familiar,no,,
 supermarket,dia-675159,Dia,Dia,Q925132,ar|br|es,,3,Dia,dia,exact,dia.svg,
 convenience,diaandgo-dd9aae,Dia & Go,Dia & Go,Q925132,es,,0,Dia & Go,dia-go,no,,
-supermarket,diamarket-986a24,Dia Market,Dia Market,Q925132,001,,0,Dia Market,dia-market,no,,
+supermarket,diamarket-986a24,Dia Market,Dia Market,Q925132,001,,0,Dia Market,dia-market,exact,,dia-market.png
 supermarket,dialprix-0513f1,Dialprix,Dialprix,Q129985291,es,,0,Dialprix,dialprix,no,,
 supermarket,dierbergs-dde59d,Dierbergs,Dierbergs,Q5274978,us,,0,Dierbergs,dierbergs,no,,
-supermarket,dillons-dde59d,Dillons,Dillons,Q5276954,us,,0,Dillons,dillons,no,,
-supermarket,dino-9e6a6c,Dino,Dino,Q11694239,pl,,0,Dino,dino,no,,
+supermarket,dillons-dde59d,Dillons,Dillons,Q5276954,us,,0,Dillons,dillons,exact,,dillons.png
+supermarket,dino-9e6a6c,Dino,Dino,Q11694239,pl,,0,Dino,dino,exact,,dino.png
 convenience,diona-5b00ff,Diona,Diona,Q125761272,hr,,0,Diona,diona,exact,diona.svg,
 convenience,direkten-f5adeb,Direkten,Direkten,Q105693281,se,,0,Direkten,direkten,no,,
 supermarket,dirk-5811b5,Dirk,Dirk,Q17502722,nl,,0,Dirk,dirk,exact,dirk.svg,
-supermarket,disco-0d2b84,Disco (Argentina),Disco,Q6135978,ar,,0,Disco,disco,no,,
-supermarket,disco-f37fd6,Disco (Uruguay),Disco,Q16636819,uy,,0,Disco,disco,no,,
+supermarket,disco-0d2b84,Disco (Argentina),Disco,Q6135978,ar,,0,Disco,disco,exact,,disco.png
+supermarket,disco-f37fd6,Disco (Uruguay),Disco,Q16636819,uy,,0,Disco,disco,exact,,disco.png
 supermarket,diska-0a839e,diska,diska,Q62390177,de,,0,diska,diska,no,,
-supermarket,dmart-9ef8f9,DMart,DMart,Q5203271,in,,0,DMart,dmart,no,,
+supermarket,dmart-9ef8f9,DMart,DMart,Q5203271,in,,0,DMart,dmart,exact,,dmart.png
 supermarket,dollargeneralmarket-dde59d,Dollar General Market,Dollar General,Q145168,us,,1,Dollar General,dollar-general,exact,dollar-general.svg,
 supermarket,dornseifersfrischemarkt-0a839e,Dornseifers Frischemarkt,Dornseifer,Q112254717,de,,0,Dornseifer,dornseifer,no,,
 convenience,dorodaily-1aaf3e,Doro Daily,Doro Supermercati,Q137801479,it,,0,Doro Supermercati,doro-supermercati,no,,
 supermarket,dorosupermercati-0cb133,Doro Supermercati,Doro Supermercati,Q136464598,it,,0,Doro Supermercati,doro-supermercati,no,,
 convenience,douka-1c33c5,Douka,Douka,,yt,,0,Douka,douka,no,,
-supermarket,dpiu-0cb133,Dpiù,Dpiù,Q3709955,it,,0,Dpiù,dpiu,no,,
+supermarket,dpiu-0cb133,Dpiù,Dpiù,Q3709955,it,,0,Dpiù,dpiu,exact,,dpiu.png
 supermarket,drakes-c254c9,Drakes,Drakes,Q48988077,au,,0,Drakes,drakes,no,,
 convenience,drivecafe-3015fb,DriveCafe,DriveCafe,,rs,,0,DriveCafe,drivecafe,no,,
 convenience,duchess-439b0d,Duchess,Duchess,Q111698565,us-oh.geojson|us-wv.geojson,,0,Duchess,duchess,no,,
@@ -366,7 +366,7 @@ supermarket,emart-12b833,E-Mart,E-Mart,Q490371,kr,,0,E-Mart,e-mart,no,,
 supermarket,eleclerc-111b05,E.Leclerc,E.Leclerc,Q1273376,es|fr|pl|pt,,0,E.Leclerc,e-leclerc,exact,e-leclerc.svg,
 supermarket,eleclercexpress-c16b1c,E.Leclerc Express,E.Leclerc Express,Q1273376,fr,,0,E.Leclerc Express,e-leclerc-express,exact,e-leclerc-express.svg,
 supermarket,eastofenglandcoop-a8278b,East of England CO-OP,East of England CO-OP,Q5329759,gb,,0,East of England CO-OP,east-of-england-co-op,no,,
-supermarket,eataly-986a24,Eataly,Eataly,Q3046645,001,,0,Eataly,eataly,no,,
+supermarket,eataly-986a24,Eataly,Eataly,Q3046645,001,,0,Eataly,eataly,exact,,eataly.png
 supermarket,eblnaturkost-f97a5b,ebl-Naturkost,ebl-Naturkost,Q22691722,ch|de,,0,ebl-Naturkost,ebl-naturkost,no,,
 supermarket,econofoods-f9f648,Econo Foods,Econo Foods,Q130406968,za,,0,Econo Foods,econo-foods,no,,
 supermarket,economycash-0513f1,Economy Cash,Economy Cash,Q114915795,es,,0,Economy Cash,economy-cash,no,,
@@ -384,22 +384,22 @@ supermarket,ekoplaza-1cf55d,Ekoplaza,Ekoplaza,Q47017915,be|nl,,0,Ekoplaza,ekopla
 supermarket,eljamon-0513f1,El Jamón,El Jamón,Q6135982,es,,0,El Jamón,el-jamon,no,,
 supermarket,elsuper-b82f18,El Super,El Super,Q124810916,us-az.geojson|us-ca.geojson|us-nm.geojson|us-nv.geojson|us-tx.geojson,,0,El Super,el-super,no,,
 supermarket,elli-0a839e,Elli,Elli,Q701755,de,,1,Elli,elli,no,,
-convenience,elvi-401681,Elvi,Elvi,Q20560513,lv,,0,Elvi,elvi,no,,
-supermarket,elvi-858077,Elvi,Elvi,Q20560513,lv,,0,Elvi,elvi,no,,
+convenience,elvi-401681,Elvi,Elvi,Q20560513,lv,,0,Elvi,elvi,exact,,elvi.png
+supermarket,elvi-858077,Elvi,Elvi,Q20560513,lv,,0,Elvi,elvi,exact,,elvi.png
 supermarket,emisfero-0cb133,Emisfero,Emisfero,Q136461236,it,,0,Emisfero,emisfero,no,,
 convenience,enishop-a98884,Eni Shop,Eni Shop,Q565594,at|ch|cy|de|es|fx|it,,0,Eni Shop,eni-shop,no,,
 convenience,enmarket-f1e40b,Enmarket,Enmarket,Q113207779,us,,0,Enmarket,enmarket,no,,
 supermarket,erewhon-097dbf,Erewhon,Erewhon,Q105628552,us-ca.geojson,,0,Erewhon,erewhon,no,,
 supermarket,eroski-9c34f5,Eroski,Eroski,Q1361349,es|gi,,1,Eroski,eroski,exact,eroski.svg,
 supermarket,eroskicity-0513f1,Eroski City,Eroski,Q1361349,es,,0,Eroski,eroski,exact,eroski.svg,
-supermarket,esselunga-0cb133,Esselunga,Esselunga,Q1059636,it,,0,Esselunga,esselunga,no,,
+supermarket,esselunga-0cb133,Esselunga,Esselunga,Q1059636,it,,0,Esselunga,esselunga,exact,,esselunga.png
 convenience,esso-4d6b4b,Esso,Esso,Q867662,001,,0,Esso,esso,no,,
 convenience,essosnackandshop-60c7fe,Esso Snack & Shop,Esso,Q867662,de,,0,Esso,esso,no,,
 supermarket,etsan-1eef1d,ETSAN,ETSAN,Q25916921,at,,0,ETSAN,etsan,no,,
 convenience,eurosklep-95f41b,Euro Sklep,Euro Sklep,Q11702591,pl,,0,Euro Sklep,euro-sklep,no,,
 supermarket,eurosklep-9e6a6c,Euro Sklep,Euro Sklep,Q11702591,pl,,0,Euro Sklep,euro-sklep,no,,
 supermarket,eurospar-4b5e11,Eurospar,Eurospar,Q12309283,150,,0,Eurospar,eurospar,exact,eurospar.svg,
-supermarket,eurospin-8a5880,EuroSpin,EuroSpin,Q1374674,hr|it|mt|si|sr,,1,EuroSpin,eurospin,no,,
+supermarket,eurospin-8a5880,EuroSpin,EuroSpin,Q1374674,hr|it|mt|si|sr,,1,EuroSpin,eurospin,exact,,eurospin.png
 supermarket,ever-49e134,Ever,Ever,Q120684300,ph,,1,Ever,ever,no,,
 convenience,expressmarket-64a6c9,Express Market (Lietuva),Express Market,,lt,,0,Express Market,express-market,no,,
 convenience,expressmarket-edef5f,Express Market (Ελλάδα),Express Market,,gr,,0,Express Market,express-market,no,,
@@ -414,11 +414,11 @@ convenience,familyexpress-16b990,Family Express,Family Express,Q85760458,us-in.g
 supermarket,familyfare-dde59d,Family Fare,Family Fare,Q19868045,us,,0,Family Fare,family-fare,no,,
 supermarket,familymarket-cb8836,Family Market,Family Market,,md,,0,Family Market,family-market,no,,
 convenience,familyshopper-232829,Family Shopper,Family Shopper,Q122731426,gb,,1,Family Shopper,family-shopper,no,,
-convenience,familymart-095323,FamilyMart,FamilyMart,Q11247682,id|my|ph|th|vn,,0,FamilyMart,familymart,no,,
-convenience,familymart-652b3e,ファミリーマート,FamilyMart,Q11247682,jp,,6,FamilyMart,familymart,no,,
-convenience,tomony-652b3e,Tomony,FamilyMart,,jp,,0,FamilyMart,familymart,no,,
+convenience,familymart-095323,FamilyMart,FamilyMart,Q11247682,id|my|ph|th|vn,,0,FamilyMart,familymart,exact,,familymart.png
+convenience,familymart-652b3e,ファミリーマート,FamilyMart,Q11247682,jp,,6,FamilyMart,familymart,exact,,familymart.png
+convenience,tomony-652b3e,Tomony,FamilyMart,,jp,,0,FamilyMart,familymart,exact,,familymart.png
 supermarket,fareway-dde59d,Fareway,Fareway,Q5434998,us,,0,Fareway,fareway,exact,fareway.svg,
-supermarket,farmboy-76454b,Farm Boy,Farm Boy,Q5435469,ca,,0,Farm Boy,farm-boy,no,,
+supermarket,farmboy-76454b,Farm Boy,Farm Boy,Q5435469,ca,,0,Farm Boy,farm-boy,exact,,farm-boy.png
 convenience,farmstores-f1e40b,Farm Stores,Farm Stores,Q107124124,us,,0,Farm Stores,farm-stores,no,,
 convenience,farmfoods-2496a5,FARMFOODS,FARMFOODS,Q116867227,sk,,0,FARMFOODS,farmfoods,no,,
 convenience,fasmart-f1e40b,Fas Mart,Fas Mart,,us,,0,Fas Mart,fas-mart,no,,
@@ -426,46 +426,46 @@ convenience,fastbreak-fa1eb4,Fastbreak,Fastbreak,Q116731804,us-ca.geojson|us-or.
 convenience,fastraccafe-f1e40b,Fastrac Cafe,Fastrac Cafe,Q117324848,us,,1,Fastrac Cafe,fastrac-cafe,no,,
 supermarket,coop-76454b,Co-op (Canada),Federated Co-operatives,Q5440676,ca,,0,Federated Co-operatives,federated-co-operatives,no,,
 convenience,coop-eea72f,Co-op (Canada),Federated Co-operatives,Q5440676,ca,,0,Federated Co-operatives,federated-co-operatives,no,,
-supermarket,feneberg-6367d0,Feneberg,Feneberg,Q5345378,at|de,,0,Feneberg,feneberg,no,,
+supermarket,feneberg-6367d0,Feneberg,Feneberg,Q5345378,at|de,,0,Feneberg,feneberg,exact,,feneberg.png
 supermarket,fiestamart-dde59d,Fiesta Mart,Fiesta Mart,Q5447326,us,,0,Fiesta Mart,fiesta-mart,no,,
 supermarket,filemarket-5b5772,File Market,File Market,Q112228237,tr,,0,File Market,file-market,no,,
 convenience,flyingj-16ec4d,Flying J,Flying J,,ca|us,,0,Flying J,flying-j,no,,
 supermarket,food4less-f69edf,Food 4 Less,Food 4 Less,Q5465282,us-ca.geojson|us-il.geojson|us-in.geojson,,0,Food 4 Less,food-4-less,no,,
-supermarket,foodbasics-986a24,Food Basics,Food Basics,Q5465300,001,,0,Food Basics,food-basics,no,,
+supermarket,foodbasics-986a24,Food Basics,Food Basics,Q5465300,001,,0,Food Basics,food-basics,exact,,food-basics.png
 supermarket,foodcity-48e71b,Food City (Arizona),Food City,Q130253202,us-az.geojson,,0,Food City,food-city,no,,
 supermarket,foodcity-82ed7a,Food City (Southeast USA),Food City,Q16981107,us-al.geojson|us-ga.geojson|us-ky.geojson|us-tn.geojson|us-va.geojson,,0,Food City,food-city,no,,
-supermarket,foodlion-7818a5,Food Lion,Food Lion,Q1435950,es|us,,0,Food Lion,food-lion,no,,
+supermarket,foodlion-7818a5,Food Lion,Food Lion,Q1435950,es|us,,0,Food Lion,food-lion,exact,,food-lion.png
 supermarket,foodloversmarket-a0d53f,Food Lover's Market,Food Lover's Market,Q65071570,bw|na|za,,0,Food Lover's Market,food-lovers-market,no,,
 convenience,foodmarket-023e9c,Food Market,Food Market,Q132441274,ua,,1,Food Market,food-market,no,,
 convenience,foodplus-232829,Food Plus,Food Plus,Q122829106,gb,,0,Food Plus,food-plus,no,,
-supermarket,foodland-0c6d0a,FoodLand (Eastern USA),FoodLand,Q5465271,us-foodland_eastern.geojson,,0,FoodLand,foodland,no,,
-supermarket,foodland-34b4ac,Foodland (Hawaii),Foodland,Q5465560,us-hi,,0,Foodland,foodland,no,,
-supermarket,foodland-76454b,Foodland (Canada),Foodland,Q5465554,ca,,0,Foodland,foodland,no,,
-supermarket,foodland-c254c9,Foodland (Australia),Foodland,Q5465555,au,,0,Foodland,foodland,no,,
+supermarket,foodland-0c6d0a,FoodLand (Eastern USA),FoodLand,Q5465271,us-foodland_eastern.geojson,,0,FoodLand,foodland,exact,,foodland.png
+supermarket,foodland-34b4ac,Foodland (Hawaii),Foodland,Q5465560,us-hi,,0,Foodland,foodland,exact,,foodland.png
+supermarket,foodland-76454b,Foodland (Canada),Foodland,Q5465554,ca,,0,Foodland,foodland,exact,,foodland.png
+supermarket,foodland-c254c9,Foodland (Australia),Foodland,Q5465555,au,,0,Foodland,foodland,exact,,foodland.png
 supermarket,foodmaxx-dde59d,FoodMaxx,FoodMaxx,Q61894844,us,,0,FoodMaxx,foodmaxx,exact,foodmaxx.svg,
 supermarket,foodsco-097dbf,Foods Co,Foods Co,Q5465282,us-ca.geojson,,0,Foods Co,foods-co,no,,
 supermarket,foodtown-3ea0d2,Foodtown,Foodtown,Q5465575,us-ct.geojson|us-nj.geojson|us-ny.geojson|us-pa.geojson,,0,Foodtown,foodtown,no,,
 supermarket,foodworks-c254c9,Foodworks,Foodworks,Q5465579,au,,0,Foodworks,foodworks,exact,,foodworks.png
-supermarket,fortinos-76454b,Fortinos,Fortinos,Q5472662,ca,,0,Fortinos,fortinos,no,,
+supermarket,fortinos-76454b,Fortinos,Fortinos,Q5472662,ca,,0,Fortinos,fortinos,exact,,fortinos.png
 supermarket,foursquare-5dc426,Four Square,Four Square,Q5475558,nz,,1,Four Square,four-square,no,,
 convenience,foursquare-7a43a8,Four Square,Four Square,Q5475558,nz,,1,Four Square,four-square,no,,
 supermarket,frac-9e6a6c,FRAC,FRAC,Q18817260,pl,,0,FRAC,frac,exact,frac.svg,
 convenience,franprix-bf3eb4,Franprix,Franprix,Q2420096,fr,,0,Franprix,franprix,exact,franprix.svg,
 supermarket,fredmeyer-dde59d,Fred Meyer,Fred Meyer,Q5495932,us,,0,Fred Meyer,fred-meyer,exact,fred-meyer.svg,
-convenience,fresh-2496a5,Fresh,Fresh,Q50737403,sk,,0,Fresh,fresh,no,,
-supermarket,fresh-94a8a9,Fresh,Fresh,Q130214654,fx,,0,Fresh,fresh,no,,
+convenience,fresh-2496a5,Fresh,Fresh,Q50737403,sk,,0,Fresh,fresh,exact,,fresh.png
+supermarket,fresh-94a8a9,Fresh,Fresh,Q130214654,fx,,0,Fresh,fresh,exact,,fresh.png
 convenience,freshcorner-f9f0e2,Fresh Corner,Fresh Corner,Q129256375,ba|cz|hr|hu|me|pl|ro|rs|si|sk,,0,Fresh Corner,fresh-corner,no,,
 convenience,freshmart-f572b3,Fresh Mart,Fresh Mart,Q5502984,th,,0,Fresh Mart,fresh-mart,no,,
 convenience,freshmini-2496a5,Fresh mini,Fresh mini,Q135944870,sk,,0,Fresh mini,fresh-mini,no,,
 supermarket,freshplus-4ccde8,Fresh Plus,Fresh Plus,Q50737403,sk,,1,Fresh Plus,fresh-plus,no,,
-supermarket,freshthyme-dde59d,Fresh Thyme,Fresh Thyme,Q64132791,us,,1,Fresh Thyme,fresh-thyme,no,,
-supermarket,freshchoice-5dc426,FreshChoice,FreshChoice,Q22271877,nz,,0,FreshChoice,freshchoice,no,,
+supermarket,freshthyme-dde59d,Fresh Thyme,Fresh Thyme,Q64132791,us,,1,Fresh Thyme,fresh-thyme,exact,,fresh-thyme.png
+supermarket,freshchoice-5dc426,FreshChoice,FreshChoice,Q22271877,nz,,0,FreshChoice,freshchoice,exact,,freshchoice.png
 supermarket,freshco-76454b,FreshCo,FreshCo,Q5502915,ca,,0,FreshCo,freshco,exact,freshco.svg,freshco.png
 convenience,freshmart-bb8a09,Freshmart,Freshmart,,id,,0,Freshmart,freshmart,exact,,freshmart.png
 convenience,freshstop-75f4be,FreshStop,FreshStop,Q116620734,na|za,,0,FreshStop,freshstop,no,,
 supermarket,fresko-9b2dfb,Fresko,Fresko,Q123943865,mx,,0,Fresko,fresko,no,,
 convenience,friendlygrocer-0b0ae9,Friendly Grocer,Friendly Grocer,Q24190419,au,,0,Friendly Grocer,friendly-grocer,no,,
-supermarket,froiz-d9bffc,Froiz,Froiz,Q17070775,es|pt,,0,Froiz,froiz,no,,
+supermarket,froiz-d9bffc,Froiz,Froiz,Q17070775,es|pt,,0,Froiz,froiz,exact,,froiz.png
 convenience,froo-597303,Froo,Froo,Q129262066,ro,,0,Froo,froo,no,,
 supermarket,frysfoodanddrug-dde59d,Fry's Food and Drug,Fry's Food and Drug,Q5506547,us,,1,Fry's Food and Drug,frys-food-and-drug,no,,
 supermarket,frysmarketplace-dde59d,Fry's Marketplace,Fry's Marketplace,Q5506547,us,,1,Fry's Marketplace,frys-marketplace,no,,
@@ -483,13 +483,13 @@ convenience,gavranovic-5b00ff,Gavranović,Gavranović,Q137855936,hr,,0,Gavranovi
 supermarket,gbarbosa-20f2a8,GBarbosa,GBarbosa,Q10287817,br,,0,GBarbosa,gbarbosa,no,,
 supermarket,gelsons-097dbf,Gelson's,Gelson's,Q16993993,us-ca.geojson,,0,Gelson's,gelsons,no,,
 convenience,getgo-f1e40b,GetGo,GetGo,Q5553766,us,,0,GetGo,getgo,no,,
-supermarket,giant-22a674,Giant (Carlisle),Giant,Q5558332,us-pa.geojson,,0,Giant,giant,no,,
-supermarket,giant-fc203b,Giant (Landover),Giant,Q5558336,us-dc.geojson|us-de.geojson|us-md.geojson|us-va.geojson,,0,Giant,giant,no,,
+supermarket,giant-22a674,Giant (Carlisle),Giant,Q5558332,us-pa.geojson,,0,Giant,giant,exact,,giant.png
+supermarket,giant-fc203b,Giant (Landover),Giant,Q5558336,us-dc.geojson|us-de.geojson|us-md.geojson|us-va.geojson,,0,Giant,giant,exact,,giant.png
 supermarket,gianteagle-dca8d8,Giant Eagle,Giant Eagle,Q1522721,us-in.geojson|us-md.geojson|us-oh.geojson|us-pa.geojson|us-wv.geojson,,1,Giant Eagle,giant-eagle,exact,giant-eagle.svg,
 supermarket,gianthypermarket-e1160b,Giant Hypermarket,Giant Hypermarket,Q4217013,id|my|sg|vn,,0,Giant Hypermarket,giant-hypermarket,no,,
 convenience,globi-95f41b,Globi,Globi,Q11751761,pl,,0,Globi,globi,no,,
 supermarket,globus-2d7d3f,Globus,Globus,Q457503,cz|de|ru,,0,Globus,globus,exact,globus.svg,
-supermarket,goasia-0a839e,Go Asia,Go Asia,Q102381911,de,,0,Go Asia,go-asia,no,,
+supermarket,goasia-0a839e,Go Asia,Go Asia,Q102381911,de,,0,Go Asia,go-asia,exact,,go-asia.png
 convenience,golocal-232829,Go Local,Go Local,Q120634011,gb,,0,Go Local,go-local,no,,
 convenience,gomart-07a9fd,GoMart,GoMart,Q5574575,us-ky.geojson|us-oh.geojson|us-va.geojson|us-wv.geojson,,0,GoMart,gomart,no,,
 convenience,gomart-9d5235,GOmart,GOmart,,mx,,0,GOmart,gomart,no,,
@@ -510,7 +510,7 @@ supermarket,geant-a2a643,Géant,Géant,Q1380537,ae|dj|eg|ly|tn|uy|ye,,0,Géant,g
 convenience,geantexpress-a35511,Géant Express,Géant Express,Q137579657,ae|eg|ly,,0,Géant Express,geant-express,no,,
 supermarket,hmart-90050a,H Mart,H Mart,Q5636306,ca|gb|us,,0,H Mart,h-mart,exact,h-mart.svg,
 supermarket,superhmart-dde59d,Super H Mart,H Mart,Q5636306,us,,0,H Mart,h-mart,exact,h-mart.svg,
-supermarket,heb-078f5a,H-E-B,H-E-B,Q830621,mx|us,,0,H-E-B,h-e-b,no,,
+supermarket,heb-078f5a,H-E-B,H-E-B,Q830621,mx|us,,0,H-E-B,h-e-b,exact,,h-e-b.png
 supermarket,hebplus-078f5a,H-E-B plus!,H-E-B plus!,Q830621,mx|us,,0,H-E-B plus!,h-e-b-plus,no,,
 convenience,haffners-1aebc2,Haffner's,Haffner's,Q124150984,us-ma.geojson|us-me.geojson|us-nh.geojson,,0,Haffner's,haffners,no,,
 supermarket,haggen-dde59d,Haggen,Haggen,Q5638683,us,,0,Haggen,haggen,exact,haggen.svg,
@@ -521,7 +521,7 @@ convenience,handlarn-f5adeb,Handlar'n,Handlar'n,Q10517161,se,,0,Handlar'n,handla
 supermarket,hannaford-dde59d,Hannaford,Hannaford,Q5648760,us,,0,Hannaford,hannaford,no,,
 supermarket,harps-dde59d,Harps,Harps,Q16994839,us,,0,Harps,harps,no,,
 supermarket,harrisfarmmarkets-c254c9,Harris Farm Markets,Harris Market Farms,Q5664888,au,,0,Harris Market Farms,harris-market-farms,no,,
-supermarket,harristeeter-dde59d,Harris Teeter,Harris Teeter,Q5665067,us,,0,Harris Teeter,harris-teeter,no,,
+supermarket,harristeeter-dde59d,Harris Teeter,Harris Teeter,Q5665067,us,,0,Harris Teeter,harris-teeter,exact,,harris-teeter.png
 convenience,hastymarket-eea72f,Hasty Market,Hasty Market,Q58022603,ca,,0,Hasty Market,hasty-market,no,,
 convenience,hei-6378da,hei,hei,Q1788862,bg|ge|md|ro,,0,hei,hei,no,,
 supermarket,hemkop-c57afb,Hemköp,Hemköp,Q10521746,se,,0,Hemköp,hemkop,exact,hemkop.svg,
@@ -531,9 +531,9 @@ supermarket,heronfoods-a8278b,Heron Foods,Heron Foods,Q5743472,gb,,0,Heron Foods
 supermarket,hiperber-0513f1,Hiperber,Hiperber,Q5898257,es,,0,Hiperber,hiperber,no,,
 supermarket,hipercor-0513f1,Hipercor,Hipercor,Q191574,es,,0,Hipercor,hipercor,exact,hipercor.svg,
 supermarket,hiperdino-0513f1,HiperDino,HiperDino,Q105955292,es,,0,HiperDino,hiperdino,exact,,hiperdino.png
-convenience,hiperdinoexpress-dd9aae,HiperDino Express,HiperDino Express,Q105955317,es,,0,HiperDino Express,hiperdino-express,no,,
-supermarket,hipermaxi-cbfbb4,Hipermaxi,Hipermaxi,Q81968262,bo,,0,Hipermaxi,hipermaxi,no,,
-supermarket,hit-0a839e,HIT,HIT,Q1548713,de,,1,HIT,hit,no,,
+convenience,hiperdinoexpress-dd9aae,HiperDino Express,HiperDino Express,Q105955317,es,,0,HiperDino Express,hiperdino-express,exact,,hiperdino-express.png
+supermarket,hipermaxi-cbfbb4,Hipermaxi,Hipermaxi,Q81968262,bo,,0,Hipermaxi,hipermaxi,exact,,hipermaxi.png
+supermarket,hit-0a839e,HIT,HIT,Q1548713,de,,1,HIT,hit,exact,,hit.png
 supermarket,hitmax-56b425,HitMax,HitMax,Q114053568,bg,,0,HitMax,hitmax,no,,
 supermarket,hmarket-3f7afe,Hmarket,Hmarket,Q119994958,be|fr,,0,Hmarket,hmarket,no,,
 supermarket,hofer-83285c,Hofer,Hofer,Q15815751,at|si,,1,Hofer,hofer,exact,hofer.svg,
@@ -550,9 +550,9 @@ supermarket,hyperu-c16b1c,Hyper U,Hyper U,Q2529029,fr,,0,Hyper U,hyper-u,exact,h
 supermarket,hypercacher-94a8a9,Hypercacher,Hypercacher,Q18746214,fx,,0,Hypercacher,hypercacher,no,,
 convenience,iberdoex-dd9aae,Iberdoex,Iberdoex,Q25689041,es,,0,Iberdoex,iberdoex,no,,
 supermarket,icnorte-cbfbb4,IC Norte,IC Norte,Q81967653,bo,,0,IC Norte,ic-norte,no,,
-supermarket,icakvantum-c57afb,ICA Kvantum,ICA Kvantum,Q1663776,se,,0,ICA Kvantum,ica-kvantum,no,,
-supermarket,icanara-c57afb,ICA Nära,ICA Nära,Q1663776,se,,0,ICA Nära,ica-nara,no,,
-supermarket,icasupermarket-c57afb,ICA Supermarket,ICA Supermarket,Q1663776,se,,0,ICA Supermarket,ica-supermarket,no,,
+supermarket,icakvantum-c57afb,ICA Kvantum,ICA Kvantum,Q1663776,se,,0,ICA Kvantum,ica-kvantum,exact,,ica-kvantum.png
+supermarket,icanara-c57afb,ICA Nära,ICA Nära,Q1663776,se,,0,ICA Nära,ica-nara,exact,,ica-nara.png
+supermarket,icasupermarket-c57afb,ICA Supermarket,ICA Supermarket,Q1663776,se,,0,ICA Supermarket,ica-supermarket,exact,,ica-supermarket.png
 supermarket,idea-7f1f6d,IDEA,IDEA,Q23461622,me|rs,,0,IDEA,idea,exact,idea.svg,
 convenience,idea-8f21d6,IDEA,IDEA,Q23461622,me|rs,,0,IDEA,idea,exact,idea.svg,
 convenience,ideaorganic-3015fb,IDEA Organic,IDEA Organic,Q114670320,rs,,0,IDEA Organic,idea-organic,no,,
@@ -565,21 +565,21 @@ convenience,ikeaswedishfoodmarket-e66215,IKEA Swedish Food Market,IKEA,Q54078,au
 convenience,iki-64a6c9,IKI,IKI,Q1653981,lt,,0,IKI,iki,no,,
 supermarket,iki-dfbc25,IKI,IKI,Q1653981,lt,,0,IKI,iki,no,,
 supermarket,ilgigante-0cb133,Il Gigante,Il Gigante,Q3792743,it,,0,Il Gigante,il-gigante,no,,
-supermarket,insmercato-0cb133,In's Mercato,In's Mercato,Q105615834,it,,1,In's Mercato,ins-mercato,no,,
+supermarket,insmercato-0cb133,In's Mercato,In's Mercato,Q105615834,it,,1,In's Mercato,ins-mercato,exact,,ins-mercato.png
 convenience,incoop-1aaf3e,InCoop,InCoop,Q131934414,it,,0,InCoop,incoop,no,,
-convenience,indomaret-bb8a09,Indomaret,Indomaret,Q4262825,id,,1,Indomaret,indomaret,no,,
+convenience,indomaret-bb8a09,Indomaret,Indomaret,Q4262825,id,,1,Indomaret,indomaret,exact,,indomaret.png
 supermarket,indomaretfresh-9b33de,Indomaret Fresh,Indomaret Fresh,Q138347581,id,,0,Indomaret Fresh,indomaret-fresh,no,,
 supermarket,ingles-dde59d,Ingles,Ingles,Q6032595,us,,0,Ingles,ingles,no,,
 convenience,insmarket-eea72f,INS Market,INS Market,Q133245219,ca,,1,INS Market,ins-market,no,,
 supermarket,intermarche-986a24,Intermarché,Intermarché,Q3153200,001,,0,Intermarché,intermarche,exact,intermarche.svg,
 convenience,intermarchecontact-f6dc0a,Intermarché Contact,Intermarché Contact,Q98278049,fx,,0,Intermarché Contact,intermarche-contact,exact,,intermarche-contact.png
-supermarket,intermarchedrive-94a8a9,Intermarché Drive,Intermarché Drive,Q3153200,fx,,0,Intermarché Drive,intermarche-drive,no,,
+supermarket,intermarchedrive-94a8a9,Intermarché Drive,Intermarché Drive,Q3153200,fx,,0,Intermarché Drive,intermarche-drive,exact,,intermarche-drive.png
 convenience,intermarcheexpress-f3ab02,Intermarché Express,Intermarché Express,Q98278043,fx|pt,,0,Intermarché Express,intermarche-express,exact,,intermarche-express.png
 supermarket,intermarchehyper-94a8a9,Intermarché Hyper,Intermarché Hyper,Q98278022,fx,,0,Intermarché Hyper,intermarche-hyper,exact,,intermarche-hyper.png
 supermarket,intermarchesuper-bc9d37,Intermarché Super,Intermarché Super,Q98278038,be|fx|pl|pt,,0,Intermarché Super,intermarche-super,exact,,intermarche-super.png
-supermarket,interspar-268650,Interspar,Interspar,Q15820339,at|hr|hu|si,,0,Interspar,interspar,no,,
+supermarket,interspar-268650,Interspar,Interspar,Q15820339,at|hr|hu|si,,0,Interspar,interspar,exact,,interspar.png
 supermarket,iper-0cb133,Iper,Iper,Q3801479,it,,0,Iper,iper,no,,
-supermarket,iperal-0cb133,Iperal,Iperal,Q3801481,it,,0,Iperal,iperal,no,,
+supermarket,iperal-0cb133,Iperal,Iperal,Q3801481,it,,0,Iperal,iperal,exact,,iperal.png
 supermarket,ipercoop-0cb133,Ipercoop,Ipercoop,Q6064990,it,,0,Ipercoop,ipercoop,exact,ipercoop.svg,
 supermarket,iperfrescobasko-0cb133,Iperfresco Basko,Iperfresco Basko,Q136464623,it,,0,Iperfresco Basko,iperfresco-basko,no,,
 convenience,ipiranga-12bebb,Ipiranga,Ipiranga,Q2081136,br,,0,Ipiranga,ipiranga,no,,
@@ -597,9 +597,9 @@ supermarket,joker-ed9dd5,Joker,Joker,Q716328,no,,0,Joker,joker,no,,
 supermarket,jumbo-1cf55d,Jumbo (Europe),Jumbo,Q2262314,be|nl,,2,Jumbo,jumbo,exact,jumbo.svg,
 supermarket,jumbo-99a0d7,Jumbo (Cencosud),Jumbo,Q6310864,ar|cl|co,,0,Jumbo,jumbo,exact,jumbo.svg,
 supermarket,kk-0a839e,K+K,K+K,Q1718009,de,,0,K+K,k-k,exact,k-k.svg,
-supermarket,kcitymarket-46d3b7,K-Citymarket,K-Citymarket,Q11868561,fi,,0,K-Citymarket,k-citymarket,no,,
+supermarket,kcitymarket-46d3b7,K-Citymarket,K-Citymarket,Q11868561,fi,,0,K-Citymarket,k-citymarket,exact,,k-citymarket.png
 convenience,kmarket-5dea79,K-Market,K-Market,Q11868562,fi,,0,K-Market,k-market,exact,k-market.svg,
-supermarket,ksupermarket-46d3b7,K-Supermarket,K-Supermarket,Q5408668,fi,,0,K-Supermarket,k-supermarket,no,,
+supermarket,ksupermarket-46d3b7,K-Supermarket,K-Supermarket,Q5408668,fi,,0,K-Supermarket,k-supermarket,exact,,k-supermarket.png
 supermarket,kammarket-2e3a41,Kam Market (Macedonia),Kam Market,Q65296228,mk,,0,Kam Market,kam-market,no,,
 convenience,kangarooexpress-f1e40b,Kangaroo Express,Kangaroo Express,Q61747408,us,,0,Kangaroo Express,kangaroo-express,no,,
 supermarket,kaufland-464a37,Kaufland,Kaufland,Q685967,cz|de|hr|md|pl|ro|sk,,0,Kaufland,kaufland,exact,kaufland.svg,kaufland.png
@@ -621,7 +621,7 @@ convenience,kiranapasal-70535b,Kirana Pasal,Kirana Pasal,,np,,0,Kirana Pasal,kir
 supermarket,kiwi-ed9dd5,Kiwi,Kiwi,Q1613639,no,,1,Kiwi,kiwi,exact,,kiwi.png
 convenience,kksupermart-3e5671,KK Super Mart,KK Super Mart,Q95721993,my,,1,KK Super Mart,kk-super-mart,no,,
 supermarket,klas-4ccde8,Klas,Klas,Q116718756,sk,,1,Klas,klas,no,,
-supermarket,konsum-c00dcd,Konsum (Dresden),Konsum Dresden,Q1618877,konsum-dresden.geojson,,0,Konsum Dresden,konsum-dresden,no,,
+supermarket,konsum-c00dcd,Konsum (Dresden),Konsum Dresden,Q1618877,konsum-dresden.geojson,,0,Konsum Dresden,konsum-dresden,exact,,konsum-dresden.png
 supermarket,konsumleipzig-1d068e,Konsum Leipzig,Konsum Leipzig,Q1468147,konsum-leipzig.geojson,,0,Konsum Leipzig,konsum-leipzig,no,,
 supermarket,konzum-0956c9,Konzum (Balkans),Konzum,Q518563,ba|hr|rs,,0,Konzum,konzum,exact,konzum.svg,
 supermarket,konzum-261d20,Konzum (Česko),Konzum,,cz|sk,,0,Konzum,konzum,exact,konzum.svg,
@@ -629,10 +629,10 @@ convenience,konzum-442b6e,Konzum (Balkans),Konzum,Q518563,ba|hr|rs,,0,Konzum,kon
 convenience,konzum-65ae8a,Konzum (Česko),Konzum,,cz|sk,,0,Konzum,konzum,exact,konzum.svg,
 convenience,koops-64a6c9,Koops,Koops,,lt,,0,Koops,koops,no,,
 supermarket,korzinka-c068bf,Korzinka,Korzinka,Q110120894,uz,,0,Korzinka,korzinka,no,,
-supermarket,kroger-dde59d,Kroger,Kroger,Q153417,us,,2,Kroger,kroger,no,,
-supermarket,krogermarketplace-dde59d,Kroger Marketplace,Kroger,Q153417,us,,0,Kroger,kroger,no,,
+supermarket,kroger-dde59d,Kroger,Kroger,Q153417,us,,2,Kroger,kroger,exact,,kroger.png
+supermarket,krogermarketplace-dde59d,Kroger Marketplace,Kroger,Q153417,us,,0,Kroger,kroger,exact,,kroger.png
 convenience,kropka-95f41b,Kropka,Kropka,,pl,,0,Kropka,kropka,no,,
-supermarket,kronan-0c58a2,Krónan,Krónan,Q16419327,is,,0,Krónan,kronan,no,,
+supermarket,kronan-0c58a2,Krónan,Krónan,Q16419327,is,,0,Krónan,kronan,exact,,kronan.png
 supermarket,ktasuperstores-34b4ac,KTA Super Stores,KTA Super Stores,Q44361030,us-hi,,0,KTA Super Stores,kta-super-stores,no,,
 convenience,kumandgo-f1e40b,Kum & Go,Kum & Go,Q6443340,us,,0,Kum & Go,kum-go,no,,
 convenience,kuups-dd9aae,Kuups,Kuups,Q113464694,es,,1,Kuups,kuups,no,,
@@ -660,7 +660,7 @@ convenience,lawsonthreef-652b3e,ローソン・スリーエフ,LAWSON+スリー�
 convenience,lawsonpoplar-652b3e,ローソン・ポプラ,LAWSON+ポプラ,Q116957010,jp,,0,LAWSON+ポプラ,lawson,exact,lawson.svg,
 convenience,lemarchedacote-f6dc0a,le marché d'à côté,le marché d'à côté,Q130165186,fx,,1,le marché d'à côté,le-marche-da-cote,no,,
 supermarket,leaderprice-8d94f8,Leader Price,Leader Price,Q2181426,fr|mg,,0,Leader Price,leader-price,no,,
-supermarket,lescomptoirsdelabio-c16b1c,Les Comptoirs De La Bio,Les Comptoirs De La Bio,Q120801428,fr,,0,Les Comptoirs De La Bio,les-comptoirs-de-la-bio,no,,
+supermarket,lescomptoirsdelabio-c16b1c,Les Comptoirs De La Bio,Les Comptoirs De La Bio,Q120801428,fr,,0,Les Comptoirs De La Bio,les-comptoirs-de-la-bio,exact,,les-comptoirs-de-la-bio.png
 convenience,lewiatan-95f41b,Lewiatan,Lewiatan,Q11755396,pl,,0,Lewiatan,lewiatan,no,,
 supermarket,lewiatan-9e6a6c,Lewiatan,Lewiatan,Q11755396,pl,,0,Lewiatan,lewiatan,no,,
 supermarket,lider-d25066,Lider,Lider,Q6711261,cl,,1,Lider,lider,exact,lider.svg,lider.png
@@ -684,19 +684,19 @@ supermarket,longdan-cc4ffc,Longdan,Longdan,Q111462402,gb-eng,,0,Longdan,longdan,
 supermarket,longos-388e9d,Longo's,Longo's,Q6674182,ca-on.geojson,,0,Longo's,longos,no,,
 convenience,lonia-5b00ff,Lonia,Lonia,Q65156084,hr,,0,Lonia,lonia,no,,
 supermarket,lottemart-9b33de,Lotte Mart,Lotte Mart,Q326715,id,,0,Lotte Mart,lotte-mart,exact,,lotte-mart.png
-supermarket,lotuss-a5f134,Lotus's,Lotus's,Q2378901,my|th,,0,Lotus's,lotuss,no,,
+supermarket,lotuss-a5f134,Lotus's,Lotus's,Q2378901,my|th,,0,Lotus's,lotuss,exact,,lotuss.png
 supermarket,lotussgofresh-a5f134,Lotus's go fresh,Lotus's go fresh,Q125937967,my|th,,0,Lotus's go fresh,lotuss-go-fresh,no,,
 convenience,lotussgofresh-cfafd7,Lotus's go fresh,Lotus's go fresh,Q125937967,my|th,,1,Lotus's go fresh,lotuss-go-fresh,no,,
 convenience,loves-f1e40b,Love's,Love's,Q1872496,us,,0,Love's,loves,no,,
 supermarket,lowesmarket-dde59d,Lowe's Market,Lowe's Market,Q6693107,us,,0,Lowe's Market,lowes-market,no,,
 supermarket,lowesfoods-dde59d,Lowes Foods,Lowes Foods,Q6693991,us,,0,Lowes Foods,lowes-foods,no,,
-supermarket,lpgbiomarkt-0a839e,LPG BioMarkt,LPG BioMarkt,Q107983669,de,,1,LPG BioMarkt,lpg-biomarkt,no,,
+supermarket,lpgbiomarkt-0a839e,LPG BioMarkt,LPG BioMarkt,Q107983669,de,,1,LPG BioMarkt,lpg-biomarkt,exact,,lpg-biomarkt.png
 supermarket,lucky-dde59d,Lucky,Lucky,Q6698032,us,,1,Lucky,lucky,exact,lucky.svg,
 convenience,lukoil-1ce012,Lukoil,Lukoil,Q329347,001,bg|by|ge|kz|mk|ru|uz,3,Lukoil,lukoil,no,,
 convenience,minimart-f1e40b,Lukoil Mini-Mart,Lukoil,Q329347,us,,0,Lukoil,lukoil,no,,
-supermarket,luluhypermarket-7e55ed,Lulu Hypermarket,Lulu Hypermarket,Q6702930,ae|bh|eg|id|in|kw|my|om|qa,,0,Lulu Hypermarket,lulu-hypermarket,no,,
+supermarket,luluhypermarket-7e55ed,Lulu Hypermarket,Lulu Hypermarket,Q6702930,ae|bh|eg|id|in|kw|my|om|qa,,0,Lulu Hypermarket,lulu-hypermarket,exact,,lulu-hypermarket.png
 supermarket,luna-0d2b84,Luna,Luna,,ar,,0,Luna,luna,no,,
-supermarket,lupa-0513f1,Lupa,Lupa,Q58044048,es,,0,Lupa,lupa,no,,
+supermarket,lupa-0513f1,Lupa,Lupa,Q58044048,es,,0,Lupa,lupa,exact,,lupa.png
 supermarket,lovbjerg-072052,Løvbjerg,Løvbjerg,Q12325422,dk,,1,Løvbjerg,lvbjerg,no,,
 convenience,mace-1a0d8e,Mace (Northern Ireland),Mace,Q75238536,gb-nir,,0,Mace,mace,no,,
 convenience,mace-cb4625,Mace (Ireland),Mace,Q75236910,ie,,0,Mace,mace,no,,
@@ -712,7 +712,7 @@ supermarket,marcs-927fbd,Marc's,Marc's,Q17080259,us-oh.geojson,,0,Marc's,marcs,n
 supermarket,marcheadonis-76454b,Marché Adonis,Marché Adonis,Q20707426,ca,,1,Marché Adonis,marche-adonis,no,,
 convenience,margheritaconad-1aaf3e,Margherita Conad,Margherita Conad,Q126035555,it,,0,Margherita Conad,margherita-conad,no,,
 supermarket,marginfreemarket-9ef8f9,Margin Free Market,Margin Free Market,Q99751436,in,,0,Margin Free Market,margin-free-market,no,,
-supermarket,marianosfreshmarket-5ca8e2,Mariano's Fresh Market,Mariano's Fresh Market,Q55622168,us-il.geojson,,0,Mariano's Fresh Market,marianos-fresh-market,no,,
+supermarket,marianosfreshmarket-5ca8e2,Mariano's Fresh Market,Mariano's Fresh Market,Q55622168,us-il.geojson,,0,Mariano's Fresh Market,marianos-fresh-market,exact,,marianos-fresh-market.png
 supermarket,marjanemarket-dc016e,Marjane Market مرجان ماركت,Marjane Market مرجان ماركت,Q2823349,ma,,0,Marjane Market مرجان ماركت,marjane-market,no,,
 supermarket,marjane-dc016e,Marjane مرجان,Marjane مرجان,Q136333342,ma,,0,Marjane مرجان,marjane,no,,
 supermarket,markant-0a839e,Markant,Markant,Q57523365,de,,0,Markant,markant,exact,markant.svg,
@@ -748,7 +748,7 @@ convenience,maxi-3015fb,Maxi,Maxi,Q6795490,rs,,1,Maxi,maxi,no,,
 supermarket,maxi-76454b,Maxi (Canada),Maxi,Q3302441,ca,,0,Maxi,maxi,no,,
 supermarket,maxi-b83687,Maxi (Србија),Maxi,Q6795490,rs,,1,Maxi,maxi,no,,
 supermarket,maxidia-0513f1,Maxi Dia,Maxi Dia,Q925132,es,,0,Maxi Dia,maxi-dia,no,,
-supermarket,maxiicastormarknad-e39865,Maxi ICA Stormarknad,Maxi ICA Stormarknad,Q1663776,no|se,,0,Maxi ICA Stormarknad,maxi-ica-stormarknad,no,,
+supermarket,maxiicastormarknad-e39865,Maxi ICA Stormarknad,Maxi ICA Stormarknad,Q1663776,no|se,,0,Maxi ICA Stormarknad,maxi-ica-stormarknad,exact,,maxi-ica-stormarknad.png
 convenience,maxikiosco-478c1f,Maxikiosco,Maxikiosco,,ar|uy,,0,Maxikiosco,maxikiosco,no,,
 supermarket,maximax-45f6bc,Maxima X,Maxima,Q1881222,ee|lt|lv,,0,Maxima,maxima,exact,maxima.svg,
 supermarket,maximaxx-48a198,Maxima XX,Maxima,Q1881222,ee|lt|lv|pl,,0,Maxima,maxima,exact,maxima.svg,
@@ -758,20 +758,20 @@ convenience,maxol-0b7623,Maxol,Maxol,Q3302837,gb-nir|ie,,0,Maxol,maxol,no,,
 supermarket,maxvalu-f485f2,MaxValu,MaxValu,Q11340427,cn|my|th,,0,MaxValu,maxvalu,no,,
 convenience,malpkaexpress-95f41b,Małpka Express,Małpka Express,Q18431946,pl,,0,Małpka Express,mapka-express,no,,
 supermarket,mcd-5811b5,MCD,MCD,Q46936596,nl,,0,MCD,mcd,no,,
-supermarket,md-0cb133,MD,MD,Q3841263,it,,1,MD,md,no,,
+supermarket,md-0cb133,MD,MD,Q3841263,it,,1,MD,md,exact,,md.png
 supermarket,mega-0cb133,Mega,Mega,,it,,0,Mega,mega,no,,
-supermarket,megaimage-62a473,Mega Image,Mega Image,Q6808085,ro,,0,Mega Image,mega-image,no,,
+supermarket,megaimage-62a473,Mega Image,Mega Image,Q6808085,ro,,0,Mega Image,mega-image,exact,,mega-image.png
 supermarket,megamaxi-b83687,Mega Maxi,Mega Maxi,Q7698875,rs,,1,Mega Maxi,mega-maxi,no,,
 supermarket,megasave-6d06e8,Megasave,Megasave,Q116520541,na|sz|za,,0,Megasave,megasave,no,,
 supermarket,mego-858077,Mego,Mego,Q16363314,lv,,0,Mego,mego,no,,
 supermarket,meijer-dde59d,Meijer,Meijer,Q1917753,us,,0,Meijer,meijer,exact,meijer.svg,
 convenience,meijerexpress-f1e40b,Meijer Express,Meijer,Q1917753,us,,0,Meijer,meijer,exact,meijer.svg,
 supermarket,melcom-bfc6b6,Melcom,Melcom,Q6812065,gh,,1,Melcom,melcom,no,,
-supermarket,meny-2b56aa,Meny,Meny,Q10581720,dk|no,,0,Meny,meny,no,,
+supermarket,meny-2b56aa,Meny,Meny,Q10581720,dk|no,,0,Meny,meny,exact,,meny.png
 supermarket,mercadoextra-20f2a8,Mercado Extra,Mercado Extra,Q5422131,br,,0,Mercado Extra,mercado-extra,no,,
 supermarket,mercadona-d9bffc,Mercadona,Mercadona,Q377705,es|pt,,0,Mercadona,mercadona,exact,mercadona.svg,mercadona.png
-supermarket,mercator-05bb56,Mercator,Mercator,Q738412,ba|hr|me|rs|si,,0,Mercator,mercator,no,,
-convenience,mercator-eb6d99,Mercator,Mercator,Q738412,ba|hr|me|mk|rs|si,,0,Mercator,mercator,no,,
+supermarket,mercator-05bb56,Mercator,Mercator,Q738412,ba|hr|me|rs|si,,0,Mercator,mercator,exact,,mercator.png
+convenience,mercator-eb6d99,Mercator,Mercator,Q738412,ba|hr|me|mk|rs|si,,0,Mercator,mercator,exact,,mercator.png
 supermarket,mercato-0cb133,Mercatò,Mercatò,Q127389715,it,,0,Mercatò,mercato,no,,
 supermarket,mercatobig-0cb133,Mercatò Big,Mercatò,Q127389715,it,,0,Mercatò,mercato,no,,
 supermarket,mercatoextra-0cb133,Mercatò Extra,Mercatò,Q127389715,it,,0,Mercatò,mercato,no,,
@@ -785,7 +785,7 @@ convenience,metromart-7a43a8,MetroMart,MetroMart,Q121642943,nz,,0,MetroMart,metr
 convenience,metss-5b00ff,METSS,METSS,,hr,,0,METSS,metss,no,,
 supermarket,meusuper-a14fce,Meu Super,Meu Super,Q119948154,pt,,0,Meu Super,meu-super,no,,
 supermarket,mibodegaaurrera-9b2dfb,Mi Bodega Aurrera,Mi Bodega Aurrera,Q3365858,mx,,0,Mi Bodega Aurrera,mi-bodega-aurrera,no,,
-convenience,migrolino-07a460,Migrolino,Migrolino,Q56745088,ch,,0,Migrolino,migrolino,no,,
+convenience,migrolino-07a460,Migrolino,Migrolino,Q56745088,ch,,0,Migrolino,migrolino,exact,,migrolino.png
 supermarket,migros-5b5772,Migros (Türkiye),Migros,Q1754510,tr,,0,Migros,migros,exact,migros.svg,
 convenience,migros-62eaab,Migros (Türkiye),Migros,Q1754510,tr,,0,Migros,migros,exact,migros.svg,
 supermarket,migros-e39709,Migros (Europe),Migros,Q680727,ch|fx|it,,0,Migros,migros,exact,migros.svg,
@@ -798,8 +798,8 @@ convenience,miniextra-12bebb,Mini Extra,Mini Extra,Q5422131,br,,0,Mini Extra,min
 convenience,minimix-ba18ab,Mini Mix,Mini Mix,Q327854,at|be|cy|cz|de|es|fx|gb|gr|it|me|nl|pt,,1,Mini Mix,mini-mix,no,,
 convenience,minimart-854be4,Minimart,Minimart,Q119168386,bg,,1,Minimart,minimart,no,,
 supermarket,minipreco-a14fce,Minipreço,Minipreço,Q3042224,pt,,0,Minipreço,minipreco,exact,minipreco.svg,
-convenience,ministop-365d07,Ministop,Ministop,Q1038929,cn|kz|vn,,0,Ministop,ministop,no,,
-convenience,ministop-652b3e,ミニストップ,MINISTOP,Q1038929,jp,,0,MINISTOP,ministop,no,,
+convenience,ministop-365d07,Ministop,Ministop,Q1038929,cn|kz|vn,,0,Ministop,ministop,exact,,
+convenience,ministop-652b3e,ミニストップ,MINISTOP,Q1038929,jp,,0,MINISTOP,ministop,exact,,
 convenience,minitmart-f1e40b,Minit Mart,Minit Mart,Q18154470,us,,0,Minit Mart,minit-mart,no,,
 convenience,minivitamarket-95f41b,Minivita Market,Minivita Market,Q119660457,pl,,0,Minivita Market,minivita-market,no,,
 convenience,minipiago-652b3e,miniピアゴ,miniピアゴ,Q11188499,jp,,1,miniピアゴ,mini,no,,
@@ -815,8 +815,8 @@ convenience,molshop-32b19d,MOL Shop,MOL Shop,Q549181,cz|hu|pl|ro|rs|si,,0,MOL Sh
 convenience,monop-f6dc0a,Monop',Monop',Q89913683,fx,,0,Monop',monop,exact,monop.svg,monop.png
 supermarket,monoprix-2a24ce,Monoprix (France),Monoprix,Q3321241,ad|fr,,0,Monoprix,monoprix,exact,monoprix.svg,
 supermarket,monoprix-fb893a,Monoprix (Tunisia),Monoprix,Q2719231,tn,,0,Monoprix,monoprix,exact,monoprix.svg,
-supermarket,more-9ef8f9,More,More,Q6910891,in,,0,More,more,no,,
-supermarket,morrisons-a8278b,Morrisons,Morrisons,Q922344,gb,,1,Morrisons,morrisons,no,,
+supermarket,more-9ef8f9,More,More,Q6910891,in,,0,More,more,exact,,more.png
+supermarket,morrisons-a8278b,Morrisons,Morrisons,Q922344,gb,,1,Morrisons,morrisons,exact,,morrisons.png
 convenience,morrisonsdaily-ce5d3e,Morrisons Daily,Morrisons Daily,Q99752411,gb,gg|je,2,Morrisons Daily,morrisons-daily,no,,
 convenience,morrisonsdaily-d9d9cb,Morrisons Daily (Channel Islands),Morrisons Daily,Q99752411,gg|je,,0,Morrisons Daily,morrisons-daily,no,,
 supermarket,mortonwilliams-c616c2,Morton Williams,Morton Williams,Q28227933,us-nj.geojson|us-ny-new_york_city.geojson,,0,Morton Williams,morton-williams,no,,
@@ -825,7 +825,7 @@ supermarket,mpreis-eeb4e5,MPREIS,MPREIS,Q873491,at|it,,0,MPREIS,mpreis,exact,,mp
 convenience,mrmax-652b3e,MrMax,MrMax,Q11342034,jp,,0,MrMax,mrmax,no,,
 convenience,murphyexpress-f1e40b,Murphy Express,Murphy Express,Q19604459,us,,0,Murphy Express,murphy-express,no,,
 convenience,murphyusa-f1e40b,Murphy USA,Murphy USA,Q19604459,us,,0,Murphy USA,murphy-usa,no,,
-convenience,myauchan-5dd5a6,My Auchan,My Auchan,Q115800307,fx|pt|ro,,0,My Auchan,my-auchan,no,,
+convenience,myauchan-5dd5a6,My Auchan,My Auchan,Q115800307,fx|pt|ro,,0,My Auchan,my-auchan,exact,,my-auchan.png
 supermarket,mymarket-37450e,My market,My market,,gr,,0,My market,my-market,no,,
 supermarket,mydin-80e9ee,Mydin,Mydin,Q6947269,my,,0,Mydin,mydin,no,,
 convenience,mynewscom-3e5671,myNEWS.com,myNEWS.com,Q17147574,my,,1,myNEWS.com,mynews-com,no,,
@@ -838,7 +838,7 @@ convenience,naszsklep-95f41b,Nasz Sklep,Nasz Sklep,Q62070369,pl,,0,Nasz Sklep,na
 supermarket,naturalgrocers-dde59d,Natural Grocers,Natural Grocers,Q17146520,us,,0,Natural Grocers,natural-grocers,no,,
 convenience,naturallawson-652b3e,ナチュラルローソン,NATURAL LAWSON,Q11323850,jp,,0,NATURAL LAWSON,natural-lawson,no,,
 supermarket,naturalia-c16b1c,Naturalia,Naturalia,Q3337081,fr,,0,Naturalia,naturalia,exact,naturalia.svg,naturalia.png
-supermarket,naturasi-0cb133,NaturaSì,NaturaSì,Q60840755,it,,0,NaturaSì,naturasi,no,,
+supermarket,naturasi-0cb133,NaturaSì,NaturaSì,Q60840755,it,,0,NaturaSì,naturasi,exact,,naturasi.png
 supermarket,naturesbasket-9ef8f9,Nature's Basket,Nature's Basket,Q28174237,in,,0,Nature's Basket,natures-basket,no,,
 convenience,needs-cff853,Needs,Needs,Q6986673,ca-nb.geojson|ca-nl.geojson|ca-ns.geojson|ca-pe.geojson,,1,Needs,needs,no,,
 convenience,nestek-5dea79,Neste K,Neste K,Q42901270,fi,,0,Neste K,neste-k,no,,
@@ -859,14 +859,14 @@ convenience,nisa-232829,Nisa,Nisa,Q16999069,gb,,2,Nisa,nisa,no,,
 convenience,nisaexpress-232829,Nisa Express,Nisa,Q16999069,gb,,0,Nisa,nisa,no,,
 supermarket,nisaextra-a8278b,Nisa Extra,Nisa Extra,Q16999069,gb,,0,Nisa Extra,nisa-extra,no,,
 convenience,nisalocal-232829,Nisa Local,Nisa Local,Q16999069,gb,,0,Nisa Local,nisa-local,no,,
-supermarket,nofrills-76454b,No Frills,No Frills,Q3342407,ca,,0,No Frills,no-frills,no,,
+supermarket,nofrills-76454b,No Frills,No Frills,Q3342407,ca,,0,No Frills,no-frills,exact,,no-frills.png
 supermarket,nomi-9e6a6c,Nomi,Nomi,Q2925147,pl,,0,Nomi,nomi,no,,
-supermarket,norfaxl-dfbc25,Norfa XL,Norfa XL,Q1998983,lt,,0,Norfa XL,norfa-xl,no,,
+supermarket,norfaxl-dfbc25,Norfa XL,Norfa XL,Q1998983,lt,,0,Norfa XL,norfa-xl,exact,,norfa-xl.png
 supermarket,norma-c1eeeb,Norma,Norma,Q450180,at|cz|de|fr,,0,Norma,norma,exact,norma.svg,
 supermarket,northernstore-76454b,Northern Store,Northern Store,Q7754361,ca,,0,Northern Store,northern-store,no,,
 supermarket,northgatemarket-097dbf,Northgate Market,Northgate Market,Q124810943,us-ca.geojson,,3,Northgate Market,northgate-market,no,,
 convenience,nouria-ae58e4,Nouria,Nouria,Q120637476,us-ct.geojson|us-ma.geojson|us-me.geojson|us-nh.geojson|us-ri.geojson,,0,Nouria,nouria,no,,
-convenience,nousantigaspi-f6dc0a,NOUS anti-gaspi,NOUS anti-gaspi,Q130144283,fx,,0,NOUS anti-gaspi,nous-anti-gaspi,no,,
+convenience,nousantigaspi-f6dc0a,NOUS anti-gaspi,NOUS anti-gaspi,Q130144283,fx,,0,NOUS anti-gaspi,nous-anti-gaspi,exact,,nous-anti-gaspi.png
 supermarket,novus-94881c,Novus,Novus,Q116748340,ua,,3,Novus,novus,no,,
 supermarket,np-0a839e,NP,NP,Q15836148,de,,1,NP,np,no,,
 supermarket,nsktradecity-80e9ee,NSK Trade City,NSK Trade City,Q106978506,my,,1,NSK Trade City,nsk-trade-city,no,,
@@ -884,8 +884,8 @@ convenience,okexpress-22d46f,OK Express,OK Express,Q116520407,na|sz|za,,0,OK Exp
 supermarket,okfoods-6d06e8,OK Foods,OK Foods,Q116520377,na|sz|za,,1,OK Foods,ok-foods,no,,
 convenience,okmarket-e95ed6,OK Market,OK Market,Q6047736,cl,,0,OK Market,ok-market,no,,
 supermarket,okminimark-6d06e8,OK Minimark,OK Minimark,Q116520457,na|sz|za,,0,OK Minimark,ok-minimark,no,,
-supermarket,okay-9f527a,Okay,Okay,Q2159701,be,,0,Okay,okay,no,,
-convenience,okaycompact-425fa5,Okay Compact,Okay,Q2159701,be,,1,Okay,okay,no,,
+supermarket,okay-9f527a,Okay,Okay,Q2159701,be,,0,Okay,okay,exact,,okay.png
+convenience,okaycompact-425fa5,Okay Compact,Okay,Q2159701,be,,1,Okay,okay,exact,,okay.png
 convenience,circlek-9729f7,OK便利店,OK便利店,Q3268010,cn,hk|mo,2,OK便利店,ok,exact,ok.svg,
 convenience,circlek-132595,OK便利店 Circle K,OK便利店 Circle K,Q3268010,hk|mo,,1,OK便利店 Circle K,ok-circle-k,no,,
 convenience,okmart-aa89a7,OK超商,OK超商,Q10851968,tw,,0,OK超商,ok,exact,ok.svg,
@@ -898,7 +898,7 @@ convenience,orlen-95f41b,Orlen,Orlen,Q971649,pl,,0,Orlen,orlen,no,,
 supermarket,osherad-6b65f1,אושר עד,Osher Ad,Q31198118,il,,0,Osher Ad,osher-ad,no,,
 convenience,otr-0b0ae9,OTR,OTR,Q116394019,au,,0,OTR,otr,no,,
 convenience,oxxo-8364f9,Oxxo,Oxxo,Q1342538,br|cl|co|cr|mx|pe|us,,0,Oxxo,oxxo,no,,
-supermarket,paknsave-5dc426,PAK'nSAVE,PAK'nSAVE,Q7125339,nz,,0,PAK'nSAVE,paknsave,no,,
+supermarket,paknsave-5dc426,PAK'nSAVE,PAK'nSAVE,Q7125339,nz,,0,PAK'nSAVE,paknsave,exact,,paknsave.png
 supermarket,palace-bfc6b6,Palace (Ghana),Palace,Q130376211,gh,,1,Palace,palace,no,,
 supermarket,pali-ff0cfa,Palí,Palí,Q1064887,cr|ni,,0,Palí,pali,no,,
 supermarket,pam-d52198,Pam,Pam,Q105615038,ch|it,,0,Pam,pam,no,,
@@ -915,23 +915,23 @@ convenience,pdv-ee1d1f,PDV,PDV,,ve,,0,PDV,pdv,no,,
 supermarket,peacockstore-d02e4f,ピーコックストア,PEACOCK STORE,Q11331715,jp-12.geojson|jp-13.geojson|jp-14.geojson,,0,PEACOCK STORE,peacock-store,no,,
 supermarket,penny-55dfd6,Penny,Penny,Q284688,at|cz|de|hu|it|ro,,2,Penny,penny,exact,penny.svg,
 convenience,persu-3015fb,PerSu,PerSu,Q115574817,rs,,0,PerSu,persu,no,,
-supermarket,petesmarket-5ca8e2,Pete's Market,Pete's Market,Q118793358,us-il.geojson,,0,Pete's Market,petes-market,no,,
+supermarket,petesmarket-5ca8e2,Pete's Market,Pete's Market,Q118793358,us-il.geojson,,0,Pete's Market,petes-market,exact,,petes-market.png
 convenience,petitcasino-4d6b4b,Petit Casino,Petit Casino,,001,,0,Petit Casino,petit-casino,no,,
 convenience,petrocanada-eea72f,Petro-Canada,Petro-Canada,Q1208279,ca,,0,Petro-Canada,petro-canada,exact,petro-canada.svg,
 convenience,petrobras-bf26cc,Petrobras,Petrobras,,005,,0,Petrobras,petrobras,no,,
 convenience,phillips66-f1e40b,Phillips 66,Phillips 66,Q1656230,us,,0,Phillips 66,phillips-66,no,,
 supermarket,picknsave-905e35,Pick 'n Save,Pick 'n Save,Q7371288,us-wi.geojson,,0,Pick 'n Save,pick-n-save,no,,
 supermarket,picknpay-978c99,Pick n Pay,Pick n Pay,Q7190735,bw|ls|na|ng|sz|za|zm,,3,Pick n Pay,pick-n-pay,exact,pick-n-pay.svg,
-convenience,picknpayexpress-c7b713,Pick n Pay Express,Pick n Pay Express,Q122764443,za,,0,Pick n Pay Express,pick-n-pay-express,no,,
+convenience,picknpayexpress-c7b713,Pick n Pay Express,Pick n Pay Express,Q122764443,za,,0,Pick n Pay Express,pick-n-pay-express,exact,,pick-n-pay-express.png
 supermarket,picknpayhyper-f9f648,Pick n Pay Hyper,Pick n Pay Hyper,Q128791977,za,,2,Pick n Pay Hyper,pick-n-pay-hyper,no,,
 supermarket,pigglywiggly-ebd18b,Piggly Wiggly,Piggly Wiggly,Q3388303,gb|us,,0,Piggly Wiggly,piggly-wiggly,no,,
 convenience,pilot-16ec4d,Pilot,Pilot,Q64128179,ca|us,,1,Pilot,pilot,no,,
-supermarket,pingodoce-a14fce,Pingo Doce,Pingo Doce,Q1575057,pt,,0,Pingo Doce,pingo-doce,no,,
+supermarket,pingodoce-a14fce,Pingo Doce,Pingo Doce,Q1575057,pt,,0,Pingo Doce,pingo-doce,exact,,pingo-doce.png
 convenience,plaidpantry-f1e40b,Plaid Pantry,Plaid Pantry,Q7200591,us,,0,Plaid Pantry,plaid-pantry,no,,
 supermarket,planetorganic-f2cb37,Planet Organic,Planet Organic,Q24298870,gb-lon.geojson,,0,Planet Organic,planet-organic,no,,
-supermarket,plazavea-acfc90,Plaza Vea,Plaza Vea,Q7203672,pe,,0,Plaza Vea,plaza-vea,no,,
+supermarket,plazavea-acfc90,Plaza Vea,Plaza Vea,Q7203672,pe,,0,Plaza Vea,plaza-vea,exact,,plaza-vea.png
 supermarket,plodine-f279a1,Plodine,Plodine,Q58040098,hr,,0,Plodine,plodine,exact,plodine.svg,
-supermarket,plus-5811b5,PLUS,PLUS,Q1978981,nl,,0,PLUS,plus,no,,
+supermarket,plus-5811b5,PLUS,PLUS,Q1978981,nl,,0,PLUS,plus,exact,,plus.png
 supermarket,plusfresc-774072,Plusfresc,Plusfresc,Q111373081,ad|es,,0,Plusfresc,plusfresc,no,,
 supermarket,poiesz-5811b5,Poiesz,Poiesz,Q2521700,nl,,0,Poiesz,poiesz,no,,
 supermarket,polomarket-9e6a6c,POLOmarket,POLOmarket,Q11821937,pl,,0,POLOmarket,polomarket,exact,,polomarket.png
@@ -940,12 +940,12 @@ convenience,premier-232829,Premier,Premier,Q7240340,gb,,1,Premier,premier,no,,
 convenience,premierexpress-232829,Premier Express,Premier Express,,gb,,0,Premier Express,premier-express,no,,
 supermarket,pricechopper-7d1b36,Price Chopper (New England),Price Chopper,Q7242574,us-ct.geojson|us-ma.geojson|us-nh.geojson|us-ny.geojson|us-pa.geojson|us-vt.geojson,,0,Price Chopper,price-chopper,no,,
 supermarket,pricechopper-8741a7,Price Chopper (Kansas City),Price Chopper,Q7242572,us-ks.geojson|us-mo.geojson,,0,Price Chopper,price-chopper,no,,
-supermarket,pricerite-dde59d,Price Rite,Price Rite,Q7242560,us,,0,Price Rite,price-rite,no,,
-supermarket,primaprix-2a2242,Primaprix,Primaprix,Q112691161,es|fr|pt,,0,Primaprix,primaprix,no,,
+supermarket,pricerite-dde59d,Price Rite,Price Rite,Q7242560,us,,0,Price Rite,price-rite,exact,,price-rite.png
+supermarket,primaprix-2a2242,Primaprix,Primaprix,Q112691161,es|fr|pt,,0,Primaprix,primaprix,exact,,primaprix.png
 supermarket,prisma-c9c76a,Prisma,Prisma,Q12047031,ee|fi|ru,,0,Prisma,prisma,exact,,prisma.png
 convenience,privat-58d40d,Privát,Privát,Q115606854,hu,,0,Privát,privat,no,,
 supermarket,privatmax-478515,Privát Max,Privát Max,Q115606854,hu,,0,Privát Max,privat-max,no,,
-supermarket,prix-0cb133,Prix,Prix,Q61994819,it,,1,Prix,prix,no,,
+supermarket,prix-0cb133,Prix,Prix,Q61994819,it,,1,Prix,prix,exact,,prix.png
 supermarket,profi-8721fd,Profi,Profi,Q956664,be|hu|ro,,0,Profi,profi,exact,,profi.png
 supermarket,proficity-62a473,Profi City,Profi,Q956664,ro,,0,Profi,profi,exact,,profi.png
 convenience,profigo-597303,Profi Go,Profi,Q956664,ro,,0,Profi,profi,exact,,profi.png
@@ -962,7 +962,7 @@ supermarket,puregold-49e134,Puregold,Puregold,Q7261170,ph,,0,Puregold,puregold,e
 convenience,puremart-fb2210,Puremart,Puremart,,ph,,0,Puremart,puremart,no,,
 supermarket,paodeacucar-14dbfa,Pão de Açúcar,Pão de Açúcar,Q3411543,br|pt,,0,Pão de Açúcar,pao-de-acucar,no,,
 convenience,qazaqoil-7ad3ae,Qazaq Oil,Qazaq Oil,Q115190155,kz,,0,Qazaq Oil,qazaq-oil,no,,
-supermarket,qfc-71f46e,QFC,QFC,Q7265425,us-or.geojson|us-wa.geojson,,0,QFC,qfc,no,,
+supermarket,qfc-71f46e,QFC,QFC,Q7265425,us-or.geojson|us-wa.geojson,,0,QFC,qfc,exact,,qfc.png
 convenience,qualitymart-f1e40b,Quality Mart,Quality Mart,Q66134834,us,,0,Quality Mart,quality-mart,no,,
 convenience,quickchek-f1e40b,QuickChek,QuickChek,Q7271689,us,,0,QuickChek,quickchek,no,,
 convenience,quickie-f902d0,Quickie,Quickie,Q123410085,ca-on.geojson|ca-qc.geojson,,0,Quickie,quickie,no,,
@@ -980,7 +980,7 @@ supermarket,ralsemart-c0ae3d,ラルズマート,RALSE MART,Q11347482,jp-01.geojs
 convenience,rapo-a7773e,Rapo,Rapo,Q138357241,cz,,1,Rapo,rapo,no,,
 convenience,rationshop-bb430b,Ration Shop,Ration Shop,Q60901,in,,0,Ration Shop,ration-shop,no,,
 supermarket,raysfoodplace-dde59d,Ray's Food Place,Ray's Food Place,Q108163041,us,,0,Ray's Food Place,rays-food-place,no,,
-supermarket,realcanadiansuperstore-76454b,Real Canadian Superstore,Real Canadian Superstore,Q7300856,ca,,0,Real Canadian Superstore,real-canadian-superstore,no,,
+supermarket,realcanadiansuperstore-76454b,Real Canadian Superstore,Real Canadian Superstore,Q7300856,ca,,0,Real Canadian Superstore,real-canadian-superstore,exact,,real-canadian-superstore.png
 convenience,rebel-f1e40b,Rebel,Rebel,Q131870508,us,,0,Rebel,rebel,no,,
 convenience,redapplefoodmart-2b4f5e,Red Apple Food Mart (Kwik Fill),Red Apple Food Mart,Q127305205,us-ny.geojson|us-oh.geojson|us-pa.geojson,,0,Red Apple Food Mart,red-apple-food-mart,no,,
 convenience,redapplefoodmart-301392,Red Apple Food Mart (Mississippi),Red Apple Food Mart,Q114343337,us-ms.geojson,,0,Red Apple Food Mart,red-apple-food-mart,no,,
@@ -991,7 +991,7 @@ supermarket,reliancefresh-9ef8f9,Reliance Fresh,Reliance Fresh,Q7311014,in,,0,Re
 supermarket,rema1000-2b56aa,Rema 1000,Rema 1000,Q28459,dk|no,,0,Rema 1000,rema-1000,exact,,rema-1000.png
 supermarket,rewe-0a839e,Rewe,Rewe,Q16968817,de,,0,Rewe,rewe,exact,rewe.svg,
 supermarket,rewecity-0a839e,Rewe City,Rewe,Q16968817,de,,0,Rewe,rewe,exact,rewe.svg,
-convenience,rewetogo-60c7fe,REWE To Go,REWE To Go,Q85224313,de,,0,REWE To Go,rewe-to-go,no,,
+convenience,rewetogo-60c7fe,REWE To Go,REWE To Go,Q85224313,de,,0,REWE To Go,rewe-to-go,exact,,rewe-to-go.png
 supermarket,real-478515,Reál,Reál,Q100741414,hu,,2,Reál,real,exact,real.svg,
 convenience,real-58d40d,Reál,Reál,Q100741414,hu,,2,Reál,real,exact,real.svg,
 convenience,rhodes-37aedb,Rhodes,Rhodes,Q114570150,us-il.geojson|us-mo.geojson,,1,Rhodes,rhodes,no,,
@@ -1017,8 +1017,8 @@ supermarket,smarket-46d3b7,S-market,S-market,Q11891613,fi,,0,S-market,s-market,n
 supermarket,smart-9b2dfb,S-Mart,S-Mart,Q7387069,mx,,1,S-Mart,s-mart,no,,
 supermarket,safeway-76454b,Safeway (Canada),Safeway,Q17111901,ca,,0,Safeway,safeway,exact,safeway.svg,safeway.png
 supermarket,safeway-dde59d,Safeway (USA),Safeway,Q1508234,us,,0,Safeway,safeway,exact,safeway.svg,safeway.png
-supermarket,sainsburys-a8278b,Sainsbury's,Sainsbury's,Q152096,gb,,1,Sainsbury's,sainsburys,no,,
-convenience,sainsburyslocal-232829,Sainsbury's Local,Sainsbury's Local,Q13218434,gb,,0,Sainsbury's Local,sainsburys-local,no,,
+supermarket,sainsburys-a8278b,Sainsbury's,Sainsbury's,Q152096,gb,,1,Sainsbury's,sainsburys,exact,,sainsburys.png
+convenience,sainsburyslocal-232829,Sainsbury's Local,Sainsbury's Local,Q13218434,gb,,0,Sainsbury's Local,sainsburys-local,exact,,sainsburys-local.png
 convenience,sale-5dea79,Sale,Sale,Q11892046,fi,,0,Sale,sale,exact,sale.svg,
 supermarket,santaisabel-d25066,Santa Isabel,Santa Isabel,Q7419620,cl,,0,Santa Isabel,santa-isabel,exact,santa-isabel.svg,
 convenience,sasoldelight-c7b713,Sasol Delight,Sasol Delight,Q116620703,za,,0,Sasol Delight,sasol-delight,no,,
@@ -1031,19 +1031,19 @@ supermarket,savegnagosupermercados-20f2a8,Savegnago Supermercados,Savegnago Supe
 supermarket,savemor-f9f648,SaveMor,SaveMor,Q610492,za,,0,SaveMor,savemor,no,,
 supermarket,savemore-49e134,Savemore,Savemore,,ph,,0,Savemore,savemore,no,,
 supermarket,savemoremarket-49e134,Savemore Market,Savemore Market,,ph,,0,Savemore Market,savemore-market,no,,
-supermarket,schnucks-dde59d,Schnucks,Schnucks,Q7431920,us,,0,Schnucks,schnucks,no,,
+supermarket,schnucks-dde59d,Schnucks,Schnucks,Q7431920,us,,0,Schnucks,schnucks,exact,,schnucks.png
 supermarket,scotmid-0ed976,Scotmid,Scotmid,Q7435719,gb-sct,,0,Scotmid,scotmid,no,,
 convenience,scotmid-8978c5,Scotmid,Scotmid,Q7435719,gb-sct,,1,Scotmid,scotmid,no,,
 supermarket,seafoodcity-dde59d,Seafood City,Seafood City,Q7440359,us,,0,Seafood City,seafood-city,no,,
 convenience,sedal-95f41b,Sedal,Sedal,Q133282955,pl,,0,Sedal,sedal,no,,
 supermarket,sedal-9e6a6c,Sedal,Sedal,Q133282955,pl,,0,Sedal,sedal,no,,
 convenience,seicomart-652b3e,セイコーマート,Seicomart,Q11314123,jp,,0,Seicomart,seicomart,no,,
-supermarket,selver-e21b3b,Selver,Selver,Q3771177,ee,,0,Selver,selver,no,,
+supermarket,selver-e21b3b,Selver,Selver,Q3771177,ee,,0,Selver,selver,exact,,selver.png
 convenience,servicompras-4c351f,Servicompras,Servicompras,,ar,,0,Servicompras,servicompras,no,,
 supermarket,sfsupermarket-7c1bf0,SF Supermarket,SF Supermarket,Q7505012,us-ca.geojson|us-nv.geojson|us-or.geojson|us-tx.geojson,,1,SF Supermarket,sf-supermarket,no,,
 supermarket,shaws-dde59d,Shaw's,Shaw's,Q578387,us,,0,Shaw's,shaws,no,,
 convenience,sheetz-be9dbe,Sheetz,Sheetz,Q7492551,us-md.geojson|us-mi.geojson|us-nc.geojson|us-oh.geojson|us-pa.geojson|us-va.geojson|us-wv.geojson,,0,Sheetz,sheetz,no,,
-convenience,shell-cfb41f,Shell,Shell,Q110716465,001,jp,0,Shell,shell,no,,
+convenience,shell-cfb41f,Shell,Shell,Q110716465,001,jp,0,Shell,shell,exact,,shell.png
 convenience,shellselect-cfb41f,Shell Select,Shell Select,Q124359752,001,jp,0,Shell Select,shell-select,no,,
 convenience,shellshop-cfb41f,Shell Shop,Shell Shop,Q110716465,001,jp,0,Shell Shop,shell-shop,no,,
 supermarket,shengsiong-07d9e1,Sheng Siong,Sheng Siong,Q3481878,sg,,0,Sheng Siong,sheng-siong,no,,
@@ -1080,11 +1080,11 @@ supermarket,smartandfinalextra-140857,Smart & Final Extra!,Smart & Final,Q754391
 supermarket,smatch-f276cb,Smatch,Smatch,Q5185959,be|lu,,0,Smatch,smatch,no,,
 supermarket,smiths-166dbe,Smith's,Smith's,Q7544856,ca|us,,0,Smith's,smiths,no,,
 convenience,snarkjop-2da37b,Snarkjøp,Snarkjøp,,no,,0,Snarkjøp,snarkjp,no,,
-supermarket,sobeys-76454b,Sobeys,Sobeys,Q1143340,ca,,0,Sobeys,sobeys,no,,
-supermarket,megasoriana-9b2dfb,MEGA Soriana,Soriana,Q735562,mx,,0,Soriana,soriana,no,,
-supermarket,sorianahiper-9b2dfb,Soriana Híper,Soriana,Q735562,mx,,0,Soriana,soriana,no,,
-supermarket,sorianamercado-9b2dfb,Soriana Mercado,Soriana,Q735562,mx,,0,Soriana,soriana,no,,
-supermarket,sorianasuper-9b2dfb,Soriana Súper,Soriana,Q735562,mx,,0,Soriana,soriana,no,,
+supermarket,sobeys-76454b,Sobeys,Sobeys,Q1143340,ca,,0,Sobeys,sobeys,exact,,sobeys.png
+supermarket,megasoriana-9b2dfb,MEGA Soriana,Soriana,Q735562,mx,,0,Soriana,soriana,exact,,soriana.png
+supermarket,sorianahiper-9b2dfb,Soriana Híper,Soriana,Q735562,mx,,0,Soriana,soriana,exact,,soriana.png
+supermarket,sorianamercado-9b2dfb,Soriana Mercado,Soriana,Q735562,mx,,0,Soriana,soriana,exact,,soriana.png
+supermarket,sorianasuper-9b2dfb,Soriana Súper,Soriana,Q735562,mx,,0,Soriana,soriana,exact,,soriana.png
 supermarket,sorlidiscau-0513f1,Sorli Discau,Sorli Discau,Q20103935,es,,0,Sorli Discau,sorli-discau,no,,
 convenience,spar-1effe0,Spar,Spar,Q610492,001,ge|it|no,1,Spar,spar,exact,spar.svg,
 convenience,spar-2da37b,Spar (Norge),Spar,Q610492,no,,0,Spar,spar,exact,spar.svg,
@@ -1109,7 +1109,7 @@ convenience,starmart-4d6b4b,Star Mart,Star Mart,Q61994857,001,,0,Star Mart,star-
 supermarket,staterbros-dde59d,Stater Bros.,Stater Bros.,Q7604016,us,,1,Stater Bros.,stater-bros,no,,
 convenience,stewartsshops-f1e40b,Stewart's Shops,Stewart's Shops,Q7615690,us,,1,Stewart's Shops,stewarts-shops,no,,
 convenience,stinker-f1e40b,Stinker,Stinker,Q95990164,us,,1,Stinker,stinker,no,,
-supermarket,stokrotka-9e6a6c,Stokrotka,Stokrotka,Q9345945,pl,,0,Stokrotka,stokrotka,no,,
+supermarket,stokrotka-9e6a6c,Stokrotka,Stokrotka,Q9345945,pl,,0,Stokrotka,stokrotka,exact,,stokrotka.png
 convenience,stokrotkaexpress-95f41b,Stokrotka Express,Stokrotka Express,Q110801119,pl,,0,Stokrotka Express,stokrotka-express,no,,
 supermarket,stokrotkamarket-9e6a6c,Stokrotka Market,Stokrotka Market,Q110801183,pl,,0,Stokrotka Market,stokrotka-market,no,,
 supermarket,stokrotkaoptima-9e6a6c,Stokrotka Optima,Stokrotka Optima,Q110801045,pl,,0,Stokrotka Optima,stokrotka-optima,no,,
@@ -1118,7 +1118,7 @@ convenience,stopcafe-4d6b4b,Stop Cafe,Stop Cafe,,001,,0,Stop Cafe,stop-cafe,no,,
 supermarket,strackandvantil-972b32,Strack & Van Til,Strack & Van Til,Q17108969,us-in.geojson,,0,Strack & Van Til,strack-van-til,no,,
 convenience,stripes-cc811e,Stripes,Stripes,Q7624135,cl|us,,0,Stripes,stripes,no,,
 convenience,stuckeys-f1e40b,Stuckey's,Stuckey's,Q7627481,us,,0,Stuckey's,stuckeys,no,,
-convenience,studenac-5b00ff,Studenac,Studenac,Q65156084,hr,,0,Studenac,studenac,no,,
+convenience,studenac-5b00ff,Studenac,Studenac,Q65156084,hr,,0,Studenac,studenac,exact,,studenac.png
 supermarket,suma-0513f1,Suma,Suma,Q58012362,es,,0,Suma,suma,exact,,suma.png
 supermarket,sumesa-9b2dfb,Sumesa,Sumesa,Q123741153,mx,,0,Sumesa,sumesa,no,,
 convenience,sunoco-f1e40b,Sunoco,Sunoco,Q1423218,us,,0,Sunoco,sunoco,no,,
@@ -1165,7 +1165,7 @@ convenience,tsn-80468a,T. SN,T. SN,,ec,,0,T. SN,t-sn,no,,
 convenience,ta-f1e40b,TA,TA,Q7835892,us,,0,TA,ta,no,,
 convenience,tambo-853840,Tambo+,Tambo+,Q64516439,pe,,0,Tambo+,tambo,no,,
 supermarket,target-dde59d,Target (USA),Target,Q1046951,us,,1,Target,target,exact,,target.png
-supermarket,taste-745f9c,Taste,Taste,Q7687667,hk,,0,Taste,taste,no,,
+supermarket,taste-745f9c,Taste,Taste,Q7687667,hk,,0,Taste,taste,exact,,taste.png
 supermarket,tegut-0a839e,tegut,tegut,Q1547993,de,,0,tegut,tegut,exact,tegut.svg,
 supermarket,tempo-4ccde8,Tempo (Slovensko),Tempo,Q41629254,sk,,0,Tempo,tempo,no,,
 convenience,tempo-a7773e,Tempo (Česko),Tempo,Q52851660,cz,,5,Tempo,tempo,no,,
@@ -1182,8 +1182,8 @@ supermarket,tescoextra-1e2c58,Tesco Extra,Tesco Extra,Q25172225,150|my,,0,Tesco 
 supermarket,tescometro-23ec32,Tesco Metro,Tesco Metro,Q57551648,ie,,0,Tesco Metro,tesco-metro,no,,
 convenience,texaco-4d6b4b,Texaco,Texaco,Q775060,001,,0,Texaco,texaco,no,,
 supermarket,tfvaluemart-80e9ee,TF Value-Mart,TF Value-Mart,Q96679744,my,,0,TF Value-Mart,tf-value-mart,no,,
-convenience,thecooperativefood-232829,The Co-operative Food,The Co-operative Food,Q107617274,gb,,0,The Co-operative Food,the-co-operative-food,no,,
-supermarket,thecooperativefood-a8278b,Central England Co-operative,The Co-operative Food,Q107617274,gb,,1,The Co-operative Food,the-co-operative-food,no,,
+convenience,thecooperativefood-232829,The Co-operative Food,The Co-operative Food,Q107617274,gb,,0,The Co-operative Food,the-co-operative-food,exact,,the-co-operative-food.png
+supermarket,thecooperativefood-a8278b,Central England Co-operative,The Co-operative Food,Q107617274,gb,,1,The Co-operative Food,the-co-operative-food,exact,,the-co-operative-food.png
 supermarket,thefoodwarehouse-a8278b,The Food Warehouse,The Food Warehouse,Q87263899,gb,,0,The Food Warehouse,the-food-warehouse,no,,
 supermarket,thefreshmarket-dde59d,The Fresh Market,The Fresh Market,Q7735265,us,,1,The Fresh Market,the-fresh-market,exact,the-fresh-market.svg,
 supermarket,thegroceryoutlet-76454b,The Grocery Outlet,The Grocery Outlet,Q16062155,ca,,0,The Grocery Outlet,the-grocery-outlet,no,,
@@ -1196,16 +1196,16 @@ supermarket,tiendasd1-271a34,Tiendas D1,Tiendas D1,,co,,0,Tiendas D1,tiendas-d1,
 convenience,tigermart-4d6b4b,Tiger Mart,Tiger Mart,Q57643977,001,,2,Tiger Mart,tiger-mart,no,,
 supermarket,tigre-0cb133,Tigre,Tigre,Q114567803,it,,0,Tigre,tigre,no,,
 supermarket,tigreamico-0cb133,Tigre Amico,Tigre Amico,Q114567814,it,,0,Tigre Amico,tigre-amico,no,,
-supermarket,tigros-0cb133,Tigros,Tigros,Q24935610,it,,0,Tigros,tigros,no,,
+supermarket,tigros-0cb133,Tigros,Tigros,Q24935610,it,,0,Tigros,tigros,exact,,tigros.png
 supermarket,timessupermarkets-34b4ac,Times Supermarkets,Times Supermarkets,Q7806566,us-hi,,0,Times Supermarkets,times-supermarkets,no,,
 convenience,timewise-944bfe,Timewise,Timewise,,us-tx.geojson,,0,Timewise,timewise,no,,
 supermarket,tivtaam-6b65f1,טיב טעם,Tiv Ta'am,Q2903718,il,,0,Tiv Ta'am,tiv-taam,no,,
 supermarket,tivtaaminthecity-6b65f1,טיב טעם בעיר,Tiv Ta'am in The City,Q2903718,il,,0,Tiv Ta'am in The City,tiv-taam-in-the-city,no,,
-supermarket,todis-0cb133,Todis,Todis,Q3992174,it,,0,Todis,todis,no,,
+supermarket,todis-0cb133,Todis,Todis,Q3992174,it,,0,Todis,todis,exact,,todis.png
 convenience,tommarket-58d40d,Tom Market,Tom Market,,hu,,0,Tom Market,tom-market,no,,
 supermarket,tomthumb-a6c312,Tom Thumb,Tom Thumb,Q7817826,us-tx.geojson,,0,Tom Thumb,tom-thumb,exact,tom-thumb.svg,
-convenience,tommy-5b00ff,Tommy,Tommy,Q12643718,hr,,0,Tommy,tommy,no,,
-supermarket,tommy-f279a1,Tommy,Tommy,Q12643718,hr,,0,Tommy,tommy,no,,
+convenience,tommy-5b00ff,Tommy,Tommy,Q12643718,hr,,0,Tommy,tommy,exact,,tommy.png
+supermarket,tommy-f279a1,Tommy,Tommy,Q12643718,hr,,0,Tommy,tommy,exact,,tommy.png
 supermarket,tonysfreshmarket-5ca8e2,Tony's Fresh Market,Tony's Fresh Market,Q118594253,us-il.geojson,,0,Tony's Fresh Market,tonys-fresh-market,no,,
 convenience,tootntotum-4d6b4b,Toot'n Totum,Toot'n Totum,,001,,0,Toot'n Totum,tootn-totum,no,,
 convenience,topmarket-95f41b,Top Market,Top Market,,pl,,0,Top Market,top-market,no,,
@@ -1252,7 +1252,7 @@ convenience,usave-8978c5,USave (UK),USave,Q121435010,gb-sct,,0,USave,usave,no,,
 convenience,usmile-da9ca7,uSmile 昆仑好客,uSmile 昆仑好客,Q66480830,cn,,2,uSmile 昆仑好客,usmile,no,,
 convenience,utile-bf3eb4,Utile,Utile,Q2529029,fr,,0,Utile,utile,exact,,utile.png
 supermarket,uselect-745f9c,U購Select U Select,U購Select U Select,Q22098822,hk,,0,U購Select U Select,uselect-u-select,no,,
-supermarket,vmarkt-0a839e,V-MARKT,V-MARKT,Q1504903,de,,1,V-MARKT,v-markt,no,,
+supermarket,vmarkt-0a839e,V-MARKT,V-MARKT,Q1504903,de,,1,V-MARKT,v-markt,exact,,v-markt.png
 convenience,valero-6ca601,Valero,Valero,Q1283291,ca|de|fx|gb|us,,0,Valero,valero,no,,
 supermarket,vallarta-dde59d,Vallarta,Vallarta,Q7911833,us,,0,Vallarta,vallarta,no,,
 supermarket,valumart-76454b,Valu-mart,Valu-mart,Q7912687,ca,,0,Valu-mart,valu-mart,no,,
@@ -1263,7 +1263,7 @@ convenience,vesko-401681,Vesko,Vesko,,lv,,0,Vesko,vesko,no,,
 supermarket,victory-6b65f1,Victory,Victory,Q6564842,il,,0,Victory,victory,no,,
 supermarket,vidal-0513f1,Vidal Supermercados,Vidal Supermercados,Q114915046,es,,0,Vidal Supermercados,vidal-supermercados,no,,
 convenience,virsi-401681,Virši,Virši,Q50378789,lv,,0,Virši,virsi,no,,
-supermarket,vishalmegamart-9ef8f9,Vishal Mega Mart,Vishal Mega Mart,Q126895037,in,,0,Vishal Mega Mart,vishal-mega-mart,no,,
+supermarket,vishalmegamart-9ef8f9,Vishal Mega Mart,Vishal Mega Mart,Q126895037,in,,0,Vishal Mega Mart,vishal-mega-mart,exact,,vishal-mega-mart.png
 convenience,viva-16370c,Viva,Viva,Q120134542,at|bg|cz|hu|ro|rs|sk,,0,Viva,viva,no,,
 convenience,vivabilla-65ae8a,Viva Billa,Viva Billa,Q124305949,cz|sk,,0,Viva Billa,viva-billa,no,,
 convenience,vival-12cc61,Vival,Vival,Q7937525,fr|pe,,0,Vival,vival,exact,,vival.png
@@ -1285,7 +1285,7 @@ convenience,wawa-dad45f,Wawa,Wawa,Q5936320,us-dc.geojson|us-de.geojson|us-fl.geo
 convenience,waypointconvenience-eea72f,Waypoint Convenience,Waypoint Convenience,Q121289008,ca,,0,Waypoint Convenience,waypoint-convenience,no,,
 supermarket,wegmans-dde59d,Wegmans,Wegmans,Q11288478,us,,0,Wegmans,wegmans,exact,wegmans.svg,
 convenience,weigels-f1e40b,Weigel's,Weigel's,Q7979844,us,,0,Weigel's,weigels,no,,
-supermarket,weis-dde59d,Weis,Weis,Q7980370,us,,0,Weis,weis,no,,
+supermarket,weis-dde59d,Weis,Weis,Q7980370,us,,0,Weis,weis,exact,,weis.png
 convenience,welcome-232829,Welcome,Welcome,Q123004215,gb,,0,Welcome,welcome,no,,
 convenience,wesco-f1e40b,Wesco,Wesco,Q7949045,us,,0,Wesco,wesco,no,,
 supermarket,wholefoodsmarket-90050a,Whole Foods Market,Whole Foods Market,Q1809448,ca|gb|us,,1,Whole Foods Market,whole-foods-market,exact,whole-foods-market.svg,
@@ -1296,8 +1296,8 @@ supermarket,winmart-45db57,WinMart,WinMart,Q60245505,vn,,1,WinMart,winmart,exact
 convenience,winmart-61b913,WinMart+,WinMart+,Q113236478,vn,,1,WinMart+,winmart,exact,,winmart.png
 supermarket,winndixie-dde59d,Winn-Dixie,Winn-Dixie,Q1264366,us,,0,Winn-Dixie,winn-dixie,exact,winn-dixie.svg,
 supermarket,woodmansmarkets-5dc7ba,Woodman's Markets,Woodman's Markets,Q8033073,us-il.geojson|us-wi.geojson,,0,Woodman's Markets,woodmans-markets,no,,
-supermarket,woolworths-5dc426,Woolworths (New Zealand),Woolworths,Q5176845,nz,,1,Woolworths,woolworths,no,,
-supermarket,woolworths-c254c9,Woolworths (Australia),Woolworths,Q3249145,au,,0,Woolworths,woolworths,no,,
+supermarket,woolworths-5dc426,Woolworths (New Zealand),Woolworths,Q5176845,nz,,1,Woolworths,woolworths,exact,,woolworths.png
+supermarket,woolworths-c254c9,Woolworths (Australia),Woolworths,Q3249145,au,,0,Woolworths,woolworths,exact,,woolworths.png
 supermarket,woolworthsmetro-5dc426,Woolworths Metro (New Zealand),Woolworths Metro,Q123699264,nz,,0,Woolworths Metro,woolworths-metro,no,,
 supermarket,woolworthsmetro-c254c9,Woolworths Metro (Australia),Woolworths Metro,Q111772555,au,,0,Woolworths Metro,woolworths-metro,no,,
 convenience,woolworthsmetrogo-0b0ae9,Woolworths MetroGo,Woolworths MetroGo,Q111772555,au,,0,Woolworths MetroGo,woolworths-metrogo,no,,
@@ -1310,7 +1310,7 @@ supermarket,yeme-4ccde8,Yeme,Yeme,Q108757006,sk,,0,Yeme,yeme,exact,yeme.svg,
 convenience,yesway-f1e40b,Yesway,Yesway,Q75851666,us,,0,Yesway,yesway,no,,
 supermarket,yogya-9b33de,Yogya,Yogya,Q124353073,id,,0,Yogya,yogya,no,,
 convenience,yomart-bb8a09,Yomart,Yomart,Q19745366,id,,0,Yomart,yomart,no,,
-convenience,yormas-60c7fe,Yorma's,Yorma's,Q2600868,de,,0,Yorma's,yormas,no,,
+convenience,yormas-60c7fe,Yorma's,Yorma's,Q2600868,de,,0,Yorma's,yormas,exact,,yormas.png
 convenience,yourcoopfood-232829,Your Coop Food (Midcounties Co-operative),Your Coop Food,Q121084548,gb,,1,Your Coop Food,your-coop-food,no,,
 supermarket,yourindependentgrocer-76454b,Your Independent Grocer,Your Independent Grocer,Q8058833,ca,,1,Your Independent Grocer,your-independent-grocer,no,,
 supermarket,zehrs-76454b,Zehrs,Zehrs,Q8068546,ca,,0,Zehrs,zehrs,exact,,zehrs.png
