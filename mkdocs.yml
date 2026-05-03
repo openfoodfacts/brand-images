@@ -22,13 +22,20 @@ theme:
         name: Switch to light mode
 
 nav:
-  - Home: index.md
+  - Home: README.md
   - Open Prices:
+    - Home: open-prices/README.md
     - Brand Match Viewer: open-prices/brand-match-viewer.md
     - Brand Match Stats: open-prices/brand-match-stats.md
   - NSI:
+    - Home: nsi/README.md
     - Brand Match Viewer: nsi/brand-match-viewer.md
     - Brand Match Stats: nsi/brand-match-stats.md
+  - Dev:
+    - Contributing: CONTRIBUTING.md
+
+plugins:
+  - search
 
 extra:
   brand_match_logo_base: !ENV [BRAND_MATCH_LOGO_BASE, ../../xx/stores/]
