@@ -13,7 +13,7 @@ python3 scripts/compress_png_images.py
 
 ### Get the shop brands
 
-see https://github.com/openfoodfacts/open-prices/wiki/Stats#top-location-brand-names
+see [open-prices/wiki/Stats](https://github.com/openfoodfacts/open-prices/wiki/Stats#top-location-brand-names)
 
 ### Generate brand-image matches
 
@@ -23,15 +23,15 @@ python3 scripts/generate_open_prices_brand_match_csv.py
 
 ### Matching status
 
-- [Brand Match Viewer](open-prices/brand-match-viewer.md) — interactive table to explore the matched brands and logos
-- [Brand Match Stats](open-prices/brand-match-stats.md) — coverage stats updated every time the match script runs
+- [Brand Match Viewer](docs/open-prices/brand-match-viewer.md) — interactive table to explore the matched brands and logos
+- [Brand Match Stats](docs/open-prices/brand-match-stats.md) — coverage stats updated every time the match script runs
 
 ## Name Suggestion Index (NSI)
 
 ### NSI sources
 
-- https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/supermarket.json
-- https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/convenience.json
+- [supermarket.json](https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/supermarket.json)
+- [convenience.json](https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/convenience.json)
 
 The NSI dataset is provided by the name-suggestion-index project under the BSD-3-Clause license.
 
@@ -43,17 +43,15 @@ python3 scripts/generate_nsi_brand_match_csv.py
 
 ### Matching status
 
-- [NSI Brand Match Viewer](nsi/brand-match-viewer.md) — interactive table to explore the matched NSI brands and logos
-- [NSI Brand Match Stats](nsi/brand-match-stats.md) — coverage stats updated every time the match script runs
+- [NSI Brand Match Viewer](docs/nsi/brand-match-viewer.md) — interactive table to explore the matched NSI brands and logos
+- [NSI Brand Match Stats](docs/nsi/brand-match-stats.md) — coverage stats updated every time the match script runs
 
-## Development
+## Contribute
 
-### Preview the docs locally
+see [CONTRIBUTING.md](CONTRIBUTING.md)
 
-```bash
-pip install mkdocs mkdocs-material
-cp README.md docs/index.md
-python -m mkdocs serve --dev-addr 127.0.0.1:8765
-```
+## Contributors
 
-Open http://127.0.0.1:8765/ in your browser.
+<a href="https://github.com/openfoodfacts/brand-images/graphs/contributors">
+  <img alt="List of contributors to this repository" src="https://contrib.rocks/image?repo=openfoodfacts/brand-images" />
+</a>
