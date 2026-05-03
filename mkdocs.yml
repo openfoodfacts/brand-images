@@ -24,9 +24,11 @@ theme:
 nav:
   - Home: README.md
   - Open Prices:
+    - Home: open-prices/README.md
     - Brand Match Viewer: open-prices/brand-match-viewer.md
     - Brand Match Stats: open-prices/brand-match-stats.md
   - NSI:
+    - Home: nsi/README.md
     - Brand Match Viewer: nsi/brand-match-viewer.md
     - Brand Match Stats: nsi/brand-match-stats.md
   - Dev:

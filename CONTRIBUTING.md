@@ -8,7 +8,7 @@ TODO
 
 ```bash
 pip install mkdocs mkdocs-material
-# symlinks tracked in git: README.md, xx/
+# symlinks tracked in git: README.md, xx/, nsi/, open-prices/
 python -m mkdocs serve --dev-addr 127.0.0.1:8765
 ```
 
