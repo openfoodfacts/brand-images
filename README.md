@@ -13,7 +13,7 @@ python3 scripts/compress_png_images.py
 
 ### Get the shop brands
 
-see [open-prices/wiki/Stats](https://github.com/openfoodfacts/open-prices/wiki/Stats#top-location-brand-names)
+see [openfoodfacts/open-prices/wiki/Stats](https://github.com/openfoodfacts/open-prices/wiki/Stats#top-location-brand-names)
 
 ### Generate brand-image matches
 
@@ -23,8 +23,8 @@ python3 scripts/generate_open_prices_brand_match_csv.py
 
 ### Matching status
 
-- [Brand Match Viewer](docs/open-prices/brand-match-viewer.md) — interactive table to explore the matched brands and logos
-- [Brand Match Stats](docs/open-prices/brand-match-stats.md) — coverage stats updated every time the match script runs
+- [Brand Match Viewer](open-prices/brand-match-viewer.md) — interactive table to explore the matched brands and logos
+- [Brand Match Stats](open-prices/brand-match-stats.md) — coverage stats updated every time the match script runs
 
 ## Name Suggestion Index (NSI)
 
@@ -43,8 +43,8 @@ python3 scripts/generate_nsi_brand_match_csv.py
 
 ### Matching status
 
-- [NSI Brand Match Viewer](docs/nsi/brand-match-viewer.md) — interactive table to explore the matched NSI brands and logos
-- [NSI Brand Match Stats](docs/nsi/brand-match-stats.md) — coverage stats updated every time the match script runs
+- [NSI Brand Match Viewer](nsi/brand-match-viewer.md) — interactive table to explore the matched NSI brands and logos
+- [NSI Brand Match Stats](nsi/brand-match-stats.md) — coverage stats updated every time the match script runs
 
 ## Contribute
 

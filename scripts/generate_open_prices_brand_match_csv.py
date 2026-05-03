@@ -2,7 +2,7 @@
 Generate a CSV recap matching brand names from 20260328-brand-names.csv to images in xx/stores.
 Adds columns: match_status (exact/no), matched_image, and top_100_by_price (yes for top 100 by price count).
 
-Also appends stats to docs/open-prices/brand-match-stats.md
+Also appends stats to open-prices/brand-match-stats.md
 
 Usage: python scripts/generate_open_prices_brand_match_csv.py
 """
@@ -12,8 +12,8 @@ import re
 import datetime
 from unidecode import unidecode
 
-INPUT_CSV = 'docs/open-prices/20260328-brand-names.csv'
-OUTPUT_CSV = 'docs/open-prices/brand-match.csv'
+INPUT_CSV = 'open-prices/20260328-brand-names.csv'
+OUTPUT_CSV = 'open-prices/brand-match.csv'
 IMAGE_DIR = 'xx/stores'
 
 # Django-style slugify
@@ -86,7 +86,7 @@ def main():
 STATS_HEADER = '| Date | Input brands | Images (svg/png) | Exact matches | Match % | Match (top 100) % |\n|------|-------------|-----------------|---------------|---------|------------------|\n'
 
 def write_stats_md(input_count, image_count, ext_counts, exact_count, top100_exact_pct):
-    stats_path = 'docs/open-prices/brand-match-stats.md'
+    stats_path = 'open-prices/brand-match-stats.md'
     today = datetime.date.today().strftime('%Y-%m-%d')
     svg_count = ext_counts.get('svg', 0)
     png_count = ext_counts.get('png', 0)
