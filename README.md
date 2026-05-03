@@ -2,11 +2,24 @@
 
 Logo assets, with tooling.
 
+## Stats
+
+<!-- AUTO-GENERATED: XX_STATS_START -->
+| Folder | Items |
+|--------|------:|
+| `xx/agencies` | 5 |
+| `xx/brands` | 5190 |
+| `xx/stores` | 2216 |
+
+Last updated: 2026-05-03
+<!-- AUTO-GENERATED: XX_STATS_END -->
+
 ## Utilities
 
 ```bash
 python3 scripts/convert_images_to_png.py
 python3 scripts/compress_png_images.py
+python3 scripts/update_readme_xx_stats.py
 ```
 
 ## Databases comparisons
