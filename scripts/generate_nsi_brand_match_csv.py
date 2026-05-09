@@ -1,9 +1,7 @@
 """
 Generate a CSV recap matching NSI brand entries to images in xx/stores.
 
-Sources:
-- https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/supermarket.json
-- https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/convenience.json
+Sources are configured in nsi/sources.json.
 
 Matching rule:
 - Use tags.brand as the exact match input, slugified with Django-style behavior.
@@ -28,17 +26,7 @@ import urllib.request
 IMAGE_DIR = 'xx/stores'
 OUTPUT_CSV = 'nsi/brand-match.csv'
 STATS_MD = 'nsi/brand-match-stats.md'
-
-NSI_SOURCES = [
-    {
-        'source_category': 'supermarket',
-        'url': 'https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/supermarket.json',
-    },
-    {
-        'source_category': 'convenience',
-        'url': 'https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/convenience.json',
-    },
-]
+SOURCES_JSON = 'nsi/sources.json'
 
 CSV_COLUMNS = [
     'source_category',
@@ -95,6 +83,37 @@ def match_status_from_formats(svg_filename, png_filename):
     if png_filename:
         return 'only_png'
     return 'no'
+
+
+def load_sources(sources_path):
+    if not os.path.exists(sources_path):
+        raise RuntimeError(f'Missing sources file: {sources_path}')
+
+    with open(sources_path, 'r', encoding='utf-8') as file_obj:
+        data = json.load(file_obj)
+
+    if not isinstance(data, list):
+        raise RuntimeError(f'Invalid sources format in {sources_path}: expected a list')
+
+    sources = []
+    for index, item in enumerate(data):
+        if not isinstance(item, dict):
+            raise RuntimeError(f'Invalid source at index {index} in {sources_path}: expected an object')
+
+        source_category = str(item.get('source_category', '')).strip()
+        url = str(item.get('url', '')).strip()
+
+        if not source_category or not url:
+            raise RuntimeError(
+                f'Invalid source at index {index} in {sources_path}: source_category and url are required'
+            )
+
+        sources.append({'source_category': source_category, 'url': url})
+
+    if not sources:
+        raise RuntimeError(f'No sources configured in {sources_path}')
+
+    return sources
 
 
 
@@ -169,7 +188,7 @@ def extract_rows_from_source(source):
 
 
 
-def write_stats_md(input_count, image_count, ext_counts, svg_match_count, png_match_count, overall_match_count):
+def write_stats_md(input_count, image_count, ext_counts, svg_match_count, png_match_count, overall_match_count, source_urls):
     today = datetime.date.today().strftime('%Y-%m-%d')
     svg_count = ext_counts.get('svg', 0)
     png_count = ext_counts.get('png', 0)
@@ -182,10 +201,10 @@ def write_stats_md(input_count, image_count, ext_counts, svg_match_count, png_ma
     intro = (
         '# NSI Brand Match Stats\n\n'
         'Every time we run the NSI brand match script, we update this file with the latest stats on how many NSI brands '
-        'from supermarket and convenience source files match SVG/PNG images in `xx/stores`, plus the overall match rate.\n\n'
+        'from configured source files match SVG/PNG images in `xx/stores`, plus the overall match rate.\n\n'
         'Sources:\n'
-        '* https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/supermarket.json\n'
-        '* https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/convenience.json\n\n'
+        + ''.join(f'* {url}\n' for url in source_urls)
+        + '\n'
     )
 
     if os.path.exists(STATS_MD):
@@ -212,9 +231,10 @@ def write_stats_md(input_count, image_count, ext_counts, svg_match_count, png_ma
 
 def main():
     print('Fetching NSI sources...')
+    sources = load_sources(SOURCES_JSON)
 
     rows = []
-    for source in NSI_SOURCES:
+    for source in sources:
         source_rows = extract_rows_from_source(source)
         rows.extend(source_rows)
         print(f"Loaded {len(source_rows)} rows from {source['source_category']}")
@@ -252,7 +272,16 @@ def main():
     svg_match_count = sum(1 for row in rows if row['match_status'] in ('both', 'only_svg'))
     png_match_count = sum(1 for row in rows if row['match_status'] in ('both', 'only_png'))
     overall_match_count = sum(1 for row in rows if row['match_status'] != 'no')
-    write_stats_md(len(rows), len(image_files), ext_counts, svg_match_count, png_match_count, overall_match_count)
+    source_urls = [source['url'] for source in sources]
+    write_stats_md(
+        len(rows),
+        len(image_files),
+        ext_counts,
+        svg_match_count,
+        png_match_count,
+        overall_match_count,
+        source_urls,
+    )
 
     print(f'Wrote {len(rows)} rows to {OUTPUT_CSV}')
     print(f'Match svg: {svg_match_count}')
