@@ -1,6 +1,6 @@
 """
 Generate a CSV recap matching brand names from 20260328-brand-names.csv to images in xx/stores.
-Adds columns: match_status (exact/no), matched_image, and top_100_by_price (yes for top 100 by price count).
+Adds columns: match_status (no/both/only_svg/only_png), matched_image, and top_100_by_price (yes for top 100 by price count).
 
 Also appends stats to open-prices/brand-match-stats.md
 
@@ -34,6 +34,16 @@ def pick_formats(files):
     svg = next((f for f in files if f.lower().endswith('.svg')), '')
     png = next((f for f in files if f.lower().endswith('.png')), '')
     return svg, png
+
+
+def match_status_from_formats(svg_filename, png_filename):
+    if svg_filename and png_filename:
+        return 'both'
+    if svg_filename:
+        return 'only_svg'
+    if png_filename:
+        return 'only_png'
+    return 'no'
 
 def main():
     image_files = get_image_files(IMAGE_DIR)
@@ -73,60 +83,46 @@ def main():
             matched_image_svg = ''
             matched_image_png = ''
             match_status = 'no'
-            # Exact match
+            # Status is based on available SVG/PNG files for the slug.
             if slug in image_slugs:
                 matched_image_svg, matched_image_png = pick_formats(image_slugs[slug])
-                match_status = 'exact'
+                match_status = match_status_from_formats(matched_image_svg, matched_image_png)
             row['match_status'] = match_status
             row['matched_image_svg'] = matched_image_svg
             row['matched_image_png'] = matched_image_png
             row['top_100_by_price'] = 'yes' if row.get('price_count', '').isdigit() and int(row['price_count']) >= top_100_cutoff else ''
             writer.writerow(row)
 
-STATS_HEADER = '| Date | Input brands | Images (svg/png) | Exact matches | Match % | Match (top 100) % |\n|------|-------------|-----------------|---------------|---------|------------------|\n'
+STATS_HEADER = '| Date | Input brands | Images (svg/png) | Match svg | Match png | Overall match % | Match (top 100) % |\n|------|-------------|-----------------|----------:|----------:|----------------:|------------------:|\n'
 
-def write_stats_md(input_count, image_count, ext_counts, exact_count, top100_exact_pct):
+def write_stats_md(input_count, image_count, ext_counts, svg_match_count, png_match_count, overall_match_count, top100_exact_pct):
     stats_path = 'open-prices/brand-match-stats.md'
     today = datetime.date.today().strftime('%Y-%m-%d')
     svg_count = ext_counts.get('svg', 0)
     png_count = ext_counts.get('png', 0)
-    match_pct = (exact_count / input_count * 100) if input_count else 0
-    new_row = f'| {today} | {input_count} | {image_count} ({svg_count} svg / {png_count} png) | {exact_count} | {match_pct:.1f}% | {top100_exact_pct:.1f}% |\n'
+    overall_match_pct = (overall_match_count / input_count * 100) if input_count else 0
+    new_row = (
+        f'| {today} | {input_count} | {image_count} ({svg_count} svg / {png_count} png) '
+        f'| {svg_match_count} | {png_match_count} | {overall_match_pct:.1f}% | {top100_exact_pct:.1f}% |\n'
+    )
 
     intro = (
         '# Open Prices Brand Match Stats\n\n'
         'Every time we run the brand match script, we update this file with the latest stats on how many brands from '
-        '`20260328-brand-names.csv` have exact matches in the `xx/stores` images.\n\n'
+        '`20260328-brand-names.csv` match SVG/PNG images in `xx/stores`, plus the overall match rate.\n\n'
     )
 
     if os.path.exists(stats_path):
         with open(stats_path, 'r', encoding='utf-8') as f:
             content = f.read()
-        # Extract existing table rows (skip header and separator lines), normalize legacy shapes.
+        # Extract existing rows in the current table shape.
         rows = []
         for line in content.splitlines():
             if not line.startswith('|') or line.startswith('| Date') or line.startswith('|---'):
                 continue
             cells = [c.strip() for c in line.strip().split('|')[1:-1]]
-            # Current shape: Date, Input, Images, Exact, Match%, Top100%
-            if len(cells) == 6:
-                rows.append('| ' + ' | '.join(cells) + ' |\n')
-                continue
-            # Older shape: Date, Input, Images, Exact, Top100%
-            if len(cells) == 5:
-                input_val = cells[1]
-                exact_val = cells[3]
-                if input_val.isdigit() and exact_val.isdigit() and int(input_val) > 0:
-                    legacy_match_pct = f"{(int(exact_val) / int(input_val) * 100):.1f}%"
-                else:
-                    legacy_match_pct = ''
-                upgraded = [cells[0], cells[1], cells[2], cells[3], legacy_match_pct, cells[4]]
-                rows.append('| ' + ' | '.join(upgraded) + ' |\n')
-                continue
-            # Legacy shape: Date, Input, Images, Exact, Approx, Top100%
             if len(cells) == 7:
-                upgraded = [cells[0], cells[1], cells[2], cells[3], cells[5], cells[6]]
-                rows.append('| ' + ' | '.join(upgraded) + ' |\n')
+                rows.append('| ' + ' | '.join(cells) + ' |\n')
         # Remove today's row if it already exists (re-run same day)
         rows = [r for r in rows if not r.startswith(f'| {today} ')]
     else:
@@ -156,9 +152,19 @@ if __name__ == '__main__':
     # Read output for stats
     with open(OUTPUT_CSV, newline='', encoding='utf-8') as f:
         out_rows = list(csv.DictReader(f))
-    exact_count = sum(1 for r in out_rows if r['match_status'] == 'exact')
+    svg_match_count = sum(1 for r in out_rows if r['match_status'] in ('both', 'only_svg'))
+    png_match_count = sum(1 for r in out_rows if r['match_status'] in ('both', 'only_png'))
+    overall_match_count = sum(1 for r in out_rows if r['match_status'] != 'no')
     top100 = [r for r in out_rows if r['top_100_by_price'] == 'yes']
-    top100_exact = sum(1 for r in top100 if r['match_status'] == 'exact')
+    top100_exact = sum(1 for r in top100 if r['match_status'] != 'no')
     top100_exact_pct = (top100_exact / len(top100) * 100) if top100 else 0
-    write_stats_md(input_count, image_count, ext_counts, exact_count, top100_exact_pct)
+    write_stats_md(
+        input_count,
+        image_count,
+        ext_counts,
+        svg_match_count,
+        png_match_count,
+        overall_match_count,
+        top100_exact_pct,
+    )
     print("Done.")

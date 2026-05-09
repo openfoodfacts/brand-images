@@ -57,8 +57,8 @@ CSV_COLUMNS = [
 ]
 
 STATS_HEADER = (
-    '| Date | NSI items | Images (svg/png) | Exact matches | Match % |\n'
-    '|------|-----------|------------------|---------------|---------|\n'
+    '| Date | NSI items | Images (svg/png) | Match svg | Match png | Overall match % |\n'
+    '|------|-----------|------------------|----------:|----------:|----------------:|\n'
 )
 
 
@@ -85,6 +85,16 @@ def pick_formats(files):
     svg = next((f for f in files if f.lower().endswith('.svg')), '')
     png = next((f for f in files if f.lower().endswith('.png')), '')
     return svg, png
+
+
+def match_status_from_formats(svg_filename, png_filename):
+    if svg_filename and png_filename:
+        return 'both'
+    if svg_filename:
+        return 'only_svg'
+    if png_filename:
+        return 'only_png'
+    return 'no'
 
 
 
@@ -159,17 +169,20 @@ def extract_rows_from_source(source):
 
 
 
-def write_stats_md(input_count, image_count, ext_counts, exact_count):
+def write_stats_md(input_count, image_count, ext_counts, svg_match_count, png_match_count, overall_match_count):
     today = datetime.date.today().strftime('%Y-%m-%d')
     svg_count = ext_counts.get('svg', 0)
     png_count = ext_counts.get('png', 0)
-    match_pct = (exact_count / input_count * 100) if input_count else 0
-    new_row = f'| {today} | {input_count} | {image_count} ({svg_count} svg / {png_count} png) | {exact_count} | {match_pct:.1f}% |\n'
+    overall_match_pct = (overall_match_count / input_count * 100) if input_count else 0
+    new_row = (
+        f'| {today} | {input_count} | {image_count} ({svg_count} svg / {png_count} png) '
+        f'| {svg_match_count} | {png_match_count} | {overall_match_pct:.1f}% |\n'
+    )
 
     intro = (
         '# NSI Brand Match Stats\n\n'
         'Every time we run the NSI brand match script, we update this file with the latest stats on how many NSI brands '
-        'from supermarket and convenience source files have exact slug matches in `xx/stores`.\n\n'
+        'from supermarket and convenience source files match SVG/PNG images in `xx/stores`, plus the overall match rate.\n\n'
         'Sources:\n'
         '* https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/supermarket.json\n'
         '* https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/convenience.json\n\n'
@@ -184,7 +197,7 @@ def write_stats_md(input_count, image_count, ext_counts, exact_count):
             if not line.startswith('|') or line.startswith('| Date') or line.startswith('|---'):
                 continue
             cells = [cell.strip() for cell in line.strip().split('|')[1:-1]]
-            if len(cells) == 5:
+            if len(cells) == 6:
                 rows.append('| ' + ' | '.join(cells) + ' |\n')
         rows = [row for row in rows if not row.startswith(f'| {today} ')]
     else:
@@ -226,7 +239,7 @@ def main():
             matched_svg, matched_png = pick_formats(image_slugs[match_slug])
             row['matched_image_svg'] = matched_svg
             row['matched_image_png'] = matched_png
-            row['match_status'] = 'exact'
+            row['match_status'] = match_status_from_formats(matched_svg, matched_png)
 
     rows.sort(key=lambda row: (row['tags_brand'].lower(), row['nsi_id'].lower()))
 
@@ -236,11 +249,15 @@ def main():
         writer.writeheader()
         writer.writerows(rows)
 
-    exact_count = sum(1 for row in rows if row['match_status'] == 'exact')
-    write_stats_md(len(rows), len(image_files), ext_counts, exact_count)
+    svg_match_count = sum(1 for row in rows if row['match_status'] in ('both', 'only_svg'))
+    png_match_count = sum(1 for row in rows if row['match_status'] in ('both', 'only_png'))
+    overall_match_count = sum(1 for row in rows if row['match_status'] != 'no')
+    write_stats_md(len(rows), len(image_files), ext_counts, svg_match_count, png_match_count, overall_match_count)
 
     print(f'Wrote {len(rows)} rows to {OUTPUT_CSV}')
-    print(f'Exact matches: {exact_count}')
+    print(f'Match svg: {svg_match_count}')
+    print(f'Match png: {png_match_count}')
+    print(f'Overall matches: {overall_match_count}')
     print(f'Updated stats: {STATS_MD}')
 
 
