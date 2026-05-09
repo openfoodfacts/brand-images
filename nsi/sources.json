@@ -1,0 +1,106 @@
+[
+  {
+    "source_category": "supermarket",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/supermarket.json"
+  },
+  {
+    "source_category": "convenience",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/convenience.json"
+  },
+  {
+    "source_category": "frozen_food",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/frozen_food.json"
+  },
+  {
+    "source_category": "greengrocer",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/greengrocer.json"
+  },
+  {
+    "source_category": "deli",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/deli.json"
+  },
+  {
+    "source_category": "pet",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/pet.json"
+  },
+  {
+    "source_category": "wholesale",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/wholesale.json"
+  },
+  {
+    "source_category": "variety_store",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/variety_store.json"
+  },
+  {
+    "source_category": "bakery",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/bakery.json"
+  },
+  {
+    "source_category": "health_food",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/health_food.json"
+  },
+  {
+    "source_category": "alcohol",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/alcohol.json"
+  },
+  {
+    "source_category": "butcher",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/butcher.json"
+  },
+  {
+    "source_category": "coffee",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/coffee.json"
+  },
+  {
+    "source_category": "nutrition_supplements",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/nutrition_supplements.json"
+  },
+  {
+    "source_category": "chocolate",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/chocolate.json"
+  },
+  {
+    "source_category": "beverages",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/beverages.json"
+  },
+  {
+    "source_category": "bbq",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/bbq.json"
+  },
+  {
+    "source_category": "cheese",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/cheese.json"
+  },
+  {
+    "source_category": "dairy",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/dairy.json"
+  },
+  {
+    "source_category": "herbalist",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/herbalist.json"
+  },
+  {
+    "source_category": "nuts",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/nuts.json"
+  },
+  {
+    "source_category": "pastry",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/pastry.json"
+  },
+  {
+    "source_category": "seafood",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/seafood.json"
+  },
+  {
+    "source_category": "spices",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/spices.json"
+  },
+  {
+    "source_category": "tea",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/tea.json"
+  },
+  {
+    "source_category": "wine",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/wine.json"
+  }
+]
