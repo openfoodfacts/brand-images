@@ -36,7 +36,7 @@ supermarket,abclavpris-072052,ABC Lavpris,ABC Lavpris,Q12300077,dk,,0,ABC Lavpri
 supermarket,acme-dde59d,Acme,Acme,Q341975,us,,0,Acme,acme,both,acme.svg,acme.png
 variety_store,action-ba0d1d,Action,Action,Q2634111,at|be|cz|de|es|fr|it|lu|nl|pl|pt|sk,,0,Action,action,both,action.svg,action.png
 supermarket,addelhaize-f276cb,AD Delhaize,AD Delhaize,Q1184173,be|lu,,0,AD Delhaize,ad-delhaize,both,ad-delhaize.svg,ad-delhaize.png
-supermarket,adeg-1eef1d,ADEG,ADEG,Q290211,at,,0,ADEG,adeg,only_png,,adeg.png
+supermarket,adeg-1eef1d,ADEG,ADEG,Q290211,at,,0,ADEG,adeg,both,adeg.svg,adeg.png
 convenience,admiral-d554ea,Admiral,Admiral,,us-mi.geojson,,0,Admiral,admiral,only_png,,admiral.png
 supermarket,aeon-745f9c,永旺 AEON,AEON,Q271413,hk,,1,AEON,aeon,both,aeon.svg,aeon.png
 supermarket,aeonbig-80e9ee,AEON BiG,AEON BiG,Q8077280,my,,0,AEON BiG,aeon-big,only_png,,aeon-big.png
@@ -51,7 +51,7 @@ supermarket,albert-8e6809,Albert,Albert,Q9144241,cz,,0,Albert,albert,only_png,,a
 supermarket,albertheijn-1cf55d,Albert Heijn,Albert Heijn,Q1653985,be|nl,,0,Albert Heijn,albert-heijn,both,albert-heijn.svg,albert-heijn.png
 convenience,albertheijntogo-f85122,Albert Heijn to go,Albert Heijn to go,Q77971185,nl,,0,Albert Heijn to go,albert-heijn-to-go,only_png,,albert-heijn-to-go.png
 supermarket,albertheijnxl-1cf55d,Albert Heijn XL,Albert Heijn XL,Q78163765,be|nl,,0,Albert Heijn XL,albert-heijn-xl,only_png,,albert-heijn-xl.png
-supermarket,albertsons-dde59d,Albertsons,Albertsons,Q2831861,us,,1,Albertsons,albertsons,only_png,,albertsons.png
+supermarket,albertsons-dde59d,Albertsons,Albertsons,Q2831861,us,,1,Albertsons,albertsons,both,albertsons.svg,albertsons.png
 supermarket,albertsonsmarket-ba1fb8,Albertsons Market,Albertsons Market,Q115350320,us-nm.geojson,,0,Albertsons Market,albertsons-market,only_png,,albertsons-market.png
 supermarket,alcampo-0513f1,Alcampo,Alcampo,Q2832081,es,,0,Alcampo,alcampo,only_png,,alcampo.png
 alcohol,alcoholandtabakoff-059946,Alcohol & Tabakoff,Alcohol & Tabakoff,Q111364479,bg,,0,Alcohol & Tabakoff,alcohol-tabakoff,no,,
@@ -62,13 +62,13 @@ supermarket,aldisud-e4a24f,Aldi Süd (Deutschland),Aldi Süd,Q41171672,aldi-sued
 convenience,alepa-5dea79,Alepa,Alepa,Q4716167,fi,,0,Alepa,alepa,only_png,,alepa.png
 convenience,alfaexpress-bb8a09,Alfa Express,Alfa Express,Q12471463,id,,0,Alfa Express,alfa-express,only_svg,alfa-express.svg,
 convenience,alfamart-28d321,Alfamart,Alfamart,Q23745600,id|ph,,0,Alfamart,alfamart,both,alfamart.svg,alfamart.png
-convenience,alfamidi-bb8a09,Alfamidi,Alfamidi,Q12471462,id,,0,Alfamidi,alfamidi,only_png,,alfamidi.png
+convenience,alfamidi-bb8a09,Alfamidi,Alfamidi,Q12471462,id,,0,Alfamidi,alfamidi,both,alfamidi.svg,alfamidi.png
 supermarket,alimerka-0513f1,Alimerka,Alimerka,Q16482738,es,,0,Alimerka,alimerka,both,alimerka.svg,alimerka.png
 alcohol,alko-d1a8a4,Alko,Alko,Q1849187,fi,,0,Alko,alko,no,,
 convenience,alldayconveniencestore-fb2210,All Day Convenience Store,All Day,Q120142311,ph,,0,All Day,all-day,only_png,,all-day.png
 supermarket,alldaysupermarket-49e134,All Day Supermarket,All Day Supermarket,Q120142311,ph,,0,All Day Supermarket,all-day-supermarket,only_png,,all-day-supermarket.png
 beverages,alldrink-c4cb62,alldrink,alldrink,Q110155637,de,,0,alldrink,alldrink,no,,
-convenience,allsups-f1e40b,Allsup's,Allsup's,Q4733292,us,,1,Allsup's,allsups,only_png,,allsups.png
+convenience,allsups-f1e40b,Allsup's,Allsup's,Q4733292,us,,1,Allsup's,allsups,both,allsups.svg,allsups.png
 convenience,alltown-ae58e4,Alltown,Alltown,Q119586667,us-ct.geojson|us-ma.geojson|us-me.geojson|us-nh.geojson|us-ri.geojson,,0,Alltown,alltown,only_png,,alltown.png
 convenience,alltownfresh-790588,Alltown Fresh,Alltown Fresh,Q119591365,us-ct.geojson|us-ma.geojson|us-nh.geojson|us-ny.geojson,,0,Alltown Fresh,alltown-fresh,only_png,,alltown-fresh.png
 supermarket,alnaturasupernaturmarkt-f97a5b,Alnatura Super Natur Markt,Alnatura,Q876811,ch|de,,0,Alnatura,alnatura,both,alnatura.svg,alnatura.png
@@ -732,7 +732,7 @@ beverages,getrankewelt-fe99b7,Getränkewelt (HSE),Getränkewelt,Q107370287,"[6.9
 supermarket,giant-22a674,Giant (Carlisle),Giant,Q5558332,us-pa.geojson,,0,Giant,giant,only_png,,giant.png
 supermarket,giant-fc203b,Giant (Landover),Giant,Q5558336,us-dc.geojson|us-de.geojson|us-md.geojson|us-va.geojson,,0,Giant,giant,only_png,,giant.png
 supermarket,gianteagle-dca8d8,Giant Eagle,Giant Eagle,Q1522721,us-in.geojson|us-md.geojson|us-oh.geojson|us-pa.geojson|us-wv.geojson,,1,Giant Eagle,giant-eagle,both,giant-eagle.svg,giant-eagle.png
-supermarket,gianthypermarket-e1160b,Giant Hypermarket,Giant Hypermarket,Q4217013,id|my|sg|vn,,0,Giant Hypermarket,giant-hypermarket,only_png,,giant-hypermarket.png
+supermarket,gianthypermarket-e1160b,Giant Hypermarket,Giant Hypermarket,Q4217013,id|my|sg|vn,,0,Giant Hypermarket,giant-hypermarket,both,giant-hypermarket.svg,giant-hypermarket.png
 variety_store,giantmini-14cb81,Giant Mini,Giant Mini,Q4217013,my,,0,Giant Mini,giant-mini,no,,
 variety_store,gifi-eed69a,GiFi,GiFi,Q3105439,ch|es|fr|it,,0,GiFi,gifi,only_png,,gifi.png
 wholesale,gigaboks-2d84b8,Gigaboks,Gigaboks,Q125455876,no,,0,Gigaboks,gigaboks,both,gigaboks.svg,gigaboks.png
@@ -1224,7 +1224,7 @@ wholesale,mixmateus-60dbb1,Mix Mateus,Mix Mateus,Q134776544,br,,0,Mix Mateus,mix
 convenience,mlinipekare-5b00ff,Mlin i pekare,Mlin i pekare,,hr,,0,Mlin i pekare,mlin-i-pekare,no,,
 bakery,mlinar-f94504,Mlinar,Mlinar,Q62082464,ba|hr|sl,,0,Mlinar,mlinar,no,,
 supermarket,mmmigros-36e991,MM Migros,MM Migros,,ch,,0,MM Migros,mm-migros,no,,
-convenience,mobilmart-4d6b4b,Mobil Mart,Mobil Mart,Q109676002,001,,1,Mobil Mart,mobil-mart,no,,
+convenience,mobilmart-4d6b4b,Mobil Mart,Mobil Mart,Q109676002,001,,1,Mobil Mart,mobil-mart,only_svg,mobil-mart.svg,
 alcohol,modelorama-773a77,Modelorama,Modelorama,Q122153017,mx,,0,Modelorama,modelorama,no,,
 convenience,mokpol-95f41b,Mokpol,Mokpol,Q113227698,pl,,0,Mokpol,mokpol,only_png,,mokpol.png
 supermarket,mokpol-9e6a6c,Mokpol,Mokpol,Q113227698,pl,,0,Mokpol,mokpol,only_png,,mokpol.png
