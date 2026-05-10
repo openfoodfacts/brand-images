@@ -102,5 +102,173 @@
   {
     "source_category": "wine",
     "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/wine.json"
+  },
+  {
+    "source_category": "bar",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/amenity/bar.json"
+  },
+  {
+    "source_category": "cafe",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/amenity/cafe.json"
+  },
+  {
+    "source_category": "casino",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/amenity/casino.json"
+  },
+  {
+    "source_category": "cinema",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/amenity/cinema.json"
+  },
+  {
+    "source_category": "fast_food",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/amenity/fast_food.json"
+  },
+  {
+    "source_category": "food_sharing",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/amenity/food_sharing.json"
+  },
+  {
+    "source_category": "ice_cream",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/amenity/ice_cream.json"
+  },
+  {
+    "source_category": "pharmacy",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/amenity/pharmacy.json"
+  },
+  {
+    "source_category": "pub",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/amenity/pub.json"
+  },
+  {
+    "source_category": "restaurant",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/amenity/restaurant.json"
+  },
+  {
+    "source_category": "books",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/books.json"
+  },
+  {
+    "source_category": "chemist",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/chemist.json"
+  },
+  {
+    "source_category": "clothes",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/clothes.json"
+  },
+  {
+    "source_category": "confectionery",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/confectionery.json"
+  },
+  {
+    "source_category": "cosmetics",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/cosmetics.json"
+  },
+  {
+    "source_category": "country_store",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/country_store.json"
+  },
+  {
+    "source_category": "craft",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/craft.json"
+  },
+  {
+    "source_category": "doityourself",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/doityourself.json"
+  },
+  {
+    "source_category": "fishing",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/fishing.json"
+  },
+  {
+    "source_category": "florist",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/florist.json"
+  },
+  {
+    "source_category": "furniture",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/furniture.json"
+  },
+  {
+    "source_category": "games",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/games.json"
+  },
+  {
+    "source_category": "garden_centre",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/garden_centre.json"
+  },
+  {
+    "source_category": "general",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/general.json"
+  },
+  {
+    "source_category": "gift",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/gift.json"
+  },
+  {
+    "source_category": "hardware",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/hardware.json"
+  },
+  {
+    "source_category": "hifi",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/hifi.json"
+  },
+  {
+    "source_category": "houseware",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/houseware.json"
+  },
+  {
+    "source_category": "kitchen",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/kitchen.json"
+  },
+  {
+    "source_category": "lighting",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/lighting.json"
+  },
+  {
+    "source_category": "medical_supply",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/medical_supply.json"
+  },
+  {
+    "source_category": "mobile_phone",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/mobile_phone.json"
+  },
+  {
+    "source_category": "music",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/music.json"
+  },
+  {
+    "source_category": "outdoor",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/outdoor.json"
+  },
+  {
+    "source_category": "party",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/party.json"
+  },
+  {
+    "source_category": "perfumery",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/perfumery.json"
+  },
+  {
+    "source_category": "second_hand",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/second_hand.json"
+  },
+  {
+    "source_category": "shoes",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/shoes.json"
+  },
+  {
+    "source_category": "sports",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/sports.json"
+  },
+  {
+    "source_category": "tobacco",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/tobacco.json"
+  },
+  {
+    "source_category": "trade",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/trade.json"
+  },
+  {
+    "source_category": "video_games",
+    "url": "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/video_games.json"
   }
 ]
