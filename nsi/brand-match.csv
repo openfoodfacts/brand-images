@@ -38,7 +38,7 @@ pharmacy,3i-996e17,3і,3і,Q117705687,ua,,4,3і,3,no,,
 clothes,47street-3c23f6,47 Street,47 Street,Q4638513,ar,,0,47 Street,47-street,only_png,,47-street.png
 cafe,49thparallelcoffeeroasters-aa8067,49th Parallel Coffee Roasters,49th Parallel Coffee Roasters,Q104844785,ca,,0,49th Parallel Coffee Roasters,49th-parallel-coffee-roasters,only_png,,49th-parallel-coffee-roasters.png
 convenience,4all-edef5f,4all,4all,Q130279387,gr,,0,4all,4all,only_png,,4all.png
-clothes,4f-49d795,4F,4F,Q16525801,cz|de|lt|lv|pl|ro|ru|sk|ua,,0,4F,4f,only_png,,4f.png
+clothes,4f-e46949,4F,4F,Q16525801,cz|de|lt|lv|pl|ro|sk|ua,,0,4F,4f,only_png,,4f.png
 fast_food,4fingerscrispychicken-aadea7,4Fingers Crispy Chicken,4Fingers Crispy Chicken,Q23043391,id|my|sg,,1,4Fingers Crispy Chicken,4fingers-crispy-chicken,only_png,,4fingers-crispy-chicken.png
 cafe,5togo-24f015,5 to go,5 to go,Q115684369,ro,,0,5 to go,5-to-go,only_png,,5-to-go.png
 clothes,51015-196c99,5.10.15,5.10.15,Q128781018,pl,,0,5.10.15,5-10-15,only_png,,5-10-15.png
@@ -197,7 +197,7 @@ clothes,allensolly-f8e8b1,Allen Solly,Allen Solly,Q110036995,in,,0,Allen Solly,a
 houseware,allesz-c9ad4a,Allesz,Allesz,Q136703522,nl,,0,Allesz,allesz,no,,
 doityourself,allhome-8037a1,AllHome,AllHome,Q131986621,ph,,0,AllHome,allhome,only_png,,allhome.png
 pharmacy,alliedpharmacy-c9f407,Allied Pharmacies,Allied Pharmacies,Q116272370,gb-eng,,0,Allied Pharmacies,allied-pharmacies,no,,
-clothes,allsaints-5c335f,AllSaints,AllSaints,Q4728473,cn|fx|gb|ie|kr|mx|ru|us,,0,AllSaints,allsaints,only_png,,allsaints.png
+clothes,allsaints-200d98,AllSaints,AllSaints,Q4728473,cn|fx|gb|ie|kr|mx|us,,0,AllSaints,allsaints,only_png,,allsaints.png
 convenience,allsups-f1e40b,Allsup's,Allsup's,Q4733292,us,,1,Allsup's,allsups,both,allsups.svg,allsups.png
 convenience,alltown-ae58e4,Alltown,Alltown,Q119586667,us-ct.geojson|us-ma.geojson|us-me.geojson|us-nh.geojson|us-ri.geojson,,0,Alltown,alltown,only_png,,alltown.png
 convenience,alltownfresh-790588,Alltown Fresh,Alltown Fresh,Q119591365,us-ct.geojson|us-ma.geojson|us-nh.geojson|us-ny.geojson,,0,Alltown Fresh,alltown-fresh,only_png,,alltown-fresh.png
@@ -655,6 +655,7 @@ supermarket,biocbon-c08337,Bio C' Bon,Bio C' Bon,Q54312551,es|fr|jp,,0,Bio C' Bo
 supermarket,biocompany-0a839e,Bio Company,Bio Company,Q864179,de,,0,Bio Company,bio-company,both,bio-company.svg,bio-company.png
 health_food,biomundo-894bf8,Bio Mundo,Bio Mundo,Q109562493,br,,0,Bio Mundo,bio-mundo,only_png,,bio-mundo.png
 supermarket,bioplanet-f276cb,Bio-Planet,Bio-Planet,Q122415968,be|lu,,0,Bio-Planet,bio-planet,only_png,,bio-planet.png
+fast_food,bioburger-e4dee6,Bioburger,Bioburger,Q139679401,fr,,0,Bioburger,bioburger,no,,
 supermarket,biocoop-c16b1c,Biocoop,Biocoop,Q2904039,fr,,0,Biocoop,biocoop,both,biocoop.svg,biocoop.png
 convenience,biocoop-f6dc0a,Biocoop,Biocoop,Q2904039,fx,,0,Biocoop,biocoop,both,biocoop.svg,biocoop.png
 supermarket,biomonde-c16b1c,Biomonde,Biomonde,Q120801927,fr,,0,Biomonde,biomonde,only_png,,biomonde.png
@@ -1006,6 +1007,7 @@ cafe,caffenero-0d98f2,Caffè Nero,Caffè Nero,Q675808,ae|cy|gb|hr|ie|om|pl|se|tr
 cafe,neroexpress-4a2ca5,Nero Express (Caffè Nero),Caffè Nero,Q675808,gb|ie|tr|us,,0,Caffè Nero,caffe-nero,only_png,,caffe-nero.png
 cafe,caffepascucci-54573b,Caffè Pascucci,Caffè Pascucci,Q5017191,001,kr,0,Caffè Pascucci,caffe-pascucci,only_png,,caffe-pascucci.png
 cafe,caffespettacolo-54dc58,Caffè Spettacolo,Caffè Spettacolo,Q111728781,ch|lu,,1,Caffè Spettacolo,caffe-spettacolo,only_png,,caffe-spettacolo.png
+cafe,caffevergnano1882-ac0738,Caffè Vergnano 1882,Caffè Vergnano 1882,Q3649598,it,,1,Caffè Vergnano 1882,caffe-vergnano-1882,no,,
 cafe,caffetrieste-e4c208,Caffé Trieste,Caffé Trieste,Q136735524,sk,,0,Caffé Trieste,caffe-trieste,no,,
 cafe,cafeamazon-ea0f6a,Café Amazon,Café Amazon,Q43247503,001,cn|th,0,Café Amazon,cafe-amazon,only_png,,cafe-amazon.png
 cafe,cafecappuccino-42834c,Café Cappuccino,Café Cappuccino,Q117317760,at,,0,Café Cappuccino,cafe-cappuccino,no,,
@@ -1112,7 +1114,7 @@ restaurant,cassanospizzaking-3b6ffe,Cassano's Pizza King,Cassano's Pizza King,Q5
 bakery,castano-d517a1,Castaño,Castaño,Q5049629,cl,,0,Castaño,castano,no,,
 pub,castle-f71e9b,Castle Pubs,Castle,Q133280052,gb-lon.geojson,,0,Castle,castle,no,,
 pub,castlerock-eaed91,Castle Rock,Castle Rock,Q5050272,gb,,1,Castle Rock,castle-rock,no,,
-doityourself,castorama-bb99c9,Castorama,Castorama,Q966971,fx|pl|ru,,0,Castorama,castorama,both,castorama.svg,castorama.png
+doityourself,castorama-2f8b67,Castorama,Castorama,Q966971,fx|pl,,0,Castorama,castorama,both,castorama.svg,castorama.png
 clothes,castro-e991b5,Castro,Castro,Q1049887,il,,0,Castro,castro,only_png,,castro.png
 pharmacy,catena-8861f5,Catena,Catena,Q24035728,ro,,0,Catena,catena,only_png,,catena.png
 clothes,catherines-0a21d9,Catherines,Catherines,Q64026208,us,,0,Catherines,catherines,only_png,,catherines.png
@@ -1346,7 +1348,7 @@ convenience,coccimarket-f6dc0a,CocciMarket,CocciMarket,Q90020480,fx,,0,CocciMark
 convenience,coccimarketcity-f6dc0a,CocciMarket City,CocciMarket City,Q90020481,fx,,0,CocciMarket City,coccimarket-city,no,,
 supermarket,coccinelleexpress-94a8a9,Coccinelle Express,Coccinelle Express,Q90020479,fx,,0,Coccinelle Express,coccinelle-express,only_png,,coccinelle-express.png
 supermarket,coccinellesupermarche-94a8a9,Coccinelle Supermarché,Coccinelle Supermarché,Q90020459,fx,,0,Coccinelle Supermarché,coccinelle-supermarche,only_png,,coccinelle-supermarche.png
-clothes,coccodrillo-571709,Coccodrillo,Coccodrillo,Q9195224,at|bg|by|cz|de|ee|fi|hu|lt|lv|me|pl|ro|rs|ru|sk|ua,,0,Coccodrillo,coccodrillo,only_png,,coccodrillo.png
+clothes,coccodrillo-af9885,Coccodrillo,Coccodrillo,Q9195224,at|bg|by|cz|de|ee|fi|hu|lt|lv|me|pl|ro|rs|sk|ua,,0,Coccodrillo,coccodrillo,only_png,,coccodrillo.png
 cafe,cocofreshteaandjuice-859a55,CoCo,CoCo,Q65084369,001,cn|tw,0,CoCo,coco,only_png,,coco.png
 fast_food,cocodimama-1abd07,Coco di Mama,Coco di Mama,Q118146052,gb-eng,,0,Coco di Mama,coco-di-mama,only_png,,coco-di-mama.png
 restaurant,cocoichibanya-84891e,CoCo Ichibanya,CoCo Ichibanya,Q5986105,gb|gu|hk|id|in|kr|ph|sg|th|us|vn,,0,CoCo Ichibanya,coco-ichibanya,only_png,,coco-ichibanya.png
@@ -1388,7 +1390,7 @@ supermarket,colescentral-c254c9,Coles Central,Coles Central,Q5144653,au,,0,Coles
 supermarket,coleslocal-c254c9,Coles Local,Coles Local,Q104850818,au,,0,Coles Local,coles-local,only_png,,coles-local.png
 cafe,colicci-eb3447,Colicci,Colicci,Q110057606,gb-lon.geojson,,0,Colicci,colicci,only_png,,colicci.png
 clothes,colins-3937bd,Colin's,Colin's,Q18015543,001,,0,Colin's,colins,only_png,,colins.png
-clothes,colloseum-3648e4,Colloseum,Colloseum,Q15794685,at|cz|de|gr|lv|pl|ru|sk,,0,Colloseum,colloseum,only_png,,colloseum.png
+clothes,colloseum-4fcdc1,Colloseum,Colloseum,Q15794685,at|cz|de|gr|lv|pl|sk,,0,Colloseum,colloseum,only_png,,colloseum.png
 supermarket,colruyt-27c1df,Colruyt,Colruyt,Q2363991,be|fr|lu,,0,Colruyt,colruyt,both,colruyt.svg,colruyt.png
 clothes,columbia-3937bd,Columbia,Columbia,Q1112588,001,,0,Columbia,columbia,only_png,,columbia.png
 cafe,columbuscafeandco-d3efe9,Columbus Café & Co,Columbus Café & Co,Q2984582,be|bh|fr|ma|qa|us,,5,Columbus Café & Co,columbus-cafe-co,only_png,,columbus-cafe-co.png
@@ -1519,6 +1521,7 @@ fast_food,cousinssubs-41b898,Cousins Subs,Cousins Subs,Q5178843,us-in.geojson|us
 supermarket,coviran-d9bffc,Covirán,Covirán,Q61070539,es|pt,,0,Covirán,coviran,only_png,,coviran.png
 bar,coyoteugly-163d6e,Coyote Ugly,Coyote Ugly Saloon,Q4131558,de|gb|jp|kg|ru|us,,0,Coyote Ugly Saloon,coyote-ugly-saloon,only_png,,coyote-ugly-saloon.png
 convenience,cpfreshmart-f572b3,CP Freshmart,CP Freshmart,Q125917787,th,,1,CP Freshmart,cp-freshmart,no,,
+clothes,cr-7b6907,CR,CR,Q139604801,ru,,1,CR,cr,no,,
 gift,crackerbarrel-43d507,Cracker Barrel,Cracker Barrel,Q4492609,us,,0,Cracker Barrel,cracker-barrel,only_png,,cracker-barrel.png
 restaurant,crackerbarrel-96af40,Cracker Barrel,Cracker Barrel,Q4492609,us,,1,Cracker Barrel,cracker-barrel,only_png,,cracker-barrel.png
 pub,craftunion-9b8a53,Craft Union,Craft Union,Q124956771,gb-eng|gb-wls,,0,Craft Union,craft-union,no,,
@@ -1533,7 +1536,7 @@ clothes,crewclothingcompany-7b1694,Crew Clothing Company,Crew Clothing Company,Q
 mobile_phone,cricketwireless-ce3e5c,Cricket Wireless,Cricket Wireless,Q5184987,us,,0,Cricket Wireless,cricket-wireless,only_png,,cricket-wireless.png
 fast_food,crispyking-33d36e,Crispy King,Crispy King,,ph,,0,Crispy King,crispy-king,no,,
 shoes,crocs-9b62dc,Crocs,Crocs,Q926699,001,,0,Crocs,crocs,only_png,,crocs.png
-clothes,cropp-f09482,Cropp,Cropp,Q9196793,ba|bg|cz|ee|fi|hr|hu|kz|lt|lv|pl|ro|rs|ru|si|sk|ua,,0,Cropp,cropp,only_png,,cropp.png
+clothes,cropp-049ecd,Cropp,Cropp,Q9196793,ba|bg|cz|ee|fi|hr|hu|kz|lt|lv|pl|ro|rs|si|sk|ua,ru,0,Cropp,cropp,only_png,,cropp.png
 fast_food,crosstown-1abd07,Crosstown,Crosstown,Q109943342,gb-eng,,2,Crosstown,crosstown,only_png,,crosstown.png
 books,crosswordbookstores-be6694,Crossword Bookstores,Crossword Bookstores,Q5188909,in,,0,Crossword Bookstores,crossword-bookstores,only_png,,crossword-bookstores.png
 casino,crownresorts-683d57,Crown Resorts,Crown Resorts,Q1029724,au,,0,Crown Resorts,crown-resorts,no,,
@@ -1595,7 +1598,7 @@ restaurant,dallasbbq-c32da1,Dallas BBQ,Dallas BBQ,Q122209839,us-ny-new_york_city
 bakery,dallmeyersbackhus-3f448e,Dallmeyers Backhus,Dallmeyers Backhus,Q107719238,de,,0,Dallmeyers Backhus,dallmeyers-backhus,no,,
 clothes,damart-ab5608,Damart,Damart,Q3012602,be|fx|lu,,0,Damart,damart,only_png,,damart.png
 tea,dammannfreres-14c0a7,Dammann Frères,Dammann Frères,Q3012927,fr|it|ja|kr|lu,,0,Dammann Frères,dammann-freres,only_png,,dammann-freres.png
-clothes,danjohn-0ef64a,Dan John,Dan John,Q116304215,be|es|fx|it|me|mk|mt|rs|ru,,0,Dan John,dan-john,only_png,,dan-john.png
+clothes,danjohn-d8c1ff,Dan John,Dan John,Q116304215,be|es|fx|it|me|mk|mt|rs,,0,Dan John,dan-john,only_png,,dan-john.png
 alcohol,danmurphys-cb3c62,Dan Murphy's,Dan Murphy's,Q5214075,au,,0,Dan Murphy's,dan-murphys,no,,
 clothes,dangerfield-2bb477,Dangerfield,Dangerfield,Q119220880,au|nz,,0,Dangerfield,dangerfield,only_png,,dangerfield.png
 fast_food,danielsdonuts-d43c69,Daniel's Donuts,Daniel's Donuts,Q116147181,au,,0,Daniel's Donuts,daniels-donuts,only_png,,daniels-donuts.png
@@ -1687,6 +1690,7 @@ clothes,desigual-3937bd,Desigual,Desigual,Q83750,001,,0,Desigual,desigual,only_p
 supermarket,despar-0cb133,Despar,Despar,Q131344742,it,,0,Despar,despar,only_png,,despar.png
 convenience,despar-271792,Despar,Despar,Q131344742,hu|it,,0,Despar,despar,only_png,,despar.png
 supermarket,despensafamiliar-4ef027,Despensa Familiar,Despensa Familiar,Q61994849,gt|hn|sv,,0,Despensa Familiar,despensa-familiar,no,,
+sports,desport-7ece8a,Desport,Desport,Q139730759,ru,,2,Desport,desport,no,,
 clothes,destinationmaternity-0615dc,Destination Maternity,Destination Maternity,Q79051770,ca|us,,0,Destination Maternity,destination-maternity,only_png,,destination-maternity.png
 seafood,deutschesee-955e0e,Deutsche See,Deutsche See,Q1204140,de,,0,Deutsche See,deutsche-see,only_png,,deutsche-see.png
 pharmacy,devaeczanesi-ba5564,Deva Eczanesi,Deva Eczanesi,,tr,,0,Deva Eczanesi,deva-eczanesi,no,,
@@ -1771,6 +1775,7 @@ variety_store,dollarstore-aa81b7,Dollarstore,Dollarstore,Q10475598,se,,0,Dollars
 pharmacy,domlekow-cf61fb,Dom Leków,Dom Leków,Q130487923,pl,,0,Dom Leków,dom-lekow,no,,
 furniture,domayne-0da980,Domayne,Domayne,Q106224590,au,,0,Domayne,domayne,only_png,,domayne.png
 fast_food,dominos-16ff25,Domino's,Domino's,Q839466,001,by|cn|jp|kz|ru|tw,4,Domino's,dominos,both,dominos.svg,dominos.png
+fast_food,dominopizza-7582d1,DOMИNO PIZZA,DOMИNO PIZZA,Q139597698,ru,,2,DOMИNO PIZZA,domno-pizza,no,,
 confectionery,donbenitos-940870,Don Benito's,Don Benito's,Q120755754,ph,,1,Don Benito's,don-benitos,only_png,,don-benitos.png
 variety_store,dondondonki-717fd7,Don Don Donki,Don Don Donki,Q1185381,hk|my|sg|th|tw|us-hi,,0,Don Don Donki,don-don-donki,both,don-don-donki.svg,don-don-donki.png
 tobacco,donpealo-56156e,Don Pealo,Don Pealo,Q58206796,cz,,0,Don Pealo,don-pealo,only_png,,don-pealo.png
@@ -1830,7 +1835,7 @@ clothes,dtlr-0a21d9,DTLR,DTLR,Q110706217,us,,1,DTLR,dtlr,only_png,,dtlr.png
 houseware,dubruitdanslacuisine-791615,Du Bruit dans la Cuisine,Du Bruit dans la Cuisine,Q130278264,fx,,0,Du Bruit dans la Cuisine,du-bruit-dans-la-cuisine,only_png,,du-bruit-dans-la-cuisine.png
 clothes,dupareilaumeme-3937bd,Du Pareil au Même,Du Pareil au Même,Q3040318,001,,0,Du Pareil au Même,du-pareil-au-meme,only_png,,du-pareil-au-meme.png
 pharmacy,duanereade-3ab288,Duane Reade,Duane Reade,Q5310380,us,,0,Duane Reade,duane-reade,both,duane-reade.svg,duane-reade.png
-clothes,dub-7b6907,Dub,Dub,,ru,,0,Dub,dub,no,,
+clothes,dub-7b6907,DUB,DUB,Q139700411,ru,,2,DUB,dub,no,,
 bakery,dubielak-839c38,Dubielak,Dubielak,Q138197645,pl,,0,Dubielak,dubielak,no,,
 butcher,dubimex-436f1d,Dubimex,Dubimex,Q138197720,pl,,0,Dubimex,dubimex,no,,
 convenience,duchess-439b0d,Duchess,Duchess,Q111698565,us-oh.geojson|us-wv.geojson,,0,Duchess,duchess,no,,
@@ -1899,7 +1904,7 @@ supermarket,econofoods-f9f648,Econo Foods,Econo Foods,Q130406968,za,,0,Econo Foo
 clothes,economclass-e79eb2,EconomClass,EconomClass,Q120637783,ua,,1,EconomClass,economclass,only_png,,economclass.png
 supermarket,economycash-0513f1,Economy Cash,Economy Cash,Q114915795,es,,0,Economy Cash,economy-cash,no,,
 supermarket,econsave-80e9ee,Econsave,Econsave,Q61776608,my,,0,Econsave,econsave,no,,
-clothes,ecru-7b6907,Ecru,Ecru,,ru,,0,Ecru,ecru,no,,
+clothes,ecru-7b6907,Ecru,Ecru,Q139700450,ru,,2,Ecru,ecru,no,,
 clothes,eddiebauer-6680bd,Eddie Bauer,Eddie Bauer,Q842174,ca|jp|us,,0,Eddie Bauer,eddie-bauer,only_png,,eddie-bauer.png
 fast_food,eddierockets-f334ca,Eddie Rocket's,Eddie Rocket's,Q1007312,ie,,0,Eddie Rocket's,eddie-rockets,no,,
 fast_food,eddyspizza-0ae65d,Eddys Pizza,Eddys Pizza,Q115571642,gh,,0,Eddys Pizza,eddys-pizza,only_png,,eddys-pizza.png
@@ -1958,6 +1963,7 @@ pharmacy,elifeczanesi-ba5564,Elif Eczanesi,Elif Eczanesi,,tr,,0,Elif Eczanesi,el
 frozen_food,elikatniproducts-b89636,Елікатні радощі життя!,Elikatni Products,Q123848582,ua,,3,Elikatni Products,elikatni-products,only_png,,elikatni-products.png
 clothes,elisabettafranchi-3937bd,Elisabetta Franchi,Elisabetta Franchi,Q17993175,001,,0,Elisabetta Franchi,elisabetta-franchi,only_png,,elisabetta-franchi.png
 supermarket,elli-0a839e,Elli,Elli,Q701755,de,,1,Elli,elli,both,elli.svg,elli.png
+cafe,ellianoscoffee-243cad,Ellianos Coffee,Ellianos Coffee,Q131838287,us,,0,Ellianos Coffee,ellianos-coffee,no,,
 pharmacy,elody-52cb11,Elody,Elody,,md,,0,Elody,elody,no,,
 convenience,elvi-401681,Elvi,Elvi,Q20560513,lv,,0,Elvi,elvi,only_png,,elvi.png
 supermarket,elvi-858077,Elvi,Elvi,Q20560513,lv,,0,Elvi,elvi,only_png,,elvi.png
@@ -1998,7 +2004,7 @@ clothes,esotiq-264379,Esotiq,Esotiq,Q56338245,de|pl|ua,,0,Esotiq,esotiq,only_png
 outdoor,espacemontagne-6bb650,Espace Montagne,Espace Montagne,Q130221137,fx,,0,Espace Montagne,espace-montagne,only_png,,espace-montagne.png
 houseware,espacocasa-19bb0d,Espaço Casa,Espaço Casa,,001,,0,Espaço Casa,espaco-casa,no,,
 cafe,espressohouse-99eace,Espresso House,Espresso House,Q10489162,de|dk|fi|no|se,,0,Espresso House,espresso-house,only_png,,espresso-house.png
-cafe,espressolab-295705,Espressolab,Espressolab,Q97599059,ma|tr,,0,Espressolab,espressolab,only_png,,espressolab.png
+cafe,espressolab-295705,Espressolab,Espressolab,Q97599059,tr|de|ae|bh|id|ma|ps|za|iq|qa|kz|kg|cg|xk|kw|ly|lb|eg|pt|jo|Q23681,,0,Espressolab,espressolab,only_png,,espressolab.png
 clothes,esprit-5a997a,Esprit,Esprit,Q532746,001,de,0,Esprit,esprit,only_png,,esprit.png
 supermarket,esselunga-0cb133,Esselunga,Esselunga,Q1059636,it,,0,Esselunga,esselunga,only_png,,esselunga.png
 clothes,essentielantwerp-fbdad9,Essentiel Antwerp,Essentiel Antwerp,Q117456339,be|de|fx|gb|kr|nl,,0,Essentiel Antwerp,essentiel-antwerp,only_png,,essentiel-antwerp.png
@@ -2627,7 +2633,7 @@ clothes,hallensteins-2bb477,Hallensteins,Hallenstein Brothers,Q24189399,au|nz,,0
 clothes,hallhuber-20ae39,Hallhuber,Hallhuber,Q1571714,at|ch|de|lu|nl,,0,Hallhuber,hallhuber,only_png,,hallhuber.png
 gift,hallmark-ca99d3,Hallmark,Hallmark,Q1521910,ca|gb|us,,1,Hallmark,hallmark,only_png,,hallmark.png
 fast_food,hallopizza-6ea233,Hallo Pizza,Hallo Pizza,Q1571798,de,,0,Hallo Pizza,hallo-pizza,only_png,,hallo-pizza.png
-supermarket,halpahalli-c9c76a,HalpaHalli,HalpaHalli,Q11861256,ee|fi|ru,,0,HalpaHalli,halpahalli,only_png,,halpahalli.png
+supermarket,halpahalli-cbb03b,HalpaHalli,HalpaHalli,Q11861256,ee|fi,,0,HalpaHalli,halpahalli,only_png,,halpahalli.png
 doityourself,hammer-db1fbb,Hammer,Hammer,Q52159668,de,,0,Hammer,hammer,no,,
 ice_cream,handelshomemadeicecream-8697a4,Handel's Homemade Ice Cream,Handel's Homemade Ice Cream,Q16983222,us,,1,Handel's Homemade Ice Cream,handels-homemade-ice-cream,only_png,,handels-homemade-ice-cream.png
 wholesale,handelshof-ad6aeb,Handelshof,Handelshof,Q1574870,de,,0,Handelshof,handelshof,no,,
@@ -2743,7 +2749,7 @@ supermarket,hofer-83285c,Hofer,Hofer,Q15815751,at|si,,1,Hofer,hofer,both,hofer.s
 pastry,hoffmann-8e72cc,Hoffmann,Hoffmann,Q98770209,lu,,1,Hoffmann,hoffmann,only_png,,hoffmann.png
 bakery,hofpfisterei-3f448e,Hofpfisterei,Hofpfisterei,Q1623217,de,,0,Hofpfisterei,hofpfisterei,only_png,,hofpfisterei.png
 restaurant,hogsbreathcafe-3c82e9,Hog's Breath Cafe,Hog's Breath Cafe,Q5876920,au,,0,Hog's Breath Cafe,hogs-breath-cafe,no,,
-sports,hoka-4a6d5f,Hoka,Hoka,Q16908664,ad|ae|al|at|au|ba|be|bg|br|ca|ch|cl|cn|cy|cz|de|dk|dz|ee|es|fi|fr|gb|gr|hr|hu|id|ie|il|is|it|je|jp|kz|lt|lu|lv|ma|mc|md|me|mk|mt|nl|no|nz|ph|pl|pt|re|ro|rs|ru|se|si|sk|tn|tr|ua|us|za,,0,Hoka,hoka,no,,
+sports,hoka-9f13b9,Hoka,Hoka,Q16908664,ad|ae|al|at|au|ba|be|bg|br|ca|ch|cl|cn|cy|cz|de|dk|dz|ee|es|fi|fr|gb|gr|hr|hu|id|ie|il|is|it|je|jp|kz|lt|lu|lv|ma|mc|md|me|mk|mt|nl|no|nz|ph|pl|pt|re|ro|rs|se|si|sk|tn|tr|ua|us|za,,0,Hoka,hoka,no,,
 fast_food,hokben-034122,HokBen,HokBen,Q5877948,id,,0,HokBen,hokben,only_png,,hokben.png
 restaurant,hokkaidoramensantouka-94e5f8,Ramen Santouka,Hokkaido Ramen Santouka,Q17210103,ca|hk|my|ph|th|us,,0,Hokkaido Ramen Santouka,hokkaido-ramen-santouka,no,,
 beverages,holab-c4cb62,Hol'ab,Hol'ab,Q57557270,de,,0,Hol'ab,holab,only_png,,holab.png
@@ -2798,8 +2804,8 @@ confectionery,hotelchocolat-bdbf63,Hotel Chocolat,Hotel Chocolat,Q5911369,gb,,0,
 restaurant,hotshotssportsbarandgrill-96af40,Hotshots Sports Bar and Grill,Hotshots Sports Bar and Grill,Q130344931,us,,1,Hotshots Sports Bar and Grill,hotshots-sports-bar-and-grill,no,,
 shoes,hotter-eede13,Hotter,Hotter,Q91919346,gb,,0,Hotter,hotter,only_png,,hotter.png
 restaurant,houlihans-96af40,Houlihan's,Houlihan's,Q5913100,us,,1,Houlihan's,houlihans,only_png,,houlihans.png
+clothes,house-049ecd,House,House,Q9294202,ba|bg|cz|ee|fi|hr|hu|kz|lt|lv|pl|ro|rs|si|sk|ua,ru,0,House,house,only_png,,house.png
 houseware,house-9d9c4b,House,House,Q117921987,au,,0,House,house,only_png,,house.png
-clothes,house-f09482,House,House,Q9294202,ba|bg|cz|ee|fi|hr|hu|kz|lt|lv|pl|ro|rs|ru|si|sk|ua,,0,House,house,only_png,,house.png
 houseware,housebedandbath-9d9c4b,House Bed & Bath,House,Q117921987,au,,0,House,house,only_png,,house.png
 furniture,houseandhome-0ebee2,House & Home,House & Home,Q116520162,bw|na|za,,0,House & Home,house-home,only_png,,house-home.png
 restaurant,houseofblues-96af40,House of Blues,House of Blues,Q648898,us,,0,House of Blues,house-of-blues,only_png,,house-of-blues.png
@@ -2980,7 +2986,7 @@ doityourself,italtile-3df878,Italtile,Italtile,Q130415617,za,,0,Italtile,italtil
 trade,itm-49357c,ITM,ITM,Q110437159,nz,,0,ITM,itm,only_png,,itm.png
 cosmetics,itstyle-a08666,itStyle,itStyle,Q105343236,001,,0,itStyle,itstyle,only_png,,itstyle.png
 fast_food,itsu-56a2ff,itsu,itsu,Q6094914,gb|us,,0,itsu,itsu,only_png,,itsu.png
-kitchen,ixina-d089d8,Ixina,Ixina,Q3156424,ae|au|be|bf|bh|bj|ca|ci|cm|cn|cz|dz|ee|eg|fr|gh|hr|ke|kw|lu|ly|ma|mu|nl|pl|qa|ro|ru|sa|se|sn|tg|th|tn|vn,,0,Ixina,ixina,only_png,,ixina.png
+kitchen,ixina-ef6c85,Ixina,Ixina,Q3156424,ae|au|be|bf|bh|bj|ca|ci|cm|cn|cz|dz|ee|eg|fr|gh|hr|ke|kw|lu|ly|ma|mu|nl|pl|qa|ro|sa|se|sn|tg|th|tn|vn,,0,Ixina,ixina,only_png,,ixina.png
 clothes,izac-90f7b7,Izac,Izac,Q127514827,fx,,0,Izac,izac,only_png,,izac.png
 clothes,izod-3937bd,IZOD,IZOD,Q17152556,001,,0,IZOD,izod,only_png,,izod.png
 cafe,izycoffee-16b565,IzyCoffee,IzyCoffee,Q124358963,be,,0,IzyCoffee,izycoffee,only_png,,izycoffee.png
@@ -3002,7 +3008,7 @@ restaurant,jackastors-85c92c,Jack Astor's,Jack Astor's,Q6111066,ca|us,,0,Jack As
 fast_food,jackinthebox-4d2ff4,Jack in the Box,Jack in the Box,Q1538507,us,,0,Jack in the Box,jack-in-the-box,only_png,,jack-in-the-box.png
 restaurant,jackstackbarbecue-96af40,Jack Stack Barbecue,Jack Stack Barbecue,Q5451169,us,,0,Jack Stack Barbecue,jack-stack-barbecue,only_png,,jack-stack-barbecue.png
 clothes,jackwills-75e7ba,Jack Wills,Jack Wills,Q6115814,ae|gb|hk|ie|kw|lb|mo|sg|us,,0,Jack Wills,jack-wills,only_png,,jack-wills.png
-outdoor,jackwolfskin-279671,Jack Wolfskin,Jack Wolfskin,Q536133,at|be|ch|de|fx|gb|it|nl|pl|ru|ua,,0,Jack Wolfskin,jack-wolfskin,only_png,,jack-wolfskin.png
+outdoor,jackwolfskin-d66c75,Jack Wolfskin,Jack Wolfskin,Q536133,at|be|ch|de|fx|gb|it|nl|pl|ua,,0,Jack Wolfskin,jack-wolfskin,only_png,,jack-wolfskin.png
 fast_food,jacks-4d2ff4,Jack's,Jack's,Q6110826,us,,0,Jack's,jacks,only_png,,jacks.png
 casino,jackscasino-cf45c0,Jack's Casino,Jack's Casino,Q108926684,nl,,0,Jack's Casino,jacks-casino,no,,
 convenience,jacksons-f1e40b,Jacksons,Jacksons,Q64617393,us,,0,Jacksons,jacksons,only_png,,jacksons.png
@@ -3060,6 +3066,7 @@ fast_food,jimmyjohns-4d2ff4,Jimmy John's,Jimmy John's,Q1689380,us,,0,Jimmy John'
 fast_food,jimmythegreek-bf41de,Jimmy the Greek,Jimmy the Greek,Q17077817,ae|ca,,0,Jimmy the Greek,jimmy-the-greek,only_png,,jimmy-the-greek.png
 restaurant,jinyaramenbar-85c92c,JINYA Ramen Bar,JINYA Ramen Bar,Q16997755,ca|us,,0,JINYA Ramen Bar,jinya-ramen-bar,only_png,,jinya-ramen-bar.png
 cafe,jjbean-aa8067,JJ Bean,JJ Bean,Q111937483,ca,,0,JJ Bean,jj-bean,no,,
+clothes,jns-7b6907,JNS,JNS,Q139700471,ru,,1,JNS,jns,no,,
 perfumery,jomalone-024293,Jo Malone,Jo Malone,Q28940761,001,,0,Jo Malone,jo-malone,only_png,,jo-malone.png
 craft,joannfabricsandcrafts-94ee6e,JOANN Fabrics and Crafts,JOANN Fabrics and Crafts,Q6203968,us,,3,JOANN Fabrics and Crafts,joann-fabrics-and-crafts,only_png,,joann-fabrics-and-crafts.png
 clothes,jockey-0a21d9,Jockey,Jockey,Q534235,us,,0,Jockey,jockey,only_png,,jockey.png
@@ -3086,7 +3093,7 @@ supermarket,joker-ed9dd5,Joker,Joker,Q716328,no,,0,Joker,joker,only_png,,joker.p
 books,jokers-65e1d5,Jokers,Jokers,Q27801057,de,,0,Jokers,jokers,only_png,,jokers.png
 fast_food,jollibee-9b2018,Jollibee,Jollibee,Q37614,001,pl,0,Jollibee,jollibee,only_png,,jollibee.png
 pet,jollyes-8ec028,Jollyes,Jollyes,Q45844955,gb,,1,Jollyes,jollyes,only_png,,jollyes.png
-shoes,jonak-dff267,Jonak,Jonak,Q105372529,fr|ru,,0,Jonak,jonak,only_png,,jonak.png
+shoes,jonak-c57706,Jonak,Jonak,Q105372529,fr,,0,Jonak,jonak,only_png,,jonak.png
 shoes,jonesbootmaker-eede13,Jones Bootmaker,Jones Bootmaker,Q6275139,gb,,0,Jones Bootmaker,jones-bootmaker,only_png,,jones-bootmaker.png
 clothes,josabank-0a21d9,JoS. A. Bank,JoS. A. Bank,Q6204078,us,,2,JoS. A. Bank,jos-a-bank,only_png,,jos-a-bank.png
 clothes,joules-5e4c8e,Joules,Joules,Q25351738,gb|gg|ie,,0,Joules,joules,only_png,,joules.png
@@ -3430,7 +3437,7 @@ chocolate,lechocolatalainducasse-ad9b7e,Le Chocolat Alain Ducasse,Le Chocolat Al
 clothes,lechateau-f2752c,Le Château,Le Château,Q6506731,ae|ca|sa,,0,Le Château,le-chateau,only_png,,le-chateau.png
 clothes,lecoqsportif-3937bd,Le Coq Sportif,Le Coq Sportif,Q1066156,001,,0,Le Coq Sportif,le-coq-sportif,only_png,,le-coq-sportif.png
 houseware,lecreuset-19bb0d,Le Creuset,Le Creuset,Q555861,001,,0,Le Creuset,le-creuset,only_png,,le-creuset.png
-bakery,lecrobag-367eb3,Le Crobag,Le Crobag,Q1558025,at|de|pl|ru,,0,Le Crobag,le-crobag,only_png,,le-crobag.png
+bakery,lecrobag-8e69a6,Le Crobag,Le Crobag,Q1558025,at|de|pl,,0,Le Crobag,le-crobag,only_png,,le-crobag.png
 fast_food,lekiosqueapizzas-1781f3,Le Kiosque à Pizzas,Le Kiosque à Pizzas,Q3223839,es|fr|pt,,0,Le Kiosque à Pizzas,le-kiosque-a-pizzas,only_png,,le-kiosque-a-pizzas.png
 convenience,lemarchedacote-f6dc0a,le marché d'à côté,le marché d'à côté,Q130165186,fx,,1,le marché d'à côté,le-marche-da-cote,no,,
 bakery,lepaindujour-08fdce,Le Pain du Jour,Le Pain du Jour,Q114432625,fr-occ.geojson,,0,Le Pain du Jour,le-pain-du-jour,only_png,,le-pain-du-jour.png
@@ -3470,7 +3477,7 @@ bakery,lesfournilsdefrance-09ad2c,Les Fournils de France,Les Fournils de France,
 cinema,lesecransdeparis-24fd45,Les Écrans de Paris,Les Écrans de Paris,Q3236510,fx,,0,Les Écrans de Paris,les-ecrans-de-paris,only_png,,les-ecrans-de-paris.png
 butcher,leseleveursdelacharentonne-bd963c,Les Éleveurs de la Charentonne,Les Éleveurs de la Charentonne,Q130216320,fx,,0,Les Éleveurs de la Charentonne,les-eleveurs-de-la-charentonne,only_png,,les-eleveurs-de-la-charentonne.png
 bakery,levaduramadre-0ef3f4,Levaduramadre,Levaduramadre,Q134515949,es,,0,Levaduramadre,levaduramadre,only_png,,levaduramadre.png
-clothes,levis-3937bd,Levi's,Levi's,Q127962,001,,0,Levi's,levis,both,levis.svg,levis.png
+clothes,levis-efb546,Levi's,Levi's,Q127962,001,ru,0,Levi's,levis,both,levis.svg,levis.png
 convenience,lewiatan-95f41b,Lewiatan,Lewiatan,Q11755396,pl,,0,Lewiatan,lewiatan,only_png,,lewiatan.png
 supermarket,lewiatan-9e6a6c,Lewiatan,Lewiatan,Q11755396,pl,,0,Lewiatan,lewiatan,only_png,,lewiatan.png
 furniture,lewis-084a8f,Lewis,Lewis Stores,Q115117217,bw|ls|na|sz|za,,0,Lewis Stores,lewis-stores,only_png,,lewis-stores.png
@@ -3635,7 +3642,7 @@ tobacco,mmtabak-219048,M+M Tabak,M+M Tabak,Q136689176,sk,,1,M+M Tabak,m-m-tabak,
 clothes,mjbale-392c8b,M.J. Bale,M.J. Bale,Q97516243,au,,0,M.J. Bale,m-j-bale,only_png,,m-j-bale.png
 greengrocer,mafermeenville-6e345d,Ma Ferme en Ville,Ma Ferme en Ville,Q102163541,fx,,0,Ma Ferme en Ville,ma-ferme-en-ville,only_png,,ma-ferme-en-ville.png
 fast_food,maloa-accea8,Ma'loa,Ma'loa,Q116898012,de|fr,,0,Ma'loa,maloa,only_png,,maloa.png
-clothes,maag-7b6907,Maag,Maag,,ru,,0,Maag,maag,no,,
+clothes,maag-7b6907,MAAG,MAAG,Q139700492,ru,,2,MAAG,maag,no,,
 cosmetics,maccosmetics-a08666,MAC Cosmetics,MAC Cosmetics,Q2624442,001,,0,MAC Cosmetics,mac-cosmetics,only_png,,mac-cosmetics.png
 fast_food,macssushi-72d462,Mac's Sushi,Mac's Sushi,Q133254906,ca-on.geojson,,0,Mac's Sushi,macs-sushi,no,,
 trade,macallistercat-d2d460,MacAllister CAT,MacAllister CAT,Q115486206,us-in.geojson|us-mi.geojson,,0,MacAllister CAT,macallister-cat,only_png,,macallister-cat.png
@@ -3811,7 +3818,7 @@ clothes,mavi-3937bd,Mavi,Mavi,Q1911924,001,,1,Mavi,mavi,only_png,,mavi.png
 clothes,max-3937bd,Max,Max,Q24939079,001,,1,Max,max,only_png,,max.png
 fast_food,max-829f63,Max,Max,Q1912172,dk|no|pl|se,,0,Max,max,only_png,,max.png
 cafe,maxbrenner-15f3f0,Max Brenner,Max Brenner,Q955687,au|il|ru|sg|us,,0,Max Brenner,max-brenner,only_png,,max-brenner.png
-clothes,maxetmoi-03fdda,Max et Moi,Max et Moi,Q104717564,ch|ee|es|fx|ru,,0,Max et Moi,max-et-moi,only_png,,max-et-moi.png
+clothes,maxetmoi-d4124c,Max et Moi,Max et Moi,Q104717564,ch|ee|es|fx,,0,Max et Moi,max-et-moi,only_png,,max-et-moi.png
 clothes,maxmara-3937bd,Max Mara,Max Mara,Q1151774,001,,0,Max Mara,max-mara,both,max-mara.svg,max-mara.png
 convenience,maxmart-f572b3,Max Mart,Max Mart,Q125918247,th,,0,Max Mart,max-mart,only_png,,max-mart.png
 variety_store,maxstock-5846c3,Max Stock,Max Stock,Q18191994,il,,0,Max Stock,max-stock,no,,
@@ -4028,6 +4035,7 @@ convenience,mlinipekare-5b00ff,Mlin i pekare,Mlin i pekare,,hr,,0,Mlin i pekare,
 bakery,mlinar-f94504,Mlinar,Mlinar,Q62082464,ba|hr|sl,,0,Mlinar,mlinar,only_png,,mlinar.png
 supermarket,mmmigros-36e991,MM Migros,MM Migros,,ch,,0,MM Migros,mm-migros,no,,
 clothes,mo-3ddf3b,MO,MO,Q51882883,pt,,0,MO,mo,only_png,,mo.png
+clothes,mo-7b6907,MO (ex. Mohito Russia),MO,Q139700484,ru,,1,MO,mo,only_png,,mo.png
 fast_food,momen-f39225,Mo'men,Mo'men,Q3317535,bh|eg|kw|ly|my|sa|sd,,0,Mo'men,momen,no,,
 restaurant,mos-effa94,Mo's,Mo's,Q17022303,us-or.geojson,,0,Mo's,mos,only_png,,mos.png
 restaurant,momoparadise-aad2df,Mo-Mo Paradise,Mo-Mo Paradise,Q126369578,cn|id|jp|kh|th|tw|us|vn,,1,Mo-Mo Paradise,mo-mo-paradise,no,,
@@ -4048,7 +4056,7 @@ clothes,modeparkrother-96f120,Modepark Röther,Modepark Röther,Q19296579,at|de,
 clothes,modis-7b6907,Modis,Modis,,ru,,0,Modis,modis,no,,
 fast_food,moesitaliansandwiches-3bfec2,Moe's Italian Sandwiches,Moe's Italian Sandwiches,Q6889933,us-ma.geojson|us-me.geojson|us-nh.geojson,,0,Moe's Italian Sandwiches,moes-italian-sandwiches,no,,
 fast_food,moessouthwestgrill-4d2ff4,Moe's Southwest Grill,Moe's Southwest Grill,Q6889938,us,,0,Moe's Southwest Grill,moes-southwest-grill,only_png,,moes-southwest-grill.png
-clothes,mohito-710e25,Mohito,Mohito,Q107410616,ba|bg|cz|ee|fi|hu|kz|lt|lv|pl|ro|rs|ru|si|sk|ua,,0,Mohito,mohito,only_png,,mohito.png
+clothes,mohito-388bf6,Mohito,Mohito,Q107410616,ba|bg|cz|ee|fi|hu|kz|lt|lv|pl|ro|rs|si|sk|ua,ru,0,Mohito,mohito,only_png,,mohito.png
 pharmacy,mojelekarna-550654,Moje lékárna,Moje lékárna,Q127690464,cz,,0,Moje lékárna,moje-lekarna,only_png,,moje-lekarna.png
 convenience,mokpol-95f41b,Mokpol,Mokpol,Q113227698,pl,,0,Mokpol,mokpol,only_png,,mokpol.png
 supermarket,mokpol-9e6a6c,Mokpol,Mokpol,Q113227698,pl,,0,Mokpol,mokpol,only_png,,mokpol.png
@@ -4335,9 +4343,9 @@ alcohol,nslc-7529e3,NSLC,NSLC,Q17018587,ca-ns.geojson,,1,NSLC,nslc,no,,
 convenience,ntl-5b00ff,NTL,NTL,Q6966095,hr,,0,NTL,ntl,no,,
 supermarket,ntl-f279a1,NTL,NTL,Q6966095,hr,,0,NTL,ntl,no,,
 mobile_phone,docomoshop-0a8be9,ドコモショップ,NTT docomo,Q853958,jp,,1,NTT docomo,ntt-docomo,only_png,,ntt-docomo.png
-supermarket,,FairPrice,NTUC FairPrice,Q6955519,sg,,1,NTUC FairPrice,ntuc-fairprice,no,,
-supermarket,,FairPrice Finest,NTUC FairPrice,Q6955519,sg,,0,NTUC FairPrice,ntuc-fairprice,no,,
-supermarket,,FairPrice Xtra,NTUC FairPrice,Q6955519,sg,,0,NTUC FairPrice,ntuc-fairprice,no,,
+supermarket,fairprice-07d9e1,FairPrice,NTUC FairPrice,Q6955519,sg,,0,NTUC FairPrice,ntuc-fairprice,no,,
+supermarket,fairpricefinest-07d9e1,FairPrice Finest,NTUC FairPrice,Q6955519,sg,,0,NTUC FairPrice,ntuc-fairprice,no,,
+supermarket,fairpricextra-07d9e1,FairPrice Xtra,NTUC FairPrice,Q6955519,sg,,0,NTUC FairPrice,ntuc-fairprice,no,,
 cinema,numetro-06ed22,Nu Metro Cinemas,Nu Metro Cinemas,Q7067740,mz|za|zm,,0,Nu Metro Cinemas,nu-metro-cinemas,only_png,,nu-metro-cinemas.png
 clothes,nudiejeans-085abf,Nudie Jeans,Nudie Jeans,Q2436187,au|de|es|gb-eng|id|jp|nl|no|nz|se|th|us,,0,Nudie Jeans,nudie-jeans,only_png,,nudie-jeans.png
 fast_food,numpang-5ac802,Num Pang,Num Pang,Q62079702,us-ma.geojson|us-ny-new_york_city.geojson,,0,Num Pang,num-pang,only_png,,num-pang.png
@@ -4374,7 +4382,7 @@ clothes,oasis-cefcc8,Oasis,Oasis,Q64532852,es|gb|ie,,0,Oasis,oasis,only_png,,oas
 convenience,obamarket-ef7cdd,Oba Market,Oba Market,Q106473053,az,,0,Oba Market,oba-market,only_png,,oba-market.png
 pastry,oberweis-8e72cc,Oberweis,Oberweis,Q98815408,lu,,0,Oberweis,oberweis,only_png,,oberweis.png
 dairy,oberweis-95235d,Oberweis,Oberweis,Q7074835,us,,0,Oberweis,oberweis,only_png,,oberweis.png
-doityourself,obi-d5381e,OBI,OBI,Q300518,at|ba|ch|cz|de|hu|it|pl|ru|si|sk,,0,OBI,obi,both,obi.svg,obi.png
+doityourself,obi-5571de,OBI,OBI,Q300518,at|ba|ch|cz|de|hu|it|pl|si|sk,,0,OBI,obi,both,obi.svg,obi.png
 supermarket,obs-ed9dd5,Obs,Obs,Q5167707,no,,1,Obs,obs,only_png,,obs.png
 doityourself,obsbygg-1b58cb,Obs Bygg,Obs Bygg,Q111534576,no,,0,Obs Bygg,obs-bygg,only_png,,obs-bygg.png
 restaurant,oceanbasket-5d9698,Ocean Basket,Ocean Basket,Q62075311,ae|bw|cy|gb|ke|kw|kz|mt|mu|na|ng|qa|ru|sa|sz|za|zw,,0,Ocean Basket,ocean-basket,only_png,,ocean-basket.png
@@ -4396,7 +4404,7 @@ furniture,ofiprix-53177d,Ofiprix,Ofiprix,Q116970185,es,,0,Ofiprix,ofiprix,only_p
 ice_cream,oggisorvetes-9359b6,Oggi Sorvetes,Oggi Sorvetes,Q118946030,br,,0,Oggi Sorvetes,oggi-sorvetes,only_png,,oggi-sorvetes.png
 bakery,ogiberri-e3bb42,Ogi Berri,Ogi Berri,Q116009401,es|fr,,0,Ogi Berri,ogi-berri,only_png,,ogi-berri.png
 trade,ohiocat-d88071,Ohio CAT,Ohio CAT,Q115486235,us-ky.geojson|us-oh.geojson,,0,Ohio CAT,ohio-cat,no,,
-deli,oilandvinegar-0e839f,Oil & Vinegar,Oil & Vinegar,Q107987188,at|be|ch|de|jp|nl|ru|us,,0,Oil & Vinegar,oil-vinegar,only_png,,oil-vinegar.png
+deli,oilandvinegar-5ac0f6,Oil & Vinegar,Oil & Vinegar,Q107987188,at|be|ch|de|jp|nl|us,,0,Oil & Vinegar,oil-vinegar,only_png,,oil-vinegar.png
 restaurant,oishiramen-5a3582,Oishi Ramen,Oishi Ramen,Q125870474,th,,0,Oishi Ramen,oishi-ramen,only_png,,oishi-ramen.png
 bar,ojoslocossportscantina-3b72aa,Ojos Locos Sports Cantina,Ojos Locos Sports Cantina,Q54871286,us-az.geojson|us-ca.geojson|us-nm.geojson|us-nv.geojson|us-tx.geojson,,1,Ojos Locos Sports Cantina,ojos-locos-sports-cantina,no,,
 convenience,okexpress-22d46f,OK Express,OK Express,Q116520407,na|sz|za,,0,OK Express,ok-express,no,,
@@ -4471,6 +4479,7 @@ clothes,orcanta-90f7b7,Orcanta,Orcanta,Q105076553,fx,,0,Orcanta,orcanta,no,,
 clothes,orchestra-3937bd,Orchestra,Orchestra,Q28042940,001,,0,Orchestra,orchestra,no,,
 books,orellfussli-c5abff,Orell Füssli,Orell Füssli,Q1511140,ch,,0,Orell Füssli,orell-fussli,only_png,,orell-fussli.png
 kitchen,oresi-10bb52,Oresi,Oresi,Q53409609,cz|sk,,0,Oresi,oresi,only_png,,oresi.png
+convenience,organico-3015fb,Organico,Organico,Q139601980,rs,,0,Organico,organico,no,,
 pharmacy,orient-52cb11,Orient,Orient,,md,,0,Orient,orient,no,,
 cosmetics,oriflame-a08666,Oriflame,Oriflame,Q730893,001,,0,Oriflame,oriflame,only_png,,oriflame.png
 restaurant,originaljoes-e68b16,Original Joe's,Original Joe's,Q118744382,ca,,0,Original Joe's,original-joes,only_png,,original-joes.png
@@ -4912,7 +4921,7 @@ cosmetics,primor-3ea366,Primor,Primor,Q101113141,ad|es|it|pt,,0,Primor,primor,on
 houseware,princehypermart-32fa4c,Prince Hypermart,Prince Hypermart,Q28405980,ph,,0,Prince Hypermart,prince-hypermart,only_png,,prince-hypermart.png
 doityourself,princessauto-fd1fd9,Princess Auto,Princess Auto,Q7244554,ca,,0,Princess Auto,princess-auto,both,princess-auto.svg,princess-auto.png
 clothes,princessetamtam-3937bd,Princesse tam.tam,Princesse tam.tam,Q3403500,001,,0,Princesse tam.tam,princesse-tam-tam,only_png,,princesse-tam-tam.png
-supermarket,prisma-c9c76a,Prisma,Prisma,Q12047031,ee|fi|ru,,0,Prisma,prisma,only_png,,prisma.png
+supermarket,prisma-cbb03b,Prisma,Prisma,Q12047031,ee|fi,,0,Prisma,prisma,only_png,,prisma.png
 convenience,privat-58d40d,Privát,Privát,Q115606854,hu,,0,Privát,privat,only_png,,privat.png
 supermarket,privatmax-478515,Privát Max,Privát Max,Q115606854,hu,,0,Privát Max,privat-max,only_png,,privat-max.png
 supermarket,prix-0cb133,Prix,Prix,Q61994819,it,,1,Prix,prix,only_png,,prix.png
@@ -5033,6 +5042,7 @@ convenience,rationshop-bb430b,Ration Shop,Ration Shop,Q60901,in,,0,Ration Shop,r
 supermarket,raysfoodplace-dde59d,Ray's Food Place,Ray's Food Place,Q108163041,us,,0,Ray's Food Place,rays-food-place,only_png,,rays-food-place.png
 clothes,raymond-f8e8b1,Raymond,Raymond,Q3537018,in,,0,Raymond,raymond,no,,
 furniture,raymourandflanigan-a5c7fa,Raymour & Flanigan,Raymour & Flanigan,Q7299290,us,,0,Raymour & Flanigan,raymour-flanigan,only_png,,raymour-flanigan.png
+clothes,re-7b6907,RE,RE,Q139729284,ru,,1,RE,re,no,,
 cinema,readingcinemas-49d471,Reading Cinemas,Reading Cinemas,Q43898773,au|nz|us,,0,Reading Cinemas,reading-cinemas,only_png,,reading-cinemas.png
 books,readshop-ef41f6,ReadShop,ReadShop,,001,,0,ReadShop,readshop,no,,
 restaurant,readypizza-201887,Ready Pizza,Ready Pizza,,cr,,0,Ready Pizza,ready-pizza,no,,
@@ -5095,7 +5105,7 @@ clothes,renuar-e991b5,Renuar,Renuar,Q96179406,il,,0,Renuar,renuar,only_png,,renu
 clothes,replay-b5590c,Replay,Replay,Q1654538,150,,0,Replay,replay,no,,
 butcher,res-e3b2fd,Res,Res,,ar|cl,,0,Res,res,no,,
 clothes,reserva-c7d1e1,Reserva,Reserva,Q20060839,br,,0,Reserva,reserva,only_png,,reserva.png
-clothes,reserved-3937bd,Reserved,Reserved,Q21809354,001,,0,Reserved,reserved,only_png,,reserved.png
+clothes,reserved-efb546,Reserved,Reserved,Q21809354,001,ru,0,Reserved,reserved,only_png,,reserved.png
 shoes,respect-587627,Respect (Україна),Respect,Q121898869,ua,,1,Respect,respect,only_png,,respect.png
 shoes,respect-886255,Respect (Беларусь/Россия),Respect,,by|ru,,0,Respect,respect,only_png,,respect.png
 furniture,restorationhardware-a694b9,Restoration Hardware,Restoration Hardware,Q7316207,ca|us,,1,Restoration Hardware,restoration-hardware,no,,
@@ -5247,6 +5257,7 @@ supermarket,smart-9b2dfb,S-Mart,S-Mart,Q7387069,mx,,1,S-Mart,s-mart,only_png,,s-
 clothes,soliver-fb408e,s.Oliver,s.Oliver,Q265056,150|cn|in,,0,s.Oliver,s-oliver,no,,
 kitchen,sabag-56a74d,Sabag,Sabag,Q2209366,ch,,0,Sabag,sabag,both,sabag.svg,sabag.png
 cosmetics,sabon-a08666,Sabon,Sabon,Q105064185,001,,0,Sabon,sabon,only_png,,sabon.png
+shoes,saboo-0a14c2,Saboo,Saboo,Q139730358,ru,,1,Saboo,saboo,no,,
 restaurant,sabushi-5a3582,Sabushi,Sabushi,Q125918109,th,,0,Sabushi,sabushi,no,,
 shoes,sacha-854638,Sacha,Sacha,Q58328925,be|lu|nl,,0,Sacha,sacha,only_png,,sacha.png
 pastry,sadaharuaoki-1cea9f,Sadaharu Aoki,Sadaharu Aoki,Q3461079,fr|jp,,0,Sadaharu Aoki,sadaharu-aoki,no,,
@@ -5331,6 +5342,7 @@ fast_food,sbarro-658eea,Sbarro,Sbarro,Q2589409,001,,1,Sbarro,sbarro,only_png,,sb
 restaurant,scaddabush-f8643e,Scaddabush,Scaddabush,Q137363894,ca-on.geojson,,0,Scaddabush,scaddabush,only_png,,scaddabush.png
 shoes,scapino-81951f,Scapino,Scapino,Q2298792,nl,,0,Scapino,scapino,only_png,,scapino.png
 shoes,scarpeandscarpe-5548d3,Scarpe&Scarpe,Scarpe&Scarpe,Q114723045,it,,1,Scarpe&Scarpe,scarpe-scarpe,only_png,,scarpe-scarpe.png
+kitchen,scavolini-266f5b,Scavolini,Scavolini,Q2229088,it,,0,Scavolini,scavolini,no,,
 furniture,schaffrath-29dff1,Schaffrath,Schaffrath,Q2230071,de,,0,Schaffrath,schaffrath,only_png,,schaffrath.png
 clothes,schiesser-74806d,Schiesser,Schiesser,Q2234831,de,,0,Schiesser,schiesser,no,,
 fast_food,schlotzskys-4d2ff4,Schlotzsky's,Schlotzsky's,Q2244796,us,,1,Schlotzsky's,schlotzskys,only_png,,schlotzskys.png
@@ -5497,7 +5509,7 @@ convenience,simplystore-dd9aae,Simply Store,Simply Store,Q5643014,es,,0,Simply S
 convenience,simplyfresh-232829,SimplyFresh,SimplyFresh,Q131438635,gb,,0,SimplyFresh,simplyfresh,only_png,,simplyfresh.png
 furniture,simpo-4067f4,Simpo,Simpo,Q3484793,ba|me|mk|rs,,0,Simpo,simpo,only_png,,simpo.png
 convenience,sinclair-f1e40b,Sinclair,Sinclair,Q1290900,us,,0,Sinclair,sinclair,only_png,,sinclair.png
-clothes,sinsay-3937bd,Sinsay,Sinsay,Q107410579,001,,0,Sinsay,sinsay,only_png,,sinsay.png
+clothes,sinsay-efb546,Sinsay,Sinsay,Q107410579,001,ru,0,Sinsay,sinsay,only_png,,sinsay.png
 clothes,sinequanone-f2b18a,Sinéquanone,Sinéquanone,Q3485094,be|fx,,0,Sinéquanone,sinequanone,no,,
 bakery,sipl-7367b5,Sipl,Sipl,Q122771409,de-by.geojson,,0,Sipl,sipl,only_png,,sipl.png
 clothes,sirens-9e1367,Sirens,Sirens,Q123410104,ca,,0,Sirens,sirens,only_png,,sirens.png
@@ -5550,7 +5562,7 @@ ice_cream,smooy-ae897d,smöoy,smöoy,Q21573945,ao|ci|cn|dz|ec|es|fr|gb|gn|it|ma|
 restaurant,snappytomatopizza-5e4871,Snappy Tomato Pizza,Snappy Tomato Pizza,Q7547352,gb|us,,0,Snappy Tomato Pizza,snappy-tomato-pizza,only_png,,snappy-tomato-pizza.png
 fast_food,snarfssandwiches-586527,Snarf's Sandwiches,Snarf's Sandwiches,Q113900887,us-co.geojson|us-mo.geojson|us-tx.geojson,,0,Snarf's Sandwiches,snarfs-sandwiches,only_png,,snarfs-sandwiches.png
 convenience,snarkjop-2da37b,Snarkjøp,Snarkjøp,,no,,0,Snarkjøp,snarkjp,no,,
-clothes,sneakerbox-7b6907,SneakerBox,SneakerBox,,ru,,0,SneakerBox,sneakerbox,no,,
+clothes,sneakerbox-7b6907,SneakerBox,SneakerBox,,ru,,1,SneakerBox,sneakerbox,no,,
 fast_food,sneakypetes-2ca1a0,Sneaky Pete's,Sneaky Pete's,Q7547507,us-al.geojson,,1,Sneaky Pete's,sneaky-petes,only_png,,sneaky-petes.png
 shoes,snipes-9e6e1a,Snipes,Snipes,Q42306166,at|be|ch|de|es|fr|it|nl|pl|us,,0,Snipes,snipes,both,snipes.svg,snipes.png
 restaurant,snooze-62450c,Snooze,Snooze,Q111304345,us-az.geojson|us-ca.geojson|us-co.geojson|us-ga.geojson|us-ks.geojson|us-mo.geojson|us-nc.geojson|us-tn.geojson|us-tx.geojson,,0,Snooze,snooze,no,,
@@ -6058,7 +6070,7 @@ gift,thepaperstore-0b1107,The Paper Store,The Paper Store,Q65068381,us-ct.geojso
 perfumery,theperfumegarden-f5d3fd,The Perfume Garden,The Perfume Garden,Q116462359,za,,0,The Perfume Garden,the-perfume-garden,only_png,,the-perfume-garden.png
 perfumery,theperfumeshop-2906d0,The Perfume Shop,The Perfume Shop,Q7756719,gb,,0,The Perfume Shop,the-perfume-shop,only_png,,the-perfume-shop.png
 pet,thepethut-8ec028,The Pet Hut,The Pet Hut,Q121435141,gb,,0,The Pet Hut,the-pet-hut,only_png,,the-pet-hut.png
-restaurant,thepizzabakery-d9e7a3,The Pizza Bakery,The Pizza Bakery,Q124374570,in|lk,,0,The Pizza Bakery,the-pizza-bakery,only_png,,the-pizza-bakery.png
+restaurant,thepizzabakery-4478cd,The Pizza Bakery,The Pizza Bakery,Q124374570,in|lk,,0,The Pizza Bakery,the-pizza-bakery,only_png,,the-pizza-bakery.png
 fast_food,thepizzacompany-abbb1f,The Pizza Company,The Pizza Company,Q2413520,ae|bh|cn|jo|kh|la|mm|my|sa|th|vn,,0,The Pizza Company,the-pizza-company,only_png,,the-pizza-company.png
 sports,theproshop-9dcd28,The Pro Shop,The Pro Shop,Q130488660,za,,0,The Pro Shop,the-pro-shop,only_png,,the-pro-shop.png
 fast_food,therameshwaramcafe-aba431,The Rameshwaram Cafe,The Rameshwaram Cafe,Q124374630,in,,0,The Rameshwaram Cafe,the-rameshwaram-cafe,only_png,,the-rameshwaram-cafe.png
@@ -6176,7 +6188,7 @@ chemist,topdrogerie-3f7319,Top drogerie (Česko),Top drogerie,Q93429821,cz,,0,To
 chemist,topdrogeria-a99570,Top drogéria (Slovensko),Top drogéria,Q93429821,sk,,0,Top drogéria,top-drogeria,no,,
 convenience,topmarket-95f41b,Top Market,Top Market,,pl,,0,Top Market,top-market,only_png,,top-market.png
 supermarket,topmarket-9e6a6c,Top Market,Top Market,Q9360044,pl,,0,Top Market,top-market,only_png,,top-market.png
-clothes,topsecret-e27654,Top Secret,Top Secret,Q113229882,fx|pl|ru,,0,Top Secret,top-secret,only_png,,top-secret.png
+clothes,topsecret-80fbd2,Top Secret,Top Secret,Q113229882,fx|pl,,0,Top Secret,top-secret,only_png,,top-secret.png
 variety_store,topshop-f153f8,Top Shop,Top Shop,Q116919675,al|ba|bg|cz|ee|hr|hu|lt|lv|md|me|mk|pl|ro|rs|si|sk|ua|xk,,0,Top Shop,top-shop,only_png,,top-shop.png
 convenience,minitop-401681,Mini top!,top!,Q20803907,lv,,0,top!,top,no,,
 convenience,top-401681,top!,top!,Q20803907,lv,,0,top!,top,no,,
@@ -6419,7 +6431,7 @@ mobile_phone,viettelstore-4fc1f0,Viettel Store,Viettel Store,Q123493815,vn,,0,Vi
 trade,vikingelectric-4e950c,Viking Electric,Viking Electric,Q109860451,us,,1,Viking Electric,viking-electric,no,,
 clothes,vila-b5590c,VILA,VILA,Q12340378,150,,0,VILA,vila,only_png,,vila.png
 clothes,vilebrequin-3937bd,Vilebrequin,Vilebrequin,Q3558391,001,,0,Vilebrequin,vilebrequin,only_png,,vilebrequin.png
-clothes,vilet-7b6907,Vilet,Vilet,,ru,,0,Vilet,vilet,no,,
+clothes,vilet-7b6907,Vilet,Vilet,Q139729533,ru,,2,Vilet,vilet,no,,
 fast_food,villamadina-e49d2e,Villa Madina,Villa Madina,Q64876884,ca,,0,Villa Madina,villa-madina,only_png,,villa-madina.png
 cinema,villagecinemas-1a8a27,Village Cinemas,Village,Q7930631,au,,0,Village,village,only_png,,village.png
 restaurant,villageinn-96af40,Village Inn,Village Inn,Q7930659,us,,0,Village Inn,village-inn,only_png,,village-inn.png
@@ -6667,8 +6679,9 @@ country_store,wynnstay-1d97dc,Wynnstay,Wynnstay,Q63016351,gb-eng|gb-wls,,0,Wynns
 trade,wyomingequipmentcompany-5a0680,Wyoming Equipment Company,Wyoming Equipment Company,Q115486618,us-wy.geojson,,0,Wyoming Equipment Company,wyoming-equipment-company,no,,
 clothes,wolczanka-196c99,Wólczanka,Wólczanka,Q113505148,pl,,0,Wólczanka,wolczanka,only_png,,wolczanka.png
 clothes,wohrl-74806d,Wöhrl,Wöhrl,Q2174154,de,,0,Wöhrl,wohrl,only_png,,wohrl.png
-hardware,wurth-96a10c,Würth,Würth,Q679750,001,ca|cn|jp|ru|tw|us,0,Würth,wurth,only_png,,wurth.png
+hardware,wurth-e39dfb,Würth,Würth,Q679750,001,ca|cn|jp|tw|us,0,Würth,wurth,only_png,,wurth.png
 convenience,x-fb2210,x,x,,ph,,0,x,x,no,,
+clothes,xc-7b6907,XC,XC,Q139700428,ru,,1,XC,xc,no,,
 houseware,xenos-06f910,Xenos,Xenos,Q16547960,de|nl,,0,Xenos,xenos,only_png,,xenos.png
 fast_food,xianfamousfoods-f2b0c3,Xi'an Famous Foods,Xi'an Famous Foods,Q8044020,us-ny-new_york_city.geojson,,0,Xi'an Famous Foods,xian-famous-foods,only_png,,xian-famous-foods.png
 restaurant,xiaolongkan-fa3040,XiaoLongKan,XiaoLongKan,Q108212427,au|ca|de|es|fr|jp|khm|my|nz|sg,,0,XiaoLongKan,xiaolongkan,no,,
@@ -6745,7 +6758,7 @@ clothes,zebra-fed098,Zebra,Zebra,Q99692008,ch,,0,Zebra,zebra,no,,
 fast_food,zebros-cad0f9,Zebro's,Zebro's,Q116619443,bw|za,,0,Zebro's,zebros,no,,
 restaurant,zeekspizza-96af40,Zeeks Pizza,Zeeks Pizza,Q139585447,us,,0,Zeeks Pizza,zeeks-pizza,no,,
 pharmacy,zeelabpharmacy-95192b,Zeelab Pharmacy,Zeelab Pharmacy,Q123015627,in,,1,Zeelab Pharmacy,zeelab-pharmacy,only_png,,zeelab-pharmacy.png
-clothes,zeeman-906b75,Zeeman,Zeeman,Q184399,be|de|fx|lu|nl,,0,Zeeman,zeeman,only_png,,zeeman.png
+clothes,zeeman-b0df1c,Zeeman,Zeeman,Q184399,at|be|de|es|fx|lu|nl|pt,,0,Zeeman,zeeman,only_png,,zeeman.png
 clothes,zegna-3937bd,Zegna,Zegna,Q1355904,001,,1,Zegna,zegna,only_png,,zegna.png
 supermarket,zehrs-76454b,Zehrs,Zehrs,Q8068546,ca,,0,Zehrs,zehrs,only_png,,zehrs.png
 bakery,zeitfurbrot-3f448e,Zeit für Brot,Zeit für Brot,Q109780385,de,,0,Zeit für Brot,zeit-fur-brot,only_png,,zeit-fur-brot.png
@@ -6993,7 +7006,7 @@ medical_supply,2d43cc-d15566,Дом здоровья,Дом здоровья,,ru
 books,fcb83c-4175bc,Дом книги,Дом книги,Q48950742,ru,,0,Дом книги,,no,,
 pet,domazhdut-3053c4,Дома ждут,Дома ждут,Q136821483,by,,0,Дома ждут,,no,,
 convenience,06a7d6-023e9c,Домашній маркет,Домашній маркет,Q131607469,ua,,0,Домашній маркет,,no,,
-fast_food,dominos-23683e,Домино'c,Домино'c,Q839466,by|ru,,1,Домино'c,c,no,,
+fast_food,dominos-381458,Домино'c,Домино'c,Q839466,by,,1,Домино'c,c,no,,
 houseware,579b3e-4a99db,Домовой,Домовой,Q110086700,ru,,0,Домовой,,no,,
 convenience,dorors-e64bef,ДорОрс,ДорОрс,Q136661359,by,,0,ДорОрс,,no,,
 cafe,drinkit-1c12ef,Дринкит,Дринкит,Q139554667,ru,,0,Дринкит,,no,,
@@ -7101,6 +7114,7 @@ doityourself,6ce263-43446b,Левша,Левша,,ru,,0,Левша,,no,,
 pharmacy,d0f33d-d69080,Лекарь,Лекарь,,kg|ru,,0,Лекарь,,no,,
 pharmacy,7557e5-288c27,ЛекОптТорг,ЛекОптТорг,Q109732954,ru,,0,ЛекОптТорг,,no,,
 doityourself,abc30a-43446b,Лемана про,Лемана про,,ru,,0,Лемана про,,no,,
+doityourself,domlenta-43446b,Дом Лента (бывш. ОБИ),Лента,Q4258608,ru,,2,Лента,,no,,
 supermarket,lenta-d5eaac,Лента,Лента,Q4258608,ru,,1,Лента,,no,,
 craft,f57608-3615c7,Леонардо,Леонардо,Q110138162,by|kz|ru,,0,Леонардо,,no,,
 cafe,ffda44-9c7c7f,Лепим и варим,Лепим и варим,,kz|ru,,0,Лепим и варим,,no,,
@@ -7304,6 +7318,7 @@ alcohol,sempyatnits-b2a55f,Семь Пятниц,Семь пятниц,Q13667115
 supermarket,sempyatnitsxxl-a384d0,Семь пятниц XXL,Семь пятниц,Q136750906,by,,0,Семь пятниц,,no,,
 supermarket,98abda-d5eaac,Семья,Семья,,ru,,0,Семья,,no,,
 nutrition_supplements,4e980a-c64acd,Сибирское здоровье,Сибирское здоровье,,am|by|kg|kz|ru|tm,,0,Сибирское здоровье,,no,,
+clothes,sin-7b6907,СИН,СИН,Q139700437,ru,,1,СИН,,no,,
 pharmacy,2a2b04-288c27,Сириус,Сириус,,ru,,0,Сириус,,no,,
 cheese,07fa72-cd68fa,Сирне королівство,Сирне королівство,Q123748624,ua,,1,Сирне королівство,,no,,
 cafe,fd6b72-d874f4,Сицилия,Сицилия,,by|ru,,0,Сицилия,,no,,
