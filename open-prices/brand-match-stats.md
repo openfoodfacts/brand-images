@@ -4,6 +4,7 @@ Every time we run the brand match script, we update this file with the latest st
 
 | Date | Input brands | Images (svg/png) | Match svg | Match png | Overall match % | Match (top 100) % |
 |------|-------------|-----------------|----------:|----------:|----------------:|------------------:|
+| 2026-05-10 | 583 | 8103 (1098 svg / 6986 png) | 191 | 473 | 85.2% | 100.0% |
 | 2026-05-09 | 583 | 3244 (989 svg / 2245 png) | 187 | 473 | 85.2% | 100.0% |
 | 2026-05-01 | 583 | 2216 (915 svg / 1296 png) | 173 | 349 | 85.1% | 100.0% |
 | 2026-04-24 | 583 | 1272 (891 svg / 381 png) |  |  | 38.3% | 100.0% |
