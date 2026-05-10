@@ -4,10 +4,7 @@
 
 ## Get the shop brands
 
-Current sources:
-
-- [supermarket.json](https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/supermarket.json)
-- [convenience.json](https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/brands/shop/convenience.json)
+Current sources: see [sources.json](sources.json)
 
 ## Generate brand-image matches
 

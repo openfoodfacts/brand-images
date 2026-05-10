@@ -188,7 +188,15 @@ def extract_rows_from_source(source):
 
 
 
-def write_stats_md(input_count, image_count, ext_counts, svg_match_count, png_match_count, overall_match_count, source_urls):
+def write_stats_md(
+    input_count,
+    image_count,
+    ext_counts,
+    svg_match_count,
+    png_match_count,
+    overall_match_count,
+    source_count,
+):
     today = datetime.date.today().strftime('%Y-%m-%d')
     svg_count = ext_counts.get('svg', 0)
     png_count = ext_counts.get('png', 0)
@@ -202,9 +210,7 @@ def write_stats_md(input_count, image_count, ext_counts, svg_match_count, png_ma
         '# NSI Brand Match Stats\n\n'
         'Every time we run the NSI brand match script, we update this file with the latest stats on how many NSI brands '
         'from configured source files match SVG/PNG images in `xx/stores`, plus the overall match rate.\n\n'
-        'Sources:\n'
-        + ''.join(f'* {url}\n' for url in source_urls)
-        + '\n'
+        f'Sources config: `{SOURCES_JSON}` ({source_count} URLs).\n\n'
     )
 
     if os.path.exists(STATS_MD):
@@ -272,7 +278,7 @@ def main():
     svg_match_count = sum(1 for row in rows if row['match_status'] in ('both', 'only_svg'))
     png_match_count = sum(1 for row in rows if row['match_status'] in ('both', 'only_png'))
     overall_match_count = sum(1 for row in rows if row['match_status'] != 'no')
-    source_urls = [source['url'] for source in sources]
+    source_count = len(sources)
     write_stats_md(
         len(rows),
         len(image_files),
@@ -280,7 +286,7 @@ def main():
         svg_match_count,
         png_match_count,
         overall_match_count,
-        source_urls,
+        source_count,
     )
 
     print(f'Wrote {len(rows)} rows to {OUTPUT_CSV}')

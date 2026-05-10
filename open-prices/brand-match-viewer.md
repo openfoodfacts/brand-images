@@ -3,10 +3,12 @@
 Interactive table of all brands from Open Prices, with matched logo images.
 
 <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1rem;align-items:center">
-  <input id="search" type="text" placeholder="Filter by brand name…" style="padding:.4rem .7rem;font-size:.95rem;border:1px solid var(--md-default-fg-color--lightest);border-radius:4px;min-width:220px">
+  <input id="search" type="text" placeholder="Filter…" style="padding:.4rem .7rem;font-size:.95rem;border:1px solid var(--md-default-fg-color--lightest);border-radius:4px;max-width:150px">
   <select id="status-filter" style="padding:.4rem .7rem;font-size:.95rem;border:1px solid var(--md-default-fg-color--lightest);border-radius:4px">
     <option value="">All statuses</option>
-    <option value="exact">Exact</option>
+    <option value="both">Both (SVG + PNG)</option>
+    <option value="only_svg">SVG only</option>
+    <option value="only_png">PNG only</option>
     <option value="no">No match</option>
   </select>
   <label style="display:flex;align-items:center;gap:.4rem;font-size:.9rem">
@@ -38,8 +40,18 @@ Interactive table of all brands from Open Prices, with matched logo images.
   const configuredBase = (window.BRAND_MATCH_LOGO_BASE || '../../xx/stores/').trim();
   const LOGO_BASE = new URL(configuredBase, window.location.href).toString();
   const CSV_URL = new URL('../brand-match.csv', window.location.href).toString();
-  const STATUS_COLOR = { exact: '#2e7d32', no: '#b71c1c' };
-  const STATUS_BG   = { exact: '#e8f5e9', no: '#ffebee' };
+  const STATUS_COLOR = {
+    both: '#2e7d32',
+    only_svg: '#1565c0',
+    only_png: '#ef6c00',
+    no: '#b71c1c'
+  };
+  const STATUS_BG   = {
+    both: '#e8f5e9',
+    only_svg: '#e3f2fd',
+    only_png: '#fff3e0',
+    no: '#ffebee'
+  };
 
   let allRows = [];
   let pricesSortMode = 'original';
